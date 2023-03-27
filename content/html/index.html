@@ -11,7 +11,9 @@
     <link rel="stylesheet" href="../css/styles.css">
 
     <script src="https://kit.fontawesome.com/d1709d070c.js" crossorigin="anonymous"></script>
-    <script src="../javascript/script.js"></script>
+
+    <script src="../javascript/navbar.js"></script>
+    <script src="../javascript/search.js"></script>
     <title>RoutineExpress</title>
 </head>
 <body>
@@ -29,15 +31,21 @@
 
             <li class="list-search">
                 <form autocomplete="off" action="/action_page.php">
-                <div class="search">
-                    <button class="button-search">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                    </button>
-                    <label class="label-search">
-                        <input type="text" class="input-search" placeholder="Search. . .">
-                    </label>
-                </div>
+                    <div class="autocomplete">
+                        <button class="button-search">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                        <label class="label-search">
+                            <input id="myInput" type="text" name="myCountry" class="input-search" placeholder="Search. . .">
+                        </label>
+                    </div>
                 </form>
+<!--                <form autocomplete="off" action="/action_page.php">-->
+<!--                    <div class="autocomplete" style="width:300px;">-->
+<!--                        <input id="myInput" type="text" name="myCountry" placeholder="Country">-->
+<!--                    </div>-->
+<!--                    <input type="submit">-->
+<!--                </form>-->
             </li>
 <!--            <li>-->
 <!--                <i class="fa-solid fa-magnifying-glass"></i>-->
@@ -108,6 +116,7 @@
 
 <script>
     displayHamburger()
+    autocomplete(document.getElementById("myInput"), countries);
 </script>
 
 </body>
