@@ -1,0 +1,35 @@
+.sidebar {
+    width: 180px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 80px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 4px;
+}
+
+.sidebar li {
+    margin: 0 0 10px 0;
+
+}
+
+.sidebar a, i {
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+.sidebar li:hover {
+    background-color: #ccc;
+}
+
+.sidebar i {
+    width: 1em;
+}

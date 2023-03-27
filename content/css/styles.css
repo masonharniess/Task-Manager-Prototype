@@ -1,0 +1,24 @@
+/* styles.css includes general css */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media screen and (min-width: 1201px) {
+    .menu {
+        display: flex;
+        flex: 1;
+        justify-content: flex-end;
+    }
+}
+
+/* MAIN BODY CONTENT */
+
+main {
+    padding-top: 60px;
+    padding-left: 180px;
+    max-width: 100%;
+}
+
