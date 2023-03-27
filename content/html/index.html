@@ -31,12 +31,14 @@
 
             <li class="list-search">
                 <form autocomplete="off" action="/action_page.php">
-                    <div class="autocomplete">
+                    <div>
                         <button class="button-search">
                             <i class="fa-solid fa-magnifying-glass"></i>
                         </button>
+                    </div>
+                    <div class="autocomplete">
                         <label class="label-search">
-                            <input id="myInput" type="text" name="myCountry" class="input-search" placeholder="Search. . .">
+                            <input id="myInput" type="text" name="tasks" class="input-search" placeholder="Search. . .">
                         </label>
                     </div>
                 </form>
@@ -47,10 +49,6 @@
 <!--                    <input type="submit">-->
 <!--                </form>-->
             </li>
-<!--            <li>-->
-<!--                <i class="fa-solid fa-magnifying-glass"></i>-->
-<!--                <a href="#">Search</a>-->
-<!--            </li>-->
             <li>
                 <i class="fa-solid fa-bell"></i>
                 <a href="#">Notifications</a>
@@ -116,7 +114,9 @@
 
 <script>
     displayHamburger()
-    autocomplete(document.getElementById("myInput"), countries);
+    /*initiate the autocomplete function on the "myInput" element, and pass along the
+    countries array as possible autocomplete values:*/
+    autocomplete(document.getElementById("myInput"), pages);
 </script>
 
 </body>

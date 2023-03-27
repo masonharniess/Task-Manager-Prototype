@@ -1,0 +1,70 @@
+Index: content/html/index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <link rel=\"icon\" type=\"image/x-icon\" href=\"../images/favicon.png\">\n\n    <link rel=\"stylesheet\" href=\"../css/general/navbar.css\">\n    <link rel=\"stylesheet\" href=\"../css/general/sidebar.css\">\n    <link rel=\"stylesheet\" href=\"../css/general/search.css\">\n    <link rel=\"stylesheet\" href=\"../css/styles.css\">\n\n    <script src=\"https://kit.fontawesome.com/d1709d070c.js\" crossorigin=\"anonymous\"></script>\n\n    <script src=\"../javascript/navbar.js\"></script>\n    <script src=\"../javascript/search.js\"></script>\n    <title>RoutineExpress</title>\n</head>\n<body>\n\n<!-- NAVIGATION BAR CONTENT -->\n\n<header>\n    <nav>\n        <div class=\"logo\">\n            <img src=\"../images/logo.png\" alt=\"Website logo\">\n<!--        <i class=\"fa-solid fa-landmark\" style=\"color: #000000;\"></i>-->\n            <p>RoutineExpress</p>\n        </div>\n        <ul class=\"menu\">\n\n            <li class=\"list-search\">\n                <form autocomplete=\"off\" action=\"/action_page.php\">\n                    <div class=\"autocomplete\">\n                        <button class=\"button-search\">\n                            <i class=\"fa-solid fa-magnifying-glass\"></i>\n                        </button>\n                        <label class=\"label-search\">\n                            <input id=\"myInput\" type=\"text\" name=\"myCountry\" class=\"input-search\" placeholder=\"Search. . .\">\n                        </label>\n                    </div>\n                </form>\n<!--                <form autocomplete=\"off\" action=\"/action_page.php\">-->\n<!--                    <div class=\"autocomplete\" style=\"width:300px;\">-->\n<!--                        <input id=\"myInput\" type=\"text\" name=\"myCountry\" placeholder=\"Country\">-->\n<!--                    </div>-->\n<!--                    <input type=\"submit\">-->\n<!--                </form>-->\n            </li>\n<!--            <li>-->\n<!--                <i class=\"fa-solid fa-magnifying-glass\"></i>-->\n<!--                <a href=\"#\">Search</a>-->\n<!--            </li>-->\n            <li>\n                <i class=\"fa-solid fa-bell\"></i>\n                <a href=\"#\">Notifications</a>\n            </li>\n            <li>\n                <i class=\"fa-solid fa-gear\"></i>\n                <a href=\"#\">Settings</a>\n            </li>\n            <li>\n                <i class=\"fa-solid fa-user\"></i>\n                <a href=\"#\">Account</a>\n            </li>\n        </ul>\n        <div class=\"toggle\">\n            <i class=\"fas fa-bars\"></i>\n        </div>\n    </nav>\n</header>\n\n<!-- SIDE BAR CONTENT -->\n\n<div class=\"sidebar\">\n    <ul>\n        <li>\n            <i class=\"fa-solid fa-house\"></i>\n            <a href=\"#\">Home</a>\n        </li>\n        <li>\n            <i class=\"fa-solid fa-list-check\"></i>\n            <a href=\"#\">Tasks</a>\n        </li>\n        <li>\n            <i class=\"fa-solid fa-calendar\"></i>\n            <a href=\"#\">Calendar</a>\n        </li>\n        <li>\n            <i class=\"fa-solid fa-hourglass\"></i>\n            <a href=\"#\">Timer</a>\n        </li>\n        <li>\n            <i class=\"fa-solid fa-note-sticky\"></i>\n            <a href=\"#\">Notes</a></li>\n        <li>\n            <i class=\"fa-solid fa-circle-question\"></i>\n            <a href=\"#\">Services</a>\n        </li>\n    </ul>\n</div>\n\n<!--MAIN PAGE CONTENT -->\n\n<main>\n<!--    <div class=\"search\">-->\n<!--        <button class=\"button-search\">-->\n<!--            <i class=\"fa-solid fa-magnifying-glass\"></i>-->\n<!--        </button>-->\n<!--        <input type=\"text\" class=\"input-search\" placeholder=\"Search. . .\">-->\n<!--    </div>-->\n    <div>Good morning, Mason.</div>\n</main>\n\n<!-- SCRIPTS -->\n\n<script>\n    displayHamburger()\n    autocomplete(document.getElementById(\"myInput\"), countries);\n</script>\n\n</body>\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/content/html/index.html b/content/html/index.html
+--- a/content/html/index.html	(revision 75363b532f8e852c8a38cd574bc83622906f7ade)
++++ b/content/html/index.html	(date 1679946933634)
+@@ -36,7 +36,7 @@
+                             <i class="fa-solid fa-magnifying-glass"></i>
+                         </button>
+                         <label class="label-search">
+-                            <input id="myInput" type="text" name="myCountry" class="input-search" placeholder="Search. . .">
++                            <input id="myInput" type="text" name="tasks" class="input-search" placeholder="Search. . .">
+                         </label>
+                     </div>
+                 </form>
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"9afae794-89b0-4f7e-9b1c-4d1abe5449dc\" name=\"Changes\" comment=\"basic page set up\">\n      <change afterPath=\"$PROJECT_DIR$/content/javascript/search.js\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/content/test/test.html\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/content/css/general/search.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/content/css/general/search.css\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/content/html/index.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/content/html/index.html\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/content/javascript/script.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/content/javascript/navbar.js\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"JavaScript File\" />\n        <option value=\"HTML File\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"HighlightingSettingsPerFile\">\n    <setting file=\"file://$PROJECT_DIR$/content/html/index.html\" root0=\"FORCE_HIGHLIGHTING\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2Nb5Vlx3iHIlybSLUWSA4SnpLMt\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\n  </component>\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"DefaultHtmlFileTemplate\": \"HTML File\",\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"WebServerToolWindowFactoryState\": \"false\",\n    \"node.js.selected.package.tslint\": \"(autodetect)\"\n  }\n}]]></component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"9afae794-89b0-4f7e-9b1c-4d1abe5449dc\" name=\"Changes\" comment=\"\" />\n      <created>1679919966282</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1679919966282</updated>\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"test commit 20002323\">\n      <created>1679939676612</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1679939676612</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"basic page set up\">\n      <created>1679940747512</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1679940747512</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"3\" />\n    <servers />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"0e43f88f-08f8-4740-8ced-4b45be89c2cc\">\n          <value>\n            <State />\n          </value>\n        </entry>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"test commit 20002323\" />\n    <MESSAGE value=\"basic page set up\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"basic page set up\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 75363b532f8e852c8a38cd574bc83622906f7ade)
++++ b/.idea/workspace.xml	(date 1679946852501)
+@@ -4,13 +4,9 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="basic page set up">
+-      <change afterPath="$PROJECT_DIR$/content/javascript/search.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/content/test/test.html" afterDir="false" />
++    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="changes to search functionality.  search autocomplete functional but unaesthetic.">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/content/css/general/search.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/general/search.css" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/content/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/html/index.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/content/javascript/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/javascript/navbar.js" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -71,7 +67,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1679940747512</updated>
+     </task>
+-    <option name="localTasksCounter" value="3" />
++    <task id="LOCAL-00003" summary="changes to search functionality.  search autocomplete functional but unaesthetic.">
++      <created>1679944149031</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1679944149031</updated>
++    </task>
++    <option name="localTasksCounter" value="4" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -93,6 +96,7 @@
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="test commit 20002323" />
+     <MESSAGE value="basic page set up" />
+-    <option name="LAST_COMMIT_MESSAGE" value="basic page set up" />
++    <MESSAGE value="changes to search functionality.  search autocomplete functional but unaesthetic." />
++    <option name="LAST_COMMIT_MESSAGE" value="changes to search functionality.  search autocomplete functional but unaesthetic." />
+   </component>
+ </project>
+\ No newline at end of file

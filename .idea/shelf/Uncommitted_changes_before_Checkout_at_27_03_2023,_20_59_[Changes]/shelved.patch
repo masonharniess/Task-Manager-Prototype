@@ -1,0 +1,141 @@
+Index: content/html/index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <link rel=\"icon\" type=\"image/x-icon\" href=\"../images/favicon.png\">\n\n    <link rel=\"stylesheet\" href=\"../css/general/navbar.css\">\n    <link rel=\"stylesheet\" href=\"../css/general/sidebar.css\">\n    <link rel=\"stylesheet\" href=\"../css/general/search.css\">\n    <link rel=\"stylesheet\" href=\"../css/styles.css\">\n\n    <script src=\"https://kit.fontawesome.com/d1709d070c.js\" crossorigin=\"anonymous\"></script>\n    <script src=\"../javascript/script.js\"></script>\n    <title>RoutineExpress</title>\n</head>\n<body>\n\n<!-- NAVIGATION BAR CONTENT -->\n\n<header>\n    <nav>\n        <div class=\"logo\">\n            <img src=\"../images/logo.png\" alt=\"Website logo\">\n<!--        <i class=\"fa-solid fa-landmark\" style=\"color: #000000;\"></i>-->\n            <p>RoutineExpress</p>\n        </div>\n        <ul class=\"menu\">\n\n            <li class=\"list-search\">\n                <form autocomplete=\"off\" action=\"/action_page.php\">\n                <div class=\"search\">\n                    <button class=\"button-search\">\n                        <i class=\"fa-solid fa-magnifying-glass\"></i>\n                    </button>\n                    <label class=\"label-search\">\n                        <input type=\"text\" class=\"input-search\" placeholder=\"Search. . .\">\n                    </label>\n                </div>\n                </form>\n            </li>\n<!--            <li>-->\n<!--                <i class=\"fa-solid fa-magnifying-glass\"></i>-->\n<!--                <a href=\"#\">Search</a>-->\n<!--            </li>-->\n            <li>\n                <i class=\"fa-solid fa-bell\"></i>\n                <a href=\"#\">Notifications</a>\n            </li>\n            <li>\n                <i class=\"fa-solid fa-gear\"></i>\n                <a href=\"#\">Settings</a>\n            </li>\n            <li>\n                <i class=\"fa-solid fa-user\"></i>\n                <a href=\"#\">Account</a>\n            </li>\n        </ul>\n        <div class=\"toggle\">\n            <i class=\"fas fa-bars\"></i>\n        </div>\n    </nav>\n</header>\n\n<!-- SIDE BAR CONTENT -->\n\n<div class=\"sidebar\">\n    <ul>\n        <li>\n            <i class=\"fa-solid fa-house\"></i>\n            <a href=\"#\">Home</a>\n        </li>\n        <li>\n            <i class=\"fa-solid fa-list-check\"></i>\n            <a href=\"#\">Tasks</a>\n        </li>\n        <li>\n            <i class=\"fa-solid fa-calendar\"></i>\n            <a href=\"#\">Calendar</a>\n        </li>\n        <li>\n            <i class=\"fa-solid fa-hourglass\"></i>\n            <a href=\"#\">Timer</a>\n        </li>\n        <li>\n            <i class=\"fa-solid fa-note-sticky\"></i>\n            <a href=\"#\">Notes</a></li>\n        <li>\n            <i class=\"fa-solid fa-circle-question\"></i>\n            <a href=\"#\">Services</a>\n        </li>\n    </ul>\n</div>\n\n<!--MAIN PAGE CONTENT -->\n\n<main>\n<!--    <div class=\"search\">-->\n<!--        <button class=\"button-search\">-->\n<!--            <i class=\"fa-solid fa-magnifying-glass\"></i>-->\n<!--        </button>-->\n<!--        <input type=\"text\" class=\"input-search\" placeholder=\"Search. . .\">-->\n<!--    </div>-->\n    <div>Good morning, Mason.</div>\n</main>\n\n<!-- SCRIPTS -->\n\n<script>\n    displayHamburger()\n</script>\n\n</body>\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/content/html/index.html b/content/html/index.html
+--- a/content/html/index.html	(revision 3c69c9700731ee90ab439ff5c414e12ecca3e5ff)
++++ b/content/html/index.html	(date 1679947140736)
+@@ -11,7 +11,9 @@
+     <link rel="stylesheet" href="../css/styles.css">
+ 
+     <script src="https://kit.fontawesome.com/d1709d070c.js" crossorigin="anonymous"></script>
+-    <script src="../javascript/script.js"></script>
++
++    <script src="../javascript/navbar.js"></script>
++    <script src="../javascript/search.js"></script>
+     <title>RoutineExpress</title>
+ </head>
+ <body>
+@@ -29,15 +31,21 @@
+ 
+             <li class="list-search">
+                 <form autocomplete="off" action="/action_page.php">
+-                <div class="search">
+-                    <button class="button-search">
+-                        <i class="fa-solid fa-magnifying-glass"></i>
+-                    </button>
+-                    <label class="label-search">
+-                        <input type="text" class="input-search" placeholder="Search. . .">
+-                    </label>
+-                </div>
++                    <div class="autocomplete">
++                        <button class="button-search">
++                            <i class="fa-solid fa-magnifying-glass"></i>
++                        </button>
++                        <label class="label-search">
++                            <input id="myInput" type="text" name="myCountry" class="input-search" placeholder="Search. . .">
++                        </label>
++                    </div>
+                 </form>
++<!--                <form autocomplete="off" action="/action_page.php">-->
++<!--                    <div class="autocomplete" style="width:300px;">-->
++<!--                        <input id="myInput" type="text" name="myCountry" placeholder="Country">-->
++<!--                    </div>-->
++<!--                    <input type="submit">-->
++<!--                </form>-->
+             </li>
+ <!--            <li>-->
+ <!--                <i class="fa-solid fa-magnifying-glass"></i>-->
+@@ -108,6 +116,7 @@
+ 
+ <script>
+     displayHamburger()
++    autocomplete(document.getElementById("myInput"), countries);
+ </script>
+ 
+ </body>
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"9afae794-89b0-4f7e-9b1c-4d1abe5449dc\" name=\"Changes\" comment=\"test commit 20002323\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/content/html/index.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/content/html/index.html\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"HighlightingSettingsPerFile\">\n    <setting file=\"file://$PROJECT_DIR$/content/html/index.html\" root0=\"FORCE_HIGHLIGHTING\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2Nb5Vlx3iHIlybSLUWSA4SnpLMt\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"WebServerToolWindowFactoryState\": \"false\",\n    \"node.js.selected.package.tslint\": \"(autodetect)\"\n  }\n}]]></component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"9afae794-89b0-4f7e-9b1c-4d1abe5449dc\" name=\"Changes\" comment=\"\" />\n      <created>1679919966282</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1679919966282</updated>\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"test commit 20002323\">\n      <created>1679939676612</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1679939676612</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"2\" />\n    <servers />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"0e43f88f-08f8-4740-8ced-4b45be89c2cc\">\n          <value>\n            <State />\n          </value>\n        </entry>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"test commit 20002323\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"test commit 20002323\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 3c69c9700731ee90ab439ff5c414e12ecca3e5ff)
++++ b/.idea/workspace.xml	(date 1679947140957)
+@@ -4,14 +4,26 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="test commit 20002323">
++    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="basic page set up">
++      <change afterPath="$PROJECT_DIR$/content/javascript/search.js" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/content/test/test.html" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/content/css/general/search.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/general/search.css" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/content/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/html/index.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/content/javascript/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/javascript/navbar.js" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+     <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
++  <component name="FileTemplateManagerImpl">
++    <option name="RECENT_TEMPLATES">
++      <list>
++        <option value="JavaScript File" />
++        <option value="HTML File" />
++      </list>
++    </option>
+   </component>
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+@@ -20,13 +32,16 @@
+     <setting file="file://$PROJECT_DIR$/content/html/index.html" root0="FORCE_HIGHLIGHTING" />
+   </component>
+   <component name="ProjectId" id="2Nb5Vlx3iHIlybSLUWSA4SnpLMt" />
+-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
++    <ConfirmationsSetting value="2" id="Add" />
++  </component>
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+   <component name="PropertiesComponent"><![CDATA[{
+   "keyToString": {
++    "DefaultHtmlFileTemplate": "HTML File",
+     "RunOnceActivity.OpenProjectViewOnStart": "true",
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+     "WebServerToolWindowFactoryState": "false",
+@@ -49,7 +64,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1679939676612</updated>
+     </task>
+-    <option name="localTasksCounter" value="2" />
++    <task id="LOCAL-00002" summary="basic page set up">
++      <created>1679940747512</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1679940747512</updated>
++    </task>
++    <option name="localTasksCounter" value="3" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -70,6 +92,7 @@
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="test commit 20002323" />
+-    <option name="LAST_COMMIT_MESSAGE" value="test commit 20002323" />
++    <MESSAGE value="basic page set up" />
++    <option name="LAST_COMMIT_MESSAGE" value="basic page set up" />
+   </component>
+ </project>
+\ No newline at end of file

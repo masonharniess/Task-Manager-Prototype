@@ -1,3 +1,7 @@
+form {
+    display: flex;
+}
+
 .autocomplete {
     text-align: center;
     /* note display */
@@ -9,10 +13,15 @@
 
 .label-search {
     width: 100%;
+    /*background-color: rebeccapurple;*/
+    align-items: center;
+    display: flex;
 }
 
 .list-search {
     text-align: center;
+
+
 }
 
 button {
@@ -23,16 +32,17 @@ button {
 
 .input-search {
     border-style: none;
-    width: 100%;
-    height: 30px;
+    /*width: 70%;*/
+    height: 20px;
     padding-top: 2px;
-    padding-left: 10px;
     outline: none;
     transition: all .5s ease-in-out;
     font-family: inherit;
     font-size: inherit;
     border-radius: 25px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f1f1f1;
+    padding-left: 15px;
 
 }
 
@@ -42,6 +52,7 @@ button {
     font-size: inherit;
     font-weight: inherit;
     margin-bottom: 5em;
+    margin-left: 5em;
 }
 
 .button-search {
@@ -60,29 +71,19 @@ button {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-
-
-input {
-    border: 1px solid transparent;
-    background-color: #f1f1f1;
-    padding: 10px;
-    font-size: 16px;
-}
-
 input[type=text] {
     background-color: #f1f1f1;
     width: 100%;
 }
 
-input[type=submit] {
-    background-color: DodgerBlue;
-    color: #fff;
-    cursor: pointer;
-}
+/*input[type=submit] {*/
+/*    background-color: DodgerBlue;*/
+/*    color: #fff;*/
+/*    cursor: pointer;*/
+/*}*/
 
 .autocomplete-items {
     position: absolute;
-    border: 1px solid #d4d4d4;
     border-bottom: none;
     border-top: none;
     z-index: 99;
@@ -97,6 +98,18 @@ input[type=submit] {
     cursor: pointer;
     background-color: #fff;
     border-bottom: 1px solid #d4d4d4;
+    border-left: 1px solid #d4d4d4;
+    border-right: 1px solid #d4d4d4;
+
+}
+
+.autocomplete-items div:last-child {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.autocomplete-list {
+
 }
 
 /*when hovering an item:*/
