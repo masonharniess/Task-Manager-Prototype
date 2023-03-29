@@ -20,8 +20,6 @@ form {
 
 .list-search {
     text-align: center;
-
-
 }
 
 button {
@@ -31,7 +29,6 @@ button {
 }
 
 .input-search {
-    border-style: none;
     /*width: 70%;*/
     height: 20px;
     padding-top: 2px;
@@ -43,6 +40,7 @@ button {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     background-color: #f1f1f1;
     padding-left: 15px;
+    border: 1px solid lightgray;
 
 }
 
