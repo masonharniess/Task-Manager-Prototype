@@ -1,10 +1,6 @@
-/* styles.css includes general css */
+/* GENERAL CONTENT */
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-
-body {
-    font-family: 'Montserrat', sans-serif;
-}
 
 @media screen and (min-width: 1201px) {
     .menu {
@@ -14,11 +10,19 @@ body {
     }
 }
 
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 /* MAIN BODY CONTENT */
 
 main {
-    padding-top: 60px;
-    padding-left: 160px;
+    padding-top: 80px;
+    padding-left: 180px;
     max-width: 100%;
 }
 
+.greeting {
+    font-size: 24px;
+    font-weight: bold;
+}

@@ -6,8 +6,9 @@
     <link rel="icon" type="image/x-icon" href="../images/favicon.png">
 
     <link rel="stylesheet" href="../css/general/navbar.css">
-    <link rel="stylesheet" href="../css/general/sidebar.css">
     <link rel="stylesheet" href="../css/general/search.css">
+    <link rel="stylesheet" href="../css/general/sidebar.css">
+
     <link rel="stylesheet" href="../css/styles.css">
 
     <script src="https://kit.fontawesome.com/d1709d070c.js" crossorigin="anonymous"></script>
@@ -24,11 +25,9 @@
     <nav>
         <div class="logo">
             <img src="../images/logo.png" alt="Website logo">
-<!--        <i class="fa-solid fa-landmark" style="color: #000000;"></i>-->
             <p>RoutineExpress</p>
         </div>
         <ul class="menu">
-
             <li class="list-search">
                 <form autocomplete="off" action="/action_page.php">
                     <div>
@@ -42,12 +41,6 @@
                         </label>
                     </div>
                 </form>
-<!--                <form autocomplete="off" action="/action_page.php">-->
-<!--                    <div class="autocomplete" style="width:300px;">-->
-<!--                        <input id="myInput" type="text" name="myCountry" placeholder="Country">-->
-<!--                    </div>-->
-<!--                    <input type="submit">-->
-<!--                </form>-->
             </li>
             <li>
                 <i class="fa-solid fa-bell"></i>
@@ -101,21 +94,15 @@
 <!--MAIN PAGE CONTENT -->
 
 <main>
-<!--    <div class="search">-->
-<!--        <button class="button-search">-->
-<!--            <i class="fa-solid fa-magnifying-glass"></i>-->
-<!--        </button>-->
-<!--        <input type="text" class="input-search" placeholder="Search. . .">-->
-<!--    </div>-->
-    <div>Good morning, Mason H.</div>
+    <div class="greeting">Good morning, Mason.</div>
 </main>
 
 <!-- SCRIPTS -->
 
 <script>
     displayHamburger()
-    /*initiate the autocomplete function on the "myInput" element, and pass along the
-    countries array as possible autocomplete values:*/
+    /*initiate the autocomplete function on the "input-searchID" element, and pass along the pages array as possible
+    autocomplete values:*/
     autocomplete(document.getElementById("input-searchID"), pages);
 </script>
 

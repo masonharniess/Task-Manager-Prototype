@@ -15,7 +15,11 @@ nav {
     align-items: center;
     height: 100%;
     padding: 0 0 0 10px;
-    /*margin: 0 auto;*/
+}
+
+.list-search {
+    margin: auto;
+    width: 55%;
 }
 
 .logo {
@@ -25,7 +29,6 @@ nav {
 
 .logo img {
     vertical-align: text-bottom;
-    /*border: 1px solid #555;*/
     height: auto;
     margin: 0;
     max-width: 28px;
@@ -40,16 +43,12 @@ nav {
     list-style: none;
 }
 
-.menu li {
-    /*margin-left: 30px;*/
-}
-
-nav ul li.list-search {
+.list-search {
     margin: auto;
     width: 55%;
 }
 
-.menu li:first-child {
+.list-search li:first-child {
     /*padding-right: 10px;*/
 }
 

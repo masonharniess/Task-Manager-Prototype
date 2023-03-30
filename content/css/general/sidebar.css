@@ -17,17 +17,16 @@
 
 .sidebar li {
     margin: 0 0 10px 0;
+}
 
+.sidebar li:hover {
+    background-color: #ccc;
 }
 
 .sidebar a, i {
     padding: 10px;
     text-decoration: none;
     color: #000;
-}
-
-.sidebar li:hover {
-    background-color: #ccc;
 }
 
 .sidebar i {

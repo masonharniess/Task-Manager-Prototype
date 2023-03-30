@@ -4,16 +4,13 @@ form {
 
 .autocomplete {
     text-align: center;
-    /* note display */
     display: flex;
     width: 90%;
-    /*new*/
     position: relative;
 }
 
 .label-search {
     width: 100%;
-    /*background-color: rebeccapurple;*/
     align-items: center;
     display: flex;
 }
@@ -29,7 +26,6 @@ button {
 }
 
 .input-search {
-    /*width: 70%;*/
     height: 20px;
     padding-top: 2px;
     outline: none;
@@ -41,7 +37,6 @@ button {
     background-color: #f1f1f1;
     padding-left: 15px;
     border: 1px solid lightgray;
-
 }
 
 .input-search::placeholder{
@@ -74,12 +69,6 @@ input[type=text] {
     width: 100%;
 }
 
-/*input[type=submit] {*/
-/*    background-color: DodgerBlue;*/
-/*    color: #fff;*/
-/*    cursor: pointer;*/
-/*}*/
-
 .autocomplete-items {
     position: absolute;
     border-bottom: none;
@@ -106,16 +95,10 @@ input[type=text] {
     border-bottom-right-radius: 20px;
 }
 
-.autocomplete-list {
-
-}
-
-/*when hovering an item:*/
 .autocomplete-items div:hover {
     background-color: #e9e9e9;
 }
 
-/*when navigating through the items using the arrow keys:*/
 .autocomplete-active {
     background-color: DodgerBlue !important;
     color: #ffffff;
