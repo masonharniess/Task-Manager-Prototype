@@ -12,17 +12,14 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    background-color: #edf2f5;
 }
 
 /* MAIN BODY CONTENT */
 
 main {
-    padding-top: 80px;
-    padding-left: 180px;
+    padding-top: 90px;
+    padding-left: 220px;
     max-width: 100%;
 }
 
-.greeting {
-    font-size: 24px;
-    font-weight: bold;
-}

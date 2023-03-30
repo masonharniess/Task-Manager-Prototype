@@ -60,6 +60,10 @@ nav {
     padding: 0.8em 0.5em;
 }
 
+.menu a {
+    padding-left: 0;
+}
+
 .menu li:hover:not(.list-search) {
     color: #666;
     background-color: #f2f2f2;
