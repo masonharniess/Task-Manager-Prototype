@@ -24,6 +24,7 @@ function autocomplete(inp, arr) {
                 /*create a DIV element for each matching element:*/
                 document.getElementById("input-searchID").style.borderBottomRightRadius = "0";
                 document.getElementById("input-searchID").style.borderBottomLeftRadius = "0";
+                document.getElementById("input-searchID").style.height = "100%";
                 b = document.createElement("DIV");
                 /*make the matching letters bold:*/
                 b.innerHTML = "<strong>" + arr[i].substr(0, val.length) + "</strong>";
@@ -97,6 +98,7 @@ function autocomplete(inp, arr) {
 
             document.getElementById("input-searchID").style.borderBottomRightRadius = "25px";
             document.getElementById("input-searchID").style.borderBottomLeftRadius = "25px";
+            document.getElementById("input-searchID").style.height = "";
             if (elmnt != x[i] && elmnt != inp) {
                 x[i].parentNode.removeChild(x[i]);
             }

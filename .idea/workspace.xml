@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="test commit 21">
+    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="search bar: border radius now changes if there are suggestions visible">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/css/general/search.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/general/search.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/javascript/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/javascript/search.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +73,7 @@
       <workItem from="1679919967455" duration="1511000" />
       <workItem from="1679931559311" duration="717000" />
       <workItem from="1680051315912" duration="328000" />
+      <workItem from="1680112885834" duration="599000" />
     </task>
     <task id="LOCAL-00001" summary="basic project set up">
       <created>1679920090841</created>
@@ -189,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680055875873</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="search bar: border radius now changes if there are suggestions visible">
+      <created>1680058047781</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1680058047781</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,6 +275,7 @@
     <MESSAGE value="test commit 212" />
     <MESSAGE value="commit history fix" />
     <MESSAGE value="test commit 21" />
-    <option name="LAST_COMMIT_MESSAGE" value="test commit 21" />
+    <MESSAGE value="search bar: border radius now changes if there are suggestions visible" />
+    <option name="LAST_COMMIT_MESSAGE" value="search bar: border radius now changes if there are suggestions visible" />
   </component>
 </project>
