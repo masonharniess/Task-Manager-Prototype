@@ -34,10 +34,11 @@ main {
     width: 100%;
 }
 
-.content li {
+.content li:not(li:last-child) {
     border-bottom: 1px solid grey;
-
 }
+
+
 
 .left {
     width: 230%;
