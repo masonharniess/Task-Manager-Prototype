@@ -1,35 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="search bar: border radius now changes if there are suggestions visible">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_03_2023,_20_58_[Changes]/shelved.patch" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_03_2023,_20_58_[Changes]/shelved.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_03_2023,_20_59_[Changes]1/shelved.patch" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_03_2023,_20_59_[Changes]1/shelved.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_03_2023,_20_59_[Changes]2/shelved.patch" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_03_2023,_20_59_[Changes]2/shelved.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_29_03_2023,_03_09_[Changes]/shelved.patch" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_29_03_2023,_03_09_[Changes]/shelved.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_29_03_2023__03_09__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_29_03_2023__03_09__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/css/general/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/general/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/javascript/navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/javascript/navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/javascript/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/javascript/search.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/test/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/test/test.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="CSS File" />
-        <option value="JavaScript File" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <favorite-branches>
@@ -47,7 +25,7 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="cbbc8770b10ad2b5083f83faa62aba22c18b35aa" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -59,9 +37,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Nb5Vlx3iHIlybSLUWSA4SnpLMt" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -72,7 +48,6 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/masonharniess/Library/CloudStorage/OneDrive-Personal/OneDriveFiles/University/Year 2/Semester 2/UI CO2104/CW2/taskManager&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -84,9 +59,6 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/content/css/pages" />
-      <recent name="$PROJECT_DIR$/content/css/general" />
-      <recent name="$PROJECT_DIR$/content/css" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -101,10 +73,7 @@
       <workItem from="1679919967455" duration="1511000" />
       <workItem from="1679931559311" duration="717000" />
       <workItem from="1680051315912" duration="328000" />
-      <workItem from="1680112885834" duration="599000" />
-      <workItem from="1680207238283" duration="11000" />
-      <workItem from="1680207259046" duration="245000" />
-      <workItem from="1680269059371" duration="1496000" />
+      <workItem from="1680112885834" duration="841000" />
     </task>
     <task id="LOCAL-00001" summary="basic project set up">
       <created>1679920090841</created>
@@ -225,42 +194,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680058047781</updated>
     </task>
-    <task id="LOCAL-00018" summary="some general code clean up. Title bar repositioned and styled">
-      <created>1680195962419</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1680195962419</updated>
-    </task>
-    <task id="LOCAL-00019" summary="some minor additions to layout of main section.&#10;nav and side bar basically complete now. search not complete, still needs some formatting.">
-      <created>1680200225391</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1680200225391</updated>
-    </task>
-    <task id="LOCAL-00020" summary="some minor additions to layout of main section.&#10;nav and side bar basically complete now. search not complete, still needs some formatting.">
-      <created>1680201913351</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1680201913351</updated>
-    </task>
-    <task id="LOCAL-00021" summary="side bar has active status">
-      <created>1680206580242</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1680206580242</updated>
-    </task>
-    <task id="LOCAL-00022" summary="side bar has active status2">
-      <created>1680207475158</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1680207475158</updated>
-    </task>
-    <option name="localTasksCounter" value="23" />
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,6 +239,11 @@
         </entry>
       </map>
     </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="0e43f88f-08f8-4740-8ced-4b45be89c2cc" value="TOOL_WINDOW" />
+      </map>
+    </option>
     <option name="RECENT_FILTERS">
       <map>
         <entry key="Branch">
@@ -337,11 +276,6 @@
     <MESSAGE value="commit history fix" />
     <MESSAGE value="test commit 21" />
     <MESSAGE value="search bar: border radius now changes if there are suggestions visible" />
-    <MESSAGE value="some general code clean up. Title bar repositioned and styled" />
-    <MESSAGE value="background colour change" />
-    <MESSAGE value="some minor additions to layout of main section.&#10;nav and side bar basically complete now. search not complete, still needs some formatting." />
-    <MESSAGE value="side bar has active status" />
-    <MESSAGE value="side bar has active status2" />
-    <option name="LAST_COMMIT_MESSAGE" value="side bar has active status2" />
+    <option name="LAST_COMMIT_MESSAGE" value="search bar: border radius now changes if there are suggestions visible" />
   </component>
 </project>

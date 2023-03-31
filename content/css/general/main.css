@@ -20,11 +20,30 @@ body {
 main {
     padding-top: 90px;
     padding-left: 220px;
+    padding-right: 70px;
     max-width: 100%;
 }
 
 .content-section {
+    display: flex;
+}
+
+.content {
     list-style: none;
     padding-left: 10px;
+    width: 100%;
 }
+
+.content li {
+    border-bottom: 1px solid grey;
+
+}
+
+.left {
+    width: 230%;
+}
+
+.right {padding-left: 20px}
+
+
 
