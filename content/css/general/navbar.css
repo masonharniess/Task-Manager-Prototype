@@ -59,16 +59,17 @@ nav {
     display: inline;
     padding: 0.8em 0.5em;
 }
-
-.menu a {
-    padding-left: 0;
-}
-
 .menu li:hover:not(.list-search) {
     color: #666;
     background-color: #f2f2f2;
 
 }
+
+.menu a {
+    padding-left: 0;
+}
+
+
 
 .toggle {
     font-size: 24px;

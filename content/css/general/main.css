@@ -23,3 +23,8 @@ main {
     max-width: 100%;
 }
 
+.content-section {
+    list-style: none;
+    padding-left: 10px;
+}
+
