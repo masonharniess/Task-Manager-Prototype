@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="Homepage drop-down working. animated arrow janky. not quite there">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/css/general/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/general/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/html/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/html/test.html" afterDir="false" />
-    </list>
+    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="Homepage drop-down working for recent tasks" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,7 +94,7 @@
       <workItem from="1680207238283" duration="11000" />
       <workItem from="1680207259046" duration="245000" />
       <workItem from="1680269059371" duration="1496000" />
-      <workItem from="1680350158132" duration="16733000" />
+      <workItem from="1680350158132" duration="17221000" />
     </task>
     <task id="LOCAL-00001" summary="basic project set up">
       <created>1679920090841</created>
@@ -289,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680367889772</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Homepage drop-down working for recent tasks">
+      <created>1680369601692</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1680369601692</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -376,6 +379,7 @@
     <MESSAGE value="no underline in main section last child" />
     <MESSAGE value="Homepage looks as if all dropdowns are open." />
     <MESSAGE value="Homepage drop-down working. animated arrow janky. not quite there" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homepage drop-down working. animated arrow janky. not quite there" />
+    <MESSAGE value="Homepage drop-down working for recent tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homepage drop-down working for recent tasks" />
   </component>
 </project>
