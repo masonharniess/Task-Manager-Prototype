@@ -32,6 +32,61 @@
     height: 108px;
   }
 
+  .wrapper2 ul {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+  }
+  .wrapper2 li:first-child {
+    margin-top: 16px;
+  }
+  .wrapper2 li:last-child {
+    margin-bottom: 3px;
+  }
+  .wrapper2.active ul {
+    margin-top: 12px;
+  }
+  .wrapper2.active .arrow {
+    transform: rotate(45deg) translate(38px, 38px);
+    opacity: 0.6;
+  }
+  .wrapper2.active .arrow:before {
+    transform: translate(5px, 0);
+  }
+  .wrapper2.active .arrow:after {
+    transform: rotate(90deg) translate(5px, 0);
+  }
+
+  .wrapper3 .arrow {
+    transform: rotate(0);
+    left: 0;
+  }
+  .wrapper3 .arrow:before, .wrapper3 .arrow:after {
+    background-color: transparent;
+    width: 3px;
+    height: 10px;
+    display: inline-block;
+    position: absolute;
+    border-bottom: 12px solid white;
+    top: 0;
+    left: 0;
+    transform: rotate(0);
+  }
+  .wrapper3 .arrow:before {
+    transform: rotate(-135deg);
+  }
+  .wrapper3 .arrow:after {
+    transform: rotate(135deg);
+  }
+  .wrapper3.active .arrow {
+    transform: rotate(0);
+    transform: translate(0, -6px);
+  }
+  .wrapper3.active .arrow:before {
+    transform: rotate(-45deg);
+  }
+  .wrapper3.active .arrow:after {
+    transform: rotate(45deg);
+  }
+
   .arrow {
     width: 13px;
     height: 13px;
