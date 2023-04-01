@@ -34,11 +34,20 @@ main {
     width: 100%;
 }
 
-.content li:not(li:last-child) {
-    border-bottom: 1px solid grey;
+.sub-content {
+    list-style: none;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-bottom: 10px;
 }
 
+.sub-content {
+    border-bottom: 1px solid #b5b5b5;
+}
 
+.content-title {
+    border-bottom: 1px solid grey;
+}
 
 .left {
     width: 230%;
