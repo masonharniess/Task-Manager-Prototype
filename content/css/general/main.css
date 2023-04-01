@@ -24,6 +24,19 @@ main {
     max-width: 100%;
 }
 
+.content-title{
+    cursor: pointer;
+    /*border-bottom: 1px solid rgba(255, 255, 255, 0.2);*/
+    transition: 0.15s ease;
+}
+.text-highlight:hover {
+    color: #787b80;
+    border-color: #b5b5b5;
+}
+
+
+
+
 .content-section {
     display: flex;
 }
@@ -35,14 +48,14 @@ main {
 }
 
 .sub-content {
+    height: 40px;
     list-style: none;
-    padding-top: 10px;
+    /*padding-top: 10px;*/
     padding-left: 30px;
-    padding-bottom: 10px;
-}
-
-.sub-content {
+    /*padding-bottom: 10px;*/
     border-bottom: 1px solid #b5b5b5;
+    display: flex;
+    align-items: center;
 }
 
 .content-title {
@@ -56,4 +69,73 @@ main {
 .right {padding-left: 20px}
 
 
+/* W3 SCHOOLS */
+
+.wrapper {
+    /*background-color: #eee;*/
+    /*color: #444;*/
+    cursor: pointer;
+    /*padding: 18px;*/
+    /*width: 100%;*/
+    /*border: none;*/
+    /*text-align: left;*/
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.sub-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.wrapper.active .arrow {
+    transform: rotate(45deg) translate(-5px, -5px);
+}
+.wrapper.active .arrow:before {
+    transform: translate(10px, 0);
+}
+.wrapper.active .arrow:after {
+    transform: rotate(90deg) translate(10px, 0);
+}
+.wrapper.active ul {
+    opacity: 0.3;
+    height: 108px;
+}
+
+span {
+}
+
+.arrow {
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    position: relative;
+    bottom: -5px;
+    left: -10px;
+    transition: 0.4s ease;
+    margin-top: 2px;
+    text-align: left;
+    transform: rotate(45deg);
+    float: right;
+
+}
+.arrow:before, .arrow:after {
+    position: absolute;
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 3px;
+    background-color: #fff;
+    transition: 0.4s ease;
+    background-color: black;
+}
+.arrow:after {
+    position: absolute;
+    transform: rotate(90deg);
+    top: -5px;
+    left: 5px;
+
+}
 

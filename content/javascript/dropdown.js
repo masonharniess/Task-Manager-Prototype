@@ -1,26 +1,16 @@
-document.getElementById('wrapper').onclick = function() {
+function dropDownMenu () {
+    var acc = document.getElementsByClassName("wrapper");
+    var i;
 
-    var className = ' ' + wrapper.className + ' ';
-
-    this.className = ~className.indexOf(' active ') ?
-        className.replace(' active ', ' ') :
-        this.className + ' active';
-};
-
-document.getElementById('wrapper2').onclick = function() {
-
-    var className = ' ' + wrapper2.className + ' ';
-
-    this.className = ~className.indexOf(' active ') ?
-        className.replace(' active ', ' ') :
-        this.className + ' active';
-}
-
-document.getElementById('wrapper3').onclick = function() {
-
-    var className = ' ' + wrapper3.className + ' ';
-
-    this.className = ~className.indexOf(' active ') ?
-        className.replace(' active ', ' ') :
-        this.className + ' active';
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight) {
+                panel.style.maxHeight = null;
+            } else {
+                panel.style.maxHeight = 35 + "px";
+            }
+        });
+    }
 }

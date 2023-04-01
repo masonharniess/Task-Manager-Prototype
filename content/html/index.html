@@ -16,6 +16,7 @@
 
     <script src="../javascript/navbar.js"></script>
     <script src="../javascript/search.js"></script>
+    <script src="../javascript/dropdown.js"></script>
     <title>RoutineExpress</title>
 </head>
 <body>
@@ -102,18 +103,25 @@
 
     <div class="content-section">
         <ul class="content left">
-            <li tabindex=0 class="recent-tasks">
-                <div class="content-title">
-                    <i class="fa-solid fa-chevron-right"></i>Recent tasks
-                </div>
-            </li>
-            <ul class="sub-content">
-                <li>
-                    <div>
-                        My task 1
+
+<!--            <button class="wrapper">Section 1</button>-->
+<!--            <div class="panel">-->
+<!--                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>-->
+<!--            </div>-->
+
+            <div class="wrapper">
+                <li tabindex=0 class="recent-tasks">
+                    <div class="content-title text-highlight">
+                        <i class="fa-solid fa-chevron-right"></i>
+                            Recent tasks
+                        <span class="arrow"></span>
                     </div>
                 </li>
-            </ul>
+            </div>
+            <div class="sub-content">
+                My task 1
+            </div>
+
 
             <li tabindex=0 class="upcoming-events">
                 <div class="content-title">
@@ -191,6 +199,8 @@
     /*initiate the autocomplete function on the "input-searchID" element, and pass along the pages array as possible
     autocomplete values:*/
     autocomplete(document.getElementById("input-searchID"), pages);
+    dropDownMenu()
 </script>
+
 </body>
 </html>
