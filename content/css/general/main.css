@@ -145,9 +145,7 @@ span {
     background-color: black;
 }
 
-i {
-    visibility: hidden;
-}
+
 
 .active, .accordion:hover {
     background-color: #edf2f5;
