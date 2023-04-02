@@ -151,3 +151,7 @@ span {
     background-color: #edf2f5;
 }
 
+.greeting {
+    margin: 0;
+    font-size: 34px;
+}
