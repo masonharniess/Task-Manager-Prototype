@@ -28,14 +28,13 @@ main {
     cursor: pointer;
     /*border-bottom: 1px solid rgba(255, 255, 255, 0.2);*/
     transition: 0.15s ease;
+    padding: 18px 0 18px 30px;
 }
 .text-highlight:hover {
 
     border-color: #b5b5b5;
+    color: #b5b5b5;
 }
-
-
-
 
 .content-section {
     display: flex;
@@ -80,7 +79,7 @@ main {
     /*border: none;*/
     /*text-align: left;*/
     outline: none;
-    font-size: 15px;
+    font-size: 16px;
     transition: 0.4s;
 }
 
@@ -95,9 +94,12 @@ main {
 }
 .wrapper.active .arrow:before {
     transform: translate(10px, 0);
+
 }
 .wrapper.active .arrow:after {
     transform: rotate(90deg) translate(10px, 0);
+    border-color: green;
+    color: yellow;
 }
 .wrapper.active ul {
     opacity: 0.3;
@@ -115,15 +117,15 @@ span {
     position: relative;
     /*bottom: -15px;*/
     /*left: -915px;    */
-    bottom: -15px;
+    bottom: -5px;
     left: -20px;
     transition: 0.4s ease;
     margin-top: 2px;
     text-align: left;
     transform: rotate(45deg);
     float: right;
-
 }
+
 .arrow:before, .arrow:after {
     position: absolute;
     content: "";
@@ -131,14 +133,16 @@ span {
     width: 12px;
     height: 2px;
     transition: 0.4s ease;
+
     background-color: black;
 }
+
 .arrow:after {
     position: absolute;
     transform: rotate(90deg);
     top: -5px;
     left: 5px;
-
+    background-color: black;
 }
 
 i {
@@ -148,3 +152,4 @@ i {
 .active, .accordion:hover {
     background-color: #edf2f5;
 }
+
