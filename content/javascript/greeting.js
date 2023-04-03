@@ -8,6 +8,6 @@ function greeting (){
     } else if (currentHour < 18) {
         greetingDiv.textContent = "Good afternoon, Mason";
     } else {
-        greetingDiv.textContent = "Good evening Mason";
+        greetingDiv.textContent = "Good evening, Mason";
     }
 }

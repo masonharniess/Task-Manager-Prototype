@@ -52,3 +52,30 @@ ul {
     margin: 0;
     padding-left: 263px;
 }
+
+.left {
+    border-right: 1px solid grey;
+
+}
+
+.content {
+    width: 20%;
+
+    justify-content: center;
+}
+
+li {
+    text-align: center;
+}
+
+.content-title {
+    padding: 0 0 20px 0;
+}
+
+.email-label {
+    padding-right: 39px;
+}
+
+.password-label {
+    padding-right: 7px;
+}
