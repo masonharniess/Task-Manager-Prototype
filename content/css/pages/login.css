@@ -24,13 +24,14 @@ main {
 
 .content-section {
     display: flex;
-    align-items: center;
+    padding-top: 50px;
     justify-content: center;
 }
 
 ul {
     list-style: none;
     padding: 0 20px;
+    height: 100%;
 }
 
 .heading {
@@ -70,6 +71,11 @@ li {
 
 .content-title {
     padding: 0 0 20px 0;
+    height: 100%;
+}
+
+.right {
+    height: 100%;
 }
 
 .email-label {
@@ -79,3 +85,4 @@ li {
 .password-label {
     padding-right: 7px;
 }
+

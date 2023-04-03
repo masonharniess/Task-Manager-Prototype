@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="task page set up">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="signup &amp; login aesthetic sorted" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,9 +13,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -81,6 +79,16 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/taskManager/content/html/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -99,6 +107,7 @@
       <workItem from="1680350158132" duration="17221000" />
       <workItem from="1680462788070" duration="3385000" />
       <workItem from="1680469426957" duration="120000" />
+      <workItem from="1680524013914" duration="15198000" />
     </task>
     <task id="LOCAL-00001" summary="basic project set up">
       <created>1679920090841</created>
@@ -310,7 +319,42 @@
       <option name="project" value="LOCAL" />
       <updated>1680469373459</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="All main pages have a basic page set up.">
+      <created>1680530856172</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1680530856172</updated>
+    </task>
+    <task id="LOCAL-00032" summary="search placeholder text. sidebar hover size. homepage hovor colour.">
+      <created>1680532203104</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1680532203104</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Login page basic set up">
+      <created>1680538763411</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1680538763411</updated>
+    </task>
+    <task id="LOCAL-00034" summary="greeting now time specific">
+      <created>1680539624179</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1680539624179</updated>
+    </task>
+    <task id="LOCAL-00035" summary="signup &amp; login aesthetic sorted">
+      <created>1680543375277</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1680543375277</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -377,9 +421,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="basic project set up" />
-    <MESSAGE value="test commit" />
-    <MESSAGE value="test commit 2" />
     <MESSAGE value="test commit 5" />
     <MESSAGE value="test commit 17" />
     <MESSAGE value="test commit 18" />
@@ -400,6 +441,11 @@
     <MESSAGE value="Homepage drop-down working for recent tasks" />
     <MESSAGE value="homepage in semi prototype state. moving on to other pages." />
     <MESSAGE value="task page set up" />
-    <option name="LAST_COMMIT_MESSAGE" value="task page set up" />
+    <MESSAGE value="All main pages have a basic page set up." />
+    <MESSAGE value="search placeholder text. sidebar hover size. homepage hovor colour." />
+    <MESSAGE value="Login page basic set up" />
+    <MESSAGE value="greeting now time specific" />
+    <MESSAGE value="signup &amp; login aesthetic sorted" />
+    <option name="LAST_COMMIT_MESSAGE" value="signup &amp; login aesthetic sorted" />
   </component>
 </project>
