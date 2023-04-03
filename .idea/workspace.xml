@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="homepage in semi prototype state. moving on to other pages.">
-      <change afterPath="$PROJECT_DIR$/content/css/pages/taskPage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/html/taskPage.html" afterDir="false" />
+    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="task page set up">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/css/general/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/general/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/css/general/sidebar.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/general/sidebar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/css/homepage.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/html/test.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,6 +98,7 @@
       <workItem from="1680269059371" duration="1496000" />
       <workItem from="1680350158132" duration="17221000" />
       <workItem from="1680462788070" duration="3385000" />
+      <workItem from="1680469426957" duration="120000" />
     </task>
     <task id="LOCAL-00001" summary="basic project set up">
       <created>1679920090841</created>
@@ -309,7 +303,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680466797700</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="task page set up">
+      <created>1680469373459</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1680469373459</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -398,6 +399,7 @@
     <MESSAGE value="Homepage drop-down working. animated arrow janky. not quite there" />
     <MESSAGE value="Homepage drop-down working for recent tasks" />
     <MESSAGE value="homepage in semi prototype state. moving on to other pages." />
-    <option name="LAST_COMMIT_MESSAGE" value="homepage in semi prototype state. moving on to other pages." />
+    <MESSAGE value="task page set up" />
+    <option name="LAST_COMMIT_MESSAGE" value="task page set up" />
   </component>
 </project>

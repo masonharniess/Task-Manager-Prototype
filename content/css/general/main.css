@@ -151,7 +151,8 @@ span {
     background-color: #edf2f5;
 }
 
-.greeting {
-    margin: 0;
+.heading {
     font-size: 34px;
+    font-weight: bold;
+    display: inline;
 }

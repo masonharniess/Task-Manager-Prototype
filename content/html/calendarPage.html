@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="../images/favicon.png">
+
+  <link rel="stylesheet" href="../css/pages/calendarPage.css">
+  <link rel="stylesheet" href="../css/general/navbar.css">
+  <link rel="stylesheet" href="../css/general/search.css">
+  <link rel="stylesheet" href="../css/general/sidebar.css">
+
+  <link rel="stylesheet" href="../css/general/main.css">
+
+  <script src="https://kit.fontawesome.com/d1709d070c.js" crossorigin="anonymous"></script>
+
+  <script src="../javascript/navbar.js"></script>
+  <script src="../javascript/search.js"></script>
+  <script src="../javascript/dropdown.js"></script>
+  <title>RoutineExpress</title>
+</head>
+<body>
+
+<!-- NAVIGATION BAR CONTENT -->
+
+<header>
+  <nav>
+    <div class="logo">
+      <img src="../images/logo.png" alt="Website logo">
+      <p>RoutineExpress</p>
+    </div>
+    <ul class="menu">
+      <li class="list-search">
+        <form autocomplete="off" action="/action_page.php">
+          <div>
+            <button class="button-search">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </div>
+          <div class="autocomplete">
+            <label class="label-search">
+              <input id="input-searchID" type="text" name="tasks" class="input-search" placeholder="Search. . .">
+            </label>
+          </div>
+        </form>
+      </li>
+      <li>
+        <i class="fa-solid fa-bell"></i>
+        <a href="#">Notifications</a>
+      </li>
+      <li>
+        <i class="fa-solid fa-gear"></i>
+        <a href="#">Settings</a>
+      </li>
+      <li>
+        <i class="fa-solid fa-user"></i>
+        <a href="#">Account</a>
+      </li>
+    </ul>
+    <div class="toggle">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+</header>
+
+<!-- SIDE BAR CONTENT -->
+
+<div class="sidebar">
+  <ul>
+    <li onclick="location.href = 'index.html'">
+      <i class="fa-solid fa-house"></i>
+      <a  href="#">Home</a>
+    </li>
+    <li onclick="location.href = 'taskPage.html'">
+      <i class="fa-solid fa-list-check"></i>
+      <a href="taskPage.html">Tasks</a>
+    </li>
+    <li class="active" onclick="location.href = 'calendarPage.html'">
+      <i class="fa-solid fa-calendar"></i>
+      <a href="#">Calendar</a>
+    </li>
+    <li onclick="location.href = 'timerPage.html'">
+      <i class="fa-solid fa-hourglass"></i>
+      <a href="#">Timer</a>
+    </li>
+    <li onclick="location.href = 'notesPage.html'">
+      <i class="fa-solid fa-note-sticky"></i>
+      <a href="#">Notes</a></li>
+    <li onclick="location.href = 'servicesPage.html'">
+      <i class="fa-solid fa-circle-question"></i>
+      <a href="#">Services</a>
+    </li>
+  </ul>
+</div>
+
+<!--MAIN PAGE CONTENT -->
+
+<main>
+  <div>
+    <h1 class="heading">My events</h1>
+  </div>
+
+  <div class="content-section">
+    <ul class="content left">
+
+      <div class="wrapper">
+        <li tabindex=0 class="recent-tasks">
+          <div class="content-title text-highlight">
+            Recent tasks
+            <span class="arrow"></span>
+          </div>
+        </li>
+      </div>
+      <div class="sub-content">
+        My task 1
+      </div>
+
+      <div class="wrapper">
+        <li tabindex=0 class="recent-tasks">
+          <div class="content-title text-highlight">
+            Upcoming events
+            <span class="arrow"></span>
+          </div>
+        </li>
+      </div>
+      <div class="sub-content">
+        My event 1
+      </div>
+
+      <div class="wrapper">
+        <li tabindex=0 class="recent-tasks">
+          <div class="content-title text-highlight">
+            Focused mail
+            <span class="arrow"></span>
+          </div>
+        </li>
+      </div>
+      <div class="sub-content">
+        My email 1
+      </div>
+
+
+
+      <ul class="sub-content">
+        <li>
+          <div>
+            My mail 1
+          </div>
+        </li>
+      </ul>
+    </ul>
+
+    <ul class="content right">
+
+      <div class="wrapper">
+        <li tabindex=0 class="recent-tasks">
+          <div class="content-title text-highlight">
+            <!--                        <i class="fa-solid fa-chevron-right"></i>-->
+            Calendar view
+            <span class="arrow"></span>
+          </div>
+        </li>
+      </div>
+      <div class="sub-content">
+        *Calendar*
+      </div>
+
+      <div class="wrapper">
+        <li tabindex=0 class="recent-tasks">
+          <div class="content-title text-highlight">
+            <!--                        <i class="fa-solid fa-chevron-right"></i>-->
+            Recent notes
+            <span class="arrow"></span>
+          </div>
+        </li>
+      </div>
+      <div class="sub-content">
+        My note 1
+      </div>
+
+      <div class="wrapper">
+        <li tabindex=0 class="recent-tasks">
+          <div class="content-title text-highlight">
+            <!--                        <i class="fa-solid fa-chevron-right"></i>-->
+            Timers
+            <span class="arrow"></span>
+          </div>
+        </li>
+      </div>
+      <div class="sub-content">
+        My timer 1
+      </div>
+    </ul>
+  </div>
+</main>
+
+<!-- SCRIPTS -->
+
+<script>
+  displayHamburger()
+  /*initiate the autocomplete function on the "input-searchID" element, and pass along the pages array as possible
+  autocomplete values:*/
+  autocomplete(document.getElementById("input-searchID"), pages);
+  dropDownMenu()
+</script>
+
+</body>
+</html>
