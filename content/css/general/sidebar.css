@@ -17,12 +17,13 @@
 }
 
 .sidebar li {
-    margin: 0 0 10px 0;
+    margin: 0 0 0 0;
     cursor: pointer;
+    padding: 5px 0;
 }
 
 .sidebar li:hover {
-    background-color: #ccc;
+    background-color: #f2f2f2;
 }
 
 .sidebar a, i {
@@ -37,4 +38,5 @@
 
 .active {
     background-color: #c5cedb;
+    background-clip: padding-box;
 }
