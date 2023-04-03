@@ -26,7 +26,7 @@
     background-color: #f2f2f2;
 }
 
-.sidebar a, i {
+.sidebar a, .sidebar i {
     padding: 10px;
     text-decoration: none;
     color: #000;

@@ -73,6 +73,11 @@ nav {
     padding-left: 0;
 }
 
+nav i {
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+}
 
 
 .toggle {

@@ -39,7 +39,6 @@ main {
     border-bottom: 1px solid grey;
 }
 .text-highlight:hover {
-
     border-color: #b5b5b5;
     color: grey;
 }
