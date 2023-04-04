@@ -4,10 +4,10 @@ function greeting (){
     const greetingDiv = document.getElementById("greeting");
 
     if (currentHour < 12) {
-        greetingDiv.textContent = "Good morning, Mason";
+        greetingDiv.textContent = "Good morning, ";
     } else if (currentHour < 18) {
-        greetingDiv.textContent = "Good afternoon, Mason";
+        greetingDiv.textContent = "Good afternoon, ";
     } else {
-        greetingDiv.textContent = "Good evening, Mason";
+        greetingDiv.textContent = "Good evening, ";
     }
 }

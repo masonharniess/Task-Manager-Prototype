@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="signup &amp; login aesthetic sorted" />
+    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="Feat + Style: Sign-up &amp; Login&#10;&#10;Stylise the sign-up &amp; login.&#10;Make the greeting name-specific.">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_03_2023,_20_58_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_03_2023,_20_59_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_03_2023__13_31__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_03_2023__13_32__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_03_2023__18_54__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_03_2023__20_58__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_03_2023__20_59__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/css/pages/homepage.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/pages/homepage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/css/pages/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/pages/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/html/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/html/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/javascript/greeting.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/javascript/greeting.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -108,6 +122,9 @@
       <workItem from="1680462788070" duration="3385000" />
       <workItem from="1680469426957" duration="120000" />
       <workItem from="1680524013914" duration="15198000" />
+      <workItem from="1680551531428" duration="730000" />
+      <workItem from="1680589928335" duration="6138000" />
+      <workItem from="1680615603903" duration="2207000" />
     </task>
     <task id="LOCAL-00001" summary="basic project set up">
       <created>1679920090841</created>
@@ -354,7 +371,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680543375277</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="login realligned">
+      <created>1680552254806</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1680552254806</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -421,8 +445,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="test commit 5" />
-    <MESSAGE value="test commit 17" />
     <MESSAGE value="test commit 18" />
     <MESSAGE value="test commit 212" />
     <MESSAGE value="commit history fix" />
@@ -446,6 +468,8 @@
     <MESSAGE value="Login page basic set up" />
     <MESSAGE value="greeting now time specific" />
     <MESSAGE value="signup &amp; login aesthetic sorted" />
-    <option name="LAST_COMMIT_MESSAGE" value="signup &amp; login aesthetic sorted" />
+    <MESSAGE value="login realligned" />
+    <MESSAGE value="Feat + Style: Sign-up &amp; Login&#10;&#10;Stylise the sign-up &amp; login.&#10;Make the greeting name-specific." />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat + Style: Sign-up &amp; Login&#10;&#10;Stylise the sign-up &amp; login.&#10;Make the greeting name-specific." />
   </component>
 </project>

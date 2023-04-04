@@ -30,21 +30,25 @@
             <li class="content-title">
                 Sign up
             </li>
-            <li>
-                <form action="/action_page.php">
-                    <label for="fname">First name:</label>
-                    <input type="text" id="fname" name="fname" placeholder="Enter your first name. . ."><br><br>
+            <li class="li-form">
+                <form id="myForm" action="index.html" method="GET">
+                    <label for="fname" >First name:</label>
+                    <input type="text" id="fname" required pattern="(?=[A-Z])[^()/><\][\\\x22,;|]+" title="Ensure the first letter is capitalised and that there are no special characters or numbers." name="fname" placeholder="Enter your first name. . .">
+                    <br><br>
 
                     <label for="lname">Last name:</label>
-                    <input type="text" id="lname" name="lname" placeholder="Enter your last name. . ."><br><br>
+                    <input type="text" id="lname" required name="lname" placeholder="Enter your last name. . .">
+                    <br><br>
 
-                    <label class="email-label" for="email">Email:</label>
-                    <input type="text" id="email" name="email" placeholder="Enter your email. . ."><br><br>
+                    <label class="email-label" for="signup-email">Email:</label>
+                    <input type="text" id="signup-email" required pattern="^[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}" title="example@mailserver.domain"  name="signup-email" placeholder="Enter your email. . .">
+                    <br><br>
 
-                    <label class="password-label" for="password">Password:</label>
-                    <input type="text" id="password" name="email" placeholder="Enter your password. . ."><br><br>
+                    <label class="password-label" for="signup-password">Password:</label>
+                    <input type="password" id="signup-password" name="signup-password" required pattern=".{8,}" title="Eight or more characters" placeholder="Enter your password. . .">
+                    <br><br>
 
-                    <input type="submit" value="Submit">
+                    <input type="submit" value="Submit" class="submit">
                 </form>
             </li>
         </ul>
@@ -52,15 +56,15 @@
             <li class="content-title">
                 Login
             </li>
-            <li>
-                <form action="/action_page.php">
-                    <label class="email-label" for="email">Email:</label>
-                    <input type="text" id="email" name="email" placeholder="Enter your email. . ."><br><br>
+            <li class="li-form">
+                <form action="index.html" method="GET">
+                    <label class="email-label" for="login-email">Email:</label>
+                    <input type="text" id="login-email" name="login-email" required pattern="^[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}" title="Email must have an @ and a domain." placeholder="Enter your email. . ."><br><br>
 
-                    <label class="password-label" for="password">Password:</label>
-                    <input type="text" id="password" name="email" placeholder="Enter your password. . ."><br><br>
+                    <label class="password-label" for="login-password">Password:</label>
+                    <input type="password" id="login-password" name="login-password" pattern=".{8,}" required placeholder="Enter your password. . ."><br><br>
 
-                    <input type="submit" value="Submit">
+                    <input type="submit" value="Submit" class="submit">
                 </form>
             </li>
         </ul>
@@ -70,11 +74,6 @@
 <!-- SCRIPTS -->
 
 <script>
-    displayHamburger()
-    /*initiate the autocomplete function on the "input-searchID" element, and pass along the pages array as possible
-    autocomplete values:*/
-    autocomplete(document.getElementById("input-searchID"), pages);
-    dropDownMenu()
 </script>
 
 </body>

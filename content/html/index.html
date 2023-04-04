@@ -18,6 +18,7 @@
     <script src="../javascript/search.js"></script>
     <script src="../javascript/dropdown.js"></script>
     <script src="../javascript/greeting.js"></script>
+
     <title>RoutineExpress</title>
 </head>
 <body>
@@ -97,8 +98,9 @@
 <!--MAIN PAGE CONTENT -->
 
 <main>
-    <div>
-        <h1 class="heading" id="greeting">Good morning, Mason</h1>
+    <div class="heading-container">
+        <h1 class="heading" id="greeting"> </h1>
+        <h1 class="name" id="name"> </h1>
     </div>
 
     <div class="content-section">
@@ -204,6 +206,36 @@
     autocomplete(document.getElementById("input-searchID"), pages);
     dropDownMenu();
     greeting();
+    // // Get the query string from the URL
+    // var queryString = window.location.search;
+    //
+    // // Remove the "?" character from the beginning of the query string
+    // var inputString = queryString.substring(1);
+    //
+    // // Decode the input value
+    // var inputValue = decodeURIComponent(inputString);
+    //
+    // // Update the contents of the output div
+    // document.getElementById("name").innerHTML = inputValue;
+
+    // Get the query string from the URL
+    var queryString = window.location.search;
+
+    // Remove the "?" character from the beginning of the query string
+    var inputString = queryString.substring(1);
+
+    // Decode the input value for the "fname" input
+    var inputs = inputString.split("&");
+    for (var i = 0; i < inputs.length; i++) {
+        var pair = inputs[i].split("=");
+        if (pair[0] === "fname") {
+            var fnameValue = decodeURIComponent(pair[1]);
+            break;
+        }
+    }
+
+    // Update the contents of the output div with the value of the "fname" input
+    document.getElementById("name").innerHTML = "&nbsp;" + fnameValue;
 </script>
 
 </body>
