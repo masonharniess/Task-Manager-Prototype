@@ -24,8 +24,9 @@ main {
 
 .content-section {
     display: flex;
-    padding-top: 50px;
+    margin-top: 50px;
     justify-content: center;
+
 }
 
 ul {
@@ -56,12 +57,10 @@ ul {
 
 .left {
     border-right: 1px solid grey;
-
 }
 
 .content {
-    width: 20%;
-
+    width: 30%;
     justify-content: center;
 }
 
@@ -76,6 +75,7 @@ li {
 
 .right {
     height: 100%;
+    padding-left: 19px;
 }
 
 .email-label {
@@ -86,3 +86,38 @@ li {
     padding-right: 7px;
 }
 
+label {
+    margin-right: 5px;
+}
+
+input:not([type="submit"]) {
+    outline: none;
+    transition: all .5s ease-in-out;
+    font-family: inherit;
+    font-size: 14px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f1f1f1;
+    padding: 0 10px;
+    border: 1px solid lightgray;
+    width: 50%;
+}
+
+.submit {
+    outline: none;
+    transition: all .5s ease-in-out;
+    font-family: inherit;
+    font-size: 14px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f1f1f1;
+    padding: 0 10px;
+    border: 1px solid lightgray;
+    cursor: pointer;
+}
+
+
+
+.li-form {
+    width: 100%;
+}

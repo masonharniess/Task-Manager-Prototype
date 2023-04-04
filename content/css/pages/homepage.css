@@ -1,2 +1,15 @@
+.heading-container {
+    display: flex;
+
+}
+
+.name {
+    font-size: 34px;
+    font-weight: bold;
+    display: inline;
+}
 
 
+h1 {
+    margin: 0;
+}
