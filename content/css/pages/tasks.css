@@ -1,0 +1,7 @@
+.task-block {
+    border: 1px solid white;
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
