@@ -121,3 +121,9 @@ input:not([type="submit"]) {
 .li-form {
     width: 100%;
 }
+
+input.submit:hover, input.submit:focus {
+    color: #666;
+    background-color: lightgray;
+}
+

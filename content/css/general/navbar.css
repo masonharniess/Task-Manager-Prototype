@@ -102,14 +102,20 @@ nav i {
         flex-direction: column;
         justify-content: center;
         position: absolute;
-        top: 80px;
+        top: 50px;
         left: 0;
         width: 100%;
         background-color: #fff;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        box-shadow: inset 0 -10px 10px -10px rgba(0, 0, 0, 0.1);
+
     }
     .menu li {
         margin-left: 0;
         margin-bottom: 15px;
     }
+}
+
+ul {
+    margin: 0;
+
 }

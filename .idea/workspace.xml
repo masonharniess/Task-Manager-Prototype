@@ -4,7 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="Feat + Style: Sign-up &amp; Login&#10;&#10;Stylise the sign-up &amp; login.&#10;Make the greeting name-specific." />
+    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="Style: Task Borders&#10;&#10;Add a bordered box for each task.">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_03_2023,_20_59_[Changes]1/shelved.patch" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_03_2023,_20_59_[Changes]1/shelved.patch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_03_2023,_20_59_[Changes]2/shelved.patch" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_03_2023,_20_59_[Changes]2/shelved.patch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_03_2023,_15_23_[Changes]/shelved.patch" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_03_2023,_15_23_[Changes]/shelved.patch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_03_2023,_15_23_[Changes]1/shelved.patch" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_03_2023,_15_23_[Changes]1/shelved.patch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_03_2023__15_23__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_03_2023__15_23__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_29_03_2023__03_09__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace-MaseMacbook.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace-MaseMacbook.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/css/general/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/general/navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/css/pages/calendarPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/pages/calendarPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/css/pages/homepage.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/pages/homepage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/css/pages/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/pages/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/css/pages/tasks.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/pages/tasks.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/css/pages/timerPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/pages/timerPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/html/calendar.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/html/calendar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/html/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/html/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/html/notes.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/html/notes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/html/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/html/services.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/html/tasks.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/html/tasks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/html/timers.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/html/timers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/images/logoNoBackground.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/images/logoNoBackground.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/javascript/dropdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/javascript/dropdown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/javascript/greetingTime.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/javascript/greetingTime.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/javascript/navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/javascript/navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/javascript/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/javascript/search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/test/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/test/test.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -111,6 +141,9 @@
       <workItem from="1680551531428" duration="730000" />
       <workItem from="1680589928335" duration="6138000" />
       <workItem from="1680615603903" duration="4024000" />
+      <workItem from="1680792626336" duration="4896000" />
+      <workItem from="1681122790312" duration="1029000" />
+      <workItem from="1681151506575" duration="3100000" />
     </task>
     <task id="LOCAL-00001" summary="basic project set up">
       <created>1679920090841</created>
@@ -378,7 +411,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680621327476</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Style: Task Borders&#10;&#10;Add a bordered box for each task.">
+      <created>1680802398845</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1680802398845</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -445,7 +485,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="test commit 18" />
     <MESSAGE value="test commit 212" />
     <MESSAGE value="commit history fix" />
     <MESSAGE value="test commit 21" />
@@ -470,6 +509,7 @@
     <MESSAGE value="signup &amp; login aesthetic sorted" />
     <MESSAGE value="login realligned" />
     <MESSAGE value="Feat + Style: Sign-up &amp; Login&#10;&#10;Stylise the sign-up &amp; login.&#10;Make the greeting name-specific." />
-    <option name="LAST_COMMIT_MESSAGE" value="Feat + Style: Sign-up &amp; Login&#10;&#10;Stylise the sign-up &amp; login.&#10;Make the greeting name-specific." />
+    <MESSAGE value="Style: Task Borders&#10;&#10;Add a bordered box for each task." />
+    <option name="LAST_COMMIT_MESSAGE" value="Style: Task Borders&#10;&#10;Add a bordered box for each task." />
   </component>
 </project>

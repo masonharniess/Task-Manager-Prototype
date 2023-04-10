@@ -1,4 +1,4 @@
-function dropDownMenu () {
+function dropDownMenu() {
     var acc = document.getElementsByClassName("wrapper");
     var i;
 
@@ -10,6 +10,13 @@ function dropDownMenu () {
                 panel.style.maxHeight = null;
             } else {
                 panel.style.maxHeight = 35 + "px";
+            }
+        });
+
+        acc[i].addEventListener("keydown", function(event) {
+            if (event.key === "Enter") {
+                event.preventDefault();
+                this.click();
             }
         });
     }
