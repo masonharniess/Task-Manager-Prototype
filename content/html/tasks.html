@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="../images/favicon.png">
@@ -103,50 +104,56 @@
 
 
     <div class="content-section">
-        <ul class="content left">
-
-            <div class="task-block">
-                <div class="wrapper">
-                    <li tabindex=0 class="recent-tasks">
-                        <div class="content-title text-highlight">
-                            Task Title 1
-                            <span class="arrow"></span>
-                        </div>
-                    </li>
+        <ul class="content left" id="content-left">
+            <div class="tasks" id="tasks">
+                <div class="task-block">
+                    <div class="wrapper">
+                        <li tabindex=0 class="recent-tasks">
+                            <div class="content-title text-highlight">
+                                Task Title 1
+                                <span class="arrow"></span>
+                            </div>
+                        </li>
+                    </div>
+                    <div class="sub-content">
+                        Task description 1
+                    </div>
                 </div>
-                <div class="sub-content">
-                    Task description 1
+
+
+                <div  class="task-block">
+                    <div class="wrapper">
+                        <li tabindex=0 class="recent-tasks">
+                            <div class="content-title text-highlight">
+                                Task Title 2
+                                <span class="arrow"></span>
+                            </div>
+                        </li>
+                    </div>
+                    <div class="sub-content">
+                        Task description 2
+                    </div>
+                </div>
+
+                <div class="task-block">
+                    <div class="wrapper">
+                        <li tabindex=0 class="recent-tasks">
+                            <div class="content-title text-highlight">
+                                Task Title 3
+                                <span class="arrow"></span>
+                            </div>
+                        </li>
+                    </div>
+                    <div class="sub-content">
+                        Task description 3<br>
+                        dfdsgsfd
+                    </div>
                 </div>
             </div>
+            <input onclick="addTask()" tabindex=0 type="submit" value="Add task" class="submit">
 
 
-            <div class="task-block">
-                <div class="wrapper">
-                    <li tabindex=0 class="recent-tasks">
-                        <div class="content-title text-highlight">
-                            Task Title 2
-                            <span class="arrow"></span>
-                        </div>
-                    </li>
-                </div>
-                <div class="sub-content">
-                    Task description 2
-                </div>
-            </div>
 
-            <div class="task-block">
-                <div class="wrapper">
-                    <li tabindex=0 class="recent-tasks">
-                        <div class="content-title text-highlight">
-                            Task Title 3
-                            <span class="arrow"></span>
-                        </div>
-                    </li>
-                </div>
-                <div class="sub-content">
-                    Task description 3
-                </div>
-            </div>
         </ul>
     </div>
 </main>
@@ -159,6 +166,24 @@
     autocomplete values:*/
     autocomplete(document.getElementById("input-searchID"), pages);
     dropDownMenu()
+    function addTask() {
+        var newDiv = document.createElement("div");
+        newDiv.className ="task-block";
+        newDiv.innerHTML =
+            "                <div class=\"wrapper\">\n" +
+            "                    <li tabindex=0 class=\"recent-tasks\">\n" +
+            "                        <div class=\"content-title text-highlight\">\n" +
+            "                            New Task Title\n" +
+            "                            <span class=\"arrow\"></span>\n" +
+            "                        </div>\n" +
+            "                    </li>\n" +
+            "                </div>\n" +
+            "                <div class=\"sub-content\">\n" +
+            "                    New task description\n" +
+            "                </div>\n"
+        var container = document.getElementById("tasks");
+        container.appendChild(newDiv);
+    }
 </script>
 
 </body>

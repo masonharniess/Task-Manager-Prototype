@@ -5,3 +5,26 @@
     margin: 20px;
     border-radius: 20px;
 }
+
+.submit {
+    outline: none;
+    transition: all .5s ease-in-out;
+    font-family: inherit;
+    font-size: 14px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f1f1f1;
+    padding: 10px 10px;
+    border: 1px solid lightgray;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+input.submit:hover, input.submit:focus {
+    color: #666;
+    background-color: lightgray;
+}
+
+. {
+    display: flex;
+}
