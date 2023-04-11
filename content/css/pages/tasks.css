@@ -25,6 +25,15 @@ input.submit:hover, input.submit:focus {
     background-color: lightgray;
 }
 
-. {
-    display: flex;
+.task-block i {
+    float: right;
+
+    border-radius: 5px;
 }
+
+.content-title {
+
+}
+li .recent-tasks {
+}
+

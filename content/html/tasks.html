@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="../images/favicon.png">
@@ -12,13 +11,15 @@
     <link rel="stylesheet" href="../css/general/sidebar.css">
 
     <link rel="stylesheet" href="../css/general/main.css">
-    <link rel="stylesheet" href="../css/general/tasks.css">
 
     <script src="https://kit.fontawesome.com/d1709d070c.js" crossorigin="anonymous"></script>
 
     <script src="../javascript/navbar.js"></script>
     <script src="../javascript/search.js"></script>
     <script src="../javascript/dropdown.js"></script>
+    <script src="../javascript/addTask.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
     <title>RoutineExpress</title>
 </head>
 <body>
@@ -67,7 +68,7 @@
 
 <!-- SIDE BAR CONTENT -->
 
-<div class="sidebar">
+<div class="sidebar" id="sidebar">
     <ul>
         <li onclick="location.href = 'index.html'">
             <i class="fa-solid fa-house"></i>
@@ -111,6 +112,7 @@
                         <li tabindex=0 class="recent-tasks">
                             <div class="content-title text-highlight">
                                 Task Title 1
+                                <i onclick="location.href='google.com'" class="fa-solid fa-trash-can"></i>
                                 <span class="arrow"></span>
                             </div>
                         </li>
@@ -126,6 +128,7 @@
                         <li tabindex=0 class="recent-tasks">
                             <div class="content-title text-highlight">
                                 Task Title 2
+                                <i onclick="location.href='google.com'" class="fa-solid fa-trash-can"></i>
                                 <span class="arrow"></span>
                             </div>
                         </li>
@@ -150,7 +153,7 @@
                     </div>
                 </div>
             </div>
-            <input onclick="addTask()" tabindex=0 type="submit" value="Add task" class="submit">
+            <input onclick="addTask()" id="myButton" tabindex=0 type="submit" value="Create new task" class="submit">
 
 
 
@@ -166,24 +169,7 @@
     autocomplete values:*/
     autocomplete(document.getElementById("input-searchID"), pages);
     dropDownMenu()
-    function addTask() {
-        var newDiv = document.createElement("div");
-        newDiv.className ="task-block";
-        newDiv.innerHTML =
-            "                <div class=\"wrapper\">\n" +
-            "                    <li tabindex=0 class=\"recent-tasks\">\n" +
-            "                        <div class=\"content-title text-highlight\">\n" +
-            "                            New Task Title\n" +
-            "                            <span class=\"arrow\"></span>\n" +
-            "                        </div>\n" +
-            "                    </li>\n" +
-            "                </div>\n" +
-            "                <div class=\"sub-content\">\n" +
-            "                    New task description\n" +
-            "                </div>\n"
-        var container = document.getElementById("tasks");
-        container.appendChild(newDiv);
-    }
+    addTask()
 </script>
 
 </body>
