@@ -32,7 +32,7 @@ input.submit:hover, input.submit:focus {
     border-radius: 5px;
 }
 
-.content-title {
+.content-title i {
 
 }
 li .recent-tasks {
@@ -44,4 +44,12 @@ li .recent-tasks {
 
 .fa-pen-to-square:hover {
     color: blue;
+}
+
+.content-title p {
+    margin: 0;
+}
+
+.redButton {
+
 }

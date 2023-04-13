@@ -17,7 +17,7 @@
     <script src="../javascript/navbar.js"></script>
     <script src="../javascript/search.js"></script>
     <script src="../javascript/dropdown.js"></script>
-    <script src="../javascript/addTask.js"></script>
+    <script src="../javascript/taskManagement.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
     <title>RoutineExpress</title>
@@ -112,7 +112,9 @@
                     <div class="wrapper">
                         <li tabindex=0 class="recent-tasks">
                             <div class="content-title text-highlight">
-                                Task Title 1
+                                <span class="editableDiv">
+                                    Task Title 3
+                                </span>
 
                                 <i class="fa-solid fa-trash-can deleteBtn"></i>
                                 <i class="fa-solid fa-pen-to-square"></i>
@@ -129,7 +131,9 @@
                     <div class="wrapper">
                         <li tabindex=0 class="recent-tasks">
                             <div class="content-title text-highlight">
-                                Task Task 2
+                                <span class="editableDiv">
+                                    Task Title 2
+                                </span>
 
                                 <i class="fa-solid fa-trash-can deleteBtn"></i>
                                 <i class="fa-solid fa-pen-to-square"></i>
@@ -146,10 +150,12 @@
                     <div class="wrapper">
                         <li tabindex=0 class="recent-tasks">
                             <div contenteditable="false" class="content-title text-highlight">
-                                Task Title 3
+                                <span class="editableDiv">
+                                    Task Title 3
+                                </span>
 
                                 <i class="fa-solid fa-trash-can deleteBtn"></i>
-                                <i class="fa-solid fa-pen-to-square"></i>
+                                <i onclick="toggleContentEditable()" class="fa-solid fa-pen-to-square"></i>
                                 <span class="arrow"></span>
                             </div>
                         </li>
@@ -159,7 +165,8 @@
                     </div>
                 </div>
             </div>
-            <input onclick="addTask()" id="myButton" tabindex=0 type="submit" value="Create new task" class="submit">
+            <input onclick="addTask()" id="addTaskButton" tabindex=0 type="submit" value="Create new task" class="submit">
+            <input onclick="toggleContentEditable()" id="editTasksButton" tabindex=0 type="submit" value="Edit tasks" class="submit">
 
 
 
@@ -171,35 +178,14 @@
 
 <script>
     displayHamburger()
-    /*initiate the autocomplete function on the "input-searchID" element, and pass along the pages array as possible
-    autocomplete values:*/
     autocomplete(document.getElementById("input-searchID"), pages);
     dropDownMenu()
     addTask()
-    // function deleteDiv() {
-    //     var div = document.getElementById("task-block1"); // Find the div element by its ID
-    //     div.remove(); // Remove thedfdsf div from the HTML document
-    // }
+    deleteTask()
+    toggleContentEditable()
 
 
 
-    // var deleteBtns = document.querySelectorAll(".deleteBtn"); // Find all delete buttons
-    //
-    // for (var i = 0; i < deleteBtns.length; i++) {
-    //     deleteBtns[i].addEventListener("click", function() {
-    //         var div = this.closest(".task-block"); // Find the div that contains the clicked button
-    //         div.remove(); // Remove the div from the HTML document
-    //     });
-    // }
-
-    var container = document.getElementById("tasks"); // Find the container element
-
-    container.addEventListener("click", function(event) {
-        if (event.target.matches(".deleteBtn")) { // Check if the clicked element matches the delete button selector
-            var div = event.target.closest(".task-block"); // Find the div that contains the clicked button
-            div.remove(); // Remove the div from the HTML document
-        }
-    });
 </script>
 
 </body>
