@@ -17,7 +17,7 @@
     <script src="../javascript/navbar.js"></script>
     <script src="../javascript/search.js"></script>
     <script src="../javascript/dropdown.js"></script>
-    <script src="../javascript/taskManagement.js"></script>
+    <script defer src="../javascript/taskManagement.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
     <title>RoutineExpress</title>
@@ -122,8 +122,8 @@
                             </div>
                         </li>
                     </div>
-                    <div class="sub-content">
-                        Task description 1
+                    <div class="sub-content editableDiv">
+                        <p>Task description 1</p>
                     </div>
                 </div>
 
@@ -141,7 +141,7 @@
                             </div>
                         </li>
                     </div>
-                    <div class="sub-content">
+                    <div class="sub-content editableDiv">
                         Task Description 2
                     </div>
                 </div>
@@ -160,13 +160,13 @@
                             </div>
                         </li>
                     </div>
-                    <div class="sub-content">
+                    <div class="sub-content editableDiv">
                         Task description 1
                     </div>
                 </div>
             </div>
             <input onclick="addTask()" id="addTaskButton" tabindex=0 type="submit" value="Create new task" class="submit">
-            <input onclick="toggleContentEditable()" id="editTasksButton" tabindex=0 type="submit" value="Edit tasks" class="submit">
+            <input onclick="toggleContentEditable()" id="editTasksButton" tabindex=0 type="submit" value="Edit tasks" class="submit ">
 
 
 
@@ -180,9 +180,18 @@
     displayHamburger()
     autocomplete(document.getElementById("input-searchID"), pages);
     dropDownMenu()
+    const myButton = document.getElementById("editTasksButton");
+    myButton.addEventListener("click", function() {
+        if (myButton.classList.contains("edit-task")) {
+            myButton.classList.remove("edit-task");
+        } else {
+            myButton.classList.add("edit-task");
+        }
+    });
     addTask()
     deleteTask()
     toggleContentEditable()
+
 
 
 

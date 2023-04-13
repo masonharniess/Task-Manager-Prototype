@@ -21,7 +21,7 @@
     margin-top: 10px;
 }
 
-input.submit:hover, input.submit:focus {
+input.submit:hover, input.submit:focus-visible {
     color: #666;
     background-color: lightgray;
 }
@@ -50,6 +50,6 @@ li .recent-tasks {
     margin: 0;
 }
 
-.redButton {
-
+.edit-task {
+    background-color: deepskyblue;
 }

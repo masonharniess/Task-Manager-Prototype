@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="delete task works">
+    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="edit tasks kinda works">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/css/pages/tasks.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/pages/tasks.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/html/tasks.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/html/tasks.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/javascript/addTask.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/javascript/taskManagement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/javascript/taskManagement.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/javascript/taskManagement.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -444,7 +444,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681389661623</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="edit tasks kinda works">
+      <created>1681393460409</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1681393460409</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -511,7 +518,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="some minor additions to layout of main section.&#10;nav and side bar basically complete now. search not complete, still needs some formatting." />
     <MESSAGE value="side bar has active status" />
     <MESSAGE value="side bar has active status2" />
     <MESSAGE value="Main content sections added. view is side-by-side. no js" />
@@ -536,6 +542,7 @@
     <MESSAGE value="basic delete working" />
     <MESSAGE value="task delete is specific to the task block" />
     <MESSAGE value="delete task works" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete task works" />
+    <MESSAGE value="edit tasks kinda works" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit tasks kinda works" />
   </component>
 </project>

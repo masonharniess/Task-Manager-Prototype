@@ -13,7 +13,7 @@ function addTask() {
         "                            </div>\n" +
         "                        </li>\n" +
         "                    </div>\n" +
-        "                    <div class=\"sub-content\">\n" +
+        "                    <div class=\"sub-content\" class=\"editableDiv\" >\n" +
         "                        New Task Description\n" +
         "                    </div>"
     var container = document.getElementById("tasks");
