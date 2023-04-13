@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="basic delete working">
+    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="task delete is specific to the task block">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/html/tasks.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/html/tasks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/javascript/addTask.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/javascript/addTask.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +125,7 @@
       <workItem from="1681382911199" duration="607000" />
       <workItem from="1681383739402" duration="80000" />
       <workItem from="1681383882582" duration="417000" />
-      <workItem from="1681384356926" duration="695000" />
+      <workItem from="1681384356926" duration="1717000" />
     </task>
     <task id="LOCAL-00001" summary="basic project set up">
       <created>1679920090841</created>
@@ -427,7 +428,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681384003381</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="task delete is specific to the task block">
+      <created>1681385318564</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1681385318564</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -494,7 +502,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="some general code clean up. Title bar repositioned and styled" />
     <MESSAGE value="background colour change" />
     <MESSAGE value="some minor additions to layout of main section.&#10;nav and side bar basically complete now. search not complete, still needs some formatting." />
     <MESSAGE value="side bar has active status" />
@@ -519,6 +526,7 @@
     <MESSAGE value="dropdown for new divs works" />
     <MESSAGE value="random changes" />
     <MESSAGE value="basic delete working" />
-    <option name="LAST_COMMIT_MESSAGE" value="basic delete working" />
+    <MESSAGE value="task delete is specific to the task block" />
+    <option name="LAST_COMMIT_MESSAGE" value="task delete is specific to the task block" />
   </component>
 </project>
