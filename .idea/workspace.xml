@@ -5,29 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="basic delete working">
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_03_2023,_18_54_[Changes] 2/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_03_2023,_20_59_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_03_2023,_20_59_[Changes]2 2/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_03_2023__20_59__Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_03_2023__20_59__Changes_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_03_2023,_15_23_[Changes]/shelved.patch" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_03_2023,_15_23_[Changes]/shelved.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_03_2023,_15_23_[Changes]1/shelved.patch" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_03_2023,_15_23_[Changes]1/shelved.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_03_2023__15_23__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_03_2023__15_23__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_29_03_2023,_03_09_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace-MaseMacbook.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace-MaseMacbook.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/css/general/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/general/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/css/general/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/general/navbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/css/general/search.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/general/search.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/css/general/sidebar.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/general/sidebar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/css/pages/homepage.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/pages/homepage.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/html/tasks.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/html/tasks.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/javascript/addTask.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/javascript/addTask.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/javascript/dropdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/javascript/dropdown.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taskManager.iml" beforeDir="false" afterPath="$PROJECT_DIR$/taskManager.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,6 +123,8 @@
       <workItem from="1681382427094" duration="479000" />
       <workItem from="1681382911199" duration="607000" />
       <workItem from="1681383739402" duration="80000" />
+      <workItem from="1681383882582" duration="417000" />
+      <workItem from="1681384356926" duration="695000" />
     </task>
     <task id="LOCAL-00001" summary="basic project set up">
       <created>1679920090841</created>
@@ -439,7 +420,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681241803149</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="basic delete working">
+      <created>1681384003381</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1681384003381</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -506,7 +494,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="search bar: border radius now changes if there are suggestions visible" />
     <MESSAGE value="some general code clean up. Title bar repositioned and styled" />
     <MESSAGE value="background colour change" />
     <MESSAGE value="some minor additions to layout of main section.&#10;nav and side bar basically complete now. search not complete, still needs some formatting." />
@@ -531,6 +518,7 @@
     <MESSAGE value="random updates" />
     <MESSAGE value="dropdown for new divs works" />
     <MESSAGE value="random changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="random changes" />
+    <MESSAGE value="basic delete working" />
+    <option name="LAST_COMMIT_MESSAGE" value="basic delete working" />
   </component>
 </project>

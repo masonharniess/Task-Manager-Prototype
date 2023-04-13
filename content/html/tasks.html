@@ -112,7 +112,8 @@
                         <li tabindex=0 class="recent-tasks">
                             <div class="content-title text-highlight">
                                 Task Title 1
-                                <i onclick="deleteDiv()" class="fa-solid fa-trash-can"></i>
+
+                                <i onclick="deleteDiv()" class="fa-solid fa-trash-can deleteBtn"></i>
                                 <span class="arrow"></span>
                             </div>
                         </li>
@@ -170,9 +171,18 @@
     autocomplete(document.getElementById("input-searchID"), pages);
     dropDownMenu()
     addTask()
-    function deleteDiv() {
-        var div = document.getElementById("task-block1"); // Find the div element by its ID
-        div.remove(); // Remove thedfdsf div from the HTML document
+    // function deleteDiv() {
+    //     var div = document.getElementById("task-block1"); // Find the div element by its ID
+    //     div.remove(); // Remove thedfdsf div from the HTML document
+    // }
+
+    var deleteBtns = document.querySelectorAll(".deleteBtn"); // Find all delete buttons
+
+    for (var i = 0; i < deleteBtns.length; i++) {
+        deleteBtns[i].addEventListener("click", function() {
+            var div = this.closest(".task-block"); // Find the div that contains the clicked button
+            div.remove(); // Remove the div from the HTML document
+        });
     }
 </script>
 
