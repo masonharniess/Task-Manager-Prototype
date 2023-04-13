@@ -107,12 +107,12 @@
     <div class="content-section">
         <ul class="content left" id="content-left">
             <div class="tasks" id="tasks">
-                <div class="task-block">
+                <div class="task-block" id="task-block1">
                     <div class="wrapper">
                         <li tabindex=0 class="recent-tasks">
                             <div class="content-title text-highlight">
                                 Task Title 1
-                                <i onclick="location.href='google.com'" class="fa-solid fa-trash-can"></i>
+                                <i onclick="deleteDiv()" class="fa-solid fa-trash-can"></i>
                                 <span class="arrow"></span>
                             </div>
                         </li>
@@ -123,7 +123,7 @@
                 </div>
 
 
-                <div  class="task-block">
+                <div  class="task-block" id="task-block2">
                     <div class="wrapper">
                         <li tabindex=0 class="recent-tasks">
                             <div class="content-title text-highlight">
@@ -170,6 +170,10 @@
     autocomplete(document.getElementById("input-searchID"), pages);
     dropDownMenu()
     addTask()
+    function deleteDiv() {
+        var div = document.getElementById("task-block1"); // Find the div element by its ID
+        div.remove(); // Remove thedfdsf div from the HTML document
+    }
 </script>
 
 </body>
