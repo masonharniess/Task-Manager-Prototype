@@ -22,6 +22,29 @@
 //     }
 // }
 
+// function dropDownMenu() {
+//     document.addEventListener('click', function(event) {
+//         var wrapper = event.target.closest('.wrapper');
+//         if (wrapper) {
+//             wrapper.classList.toggle('active');
+//             var panel = wrapper.nextElementSibling;
+//             if (panel.style.maxHeight) {
+//                 panel.style.maxHeight = null;
+//             } else {
+//                 // set panel height based on its content
+//                 panel.style.maxHeight = panel.scrollHeight + '3550px';
+//             }
+//         }
+//     });
+//
+//     document.addEventListener('keydown', function(event) {
+//         if (event.key === 'Enter' && event.target.classList.contains('wrapper')) {
+//             event.preventDefault();
+//             event.target.click();
+//         }
+//     });
+// }
+
 function dropDownMenu() {
     document.addEventListener('click', function(event) {
         var wrapper = event.target.closest('.wrapper');
@@ -31,7 +54,12 @@ function dropDownMenu() {
             if (panel.style.maxHeight) {
                 panel.style.maxHeight = null;
             } else {
-                panel.style.maxHeight = panel.scrollHeight + '35px';
+                // Calculate the height of the panel based on the height of its contents
+                var panelHeight = panel.scrollHeight;
+                var maxHeight = panelHeight + 35;
+
+                // Set the max-height property of the panel
+                panel.style.maxHeight = maxHeight + 'px';
             }
         }
     });

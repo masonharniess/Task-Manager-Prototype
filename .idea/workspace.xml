@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="edit tasks kinda works">
+    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="edit tasks kinda works 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/css/general/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/general/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/css/pages/tasks.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/pages/tasks.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/html/tasks.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/html/tasks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/javascript/dropdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/javascript/dropdown.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/javascript/taskManagement.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/javascript/taskManagement.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -451,7 +453,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681393460409</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="edit tasks kinda works 2">
+      <created>1681395133335</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1681395133335</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -518,7 +527,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="side bar has active status" />
     <MESSAGE value="side bar has active status2" />
     <MESSAGE value="Main content sections added. view is side-by-side. no js" />
     <MESSAGE value="homepage with closed dropdowns looks finished." />
@@ -543,6 +551,7 @@
     <MESSAGE value="task delete is specific to the task block" />
     <MESSAGE value="delete task works" />
     <MESSAGE value="edit tasks kinda works" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit tasks kinda works" />
+    <MESSAGE value="edit tasks kinda works 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit tasks kinda works 2" />
   </component>
 </project>
