@@ -114,7 +114,8 @@
                             <div class="content-title text-highlight">
                                 Task Title 1
 
-                                <i onclick="deleteDiv()" class="fa-solid fa-trash-can deleteBtn"></i>
+                                <i class="fa-solid fa-trash-can deleteBtn"></i>
+                                <i class="fa-solid fa-pen-to-square"></i>
                                 <span class="arrow"></span>
                             </div>
                         </li>
@@ -130,7 +131,8 @@
                             <div class="content-title text-highlight">
                                 Task Task 2
 
-                                <i onclick="deleteDiv()" class="fa-solid fa-trash-can deleteBtn"></i>
+                                <i class="fa-solid fa-trash-can deleteBtn"></i>
+                                <i class="fa-solid fa-pen-to-square"></i>
                                 <span class="arrow"></span>
                             </div>
                         </li>
@@ -143,10 +145,11 @@
                 <div class="task-block" >
                     <div class="wrapper">
                         <li tabindex=0 class="recent-tasks">
-                            <div class="content-title text-highlight">
+                            <div contenteditable="false" class="content-title text-highlight">
                                 Task Title 3
 
-                                <i onclick="deleteDiv()" class="fa-solid fa-trash-can deleteBtn"></i>
+                                <i class="fa-solid fa-trash-can deleteBtn"></i>
+                                <i class="fa-solid fa-pen-to-square"></i>
                                 <span class="arrow"></span>
                             </div>
                         </li>
@@ -178,14 +181,25 @@
     //     div.remove(); // Remove thedfdsf div from the HTML document
     // }
 
-    var deleteBtns = document.querySelectorAll(".deleteBtn"); // Find all delete buttons
 
-    for (var i = 0; i < deleteBtns.length; i++) {
-        deleteBtns[i].addEventListener("click", function() {
-            var div = this.closest(".task-block"); // Find the div that contains the clicked button
+
+    // var deleteBtns = document.querySelectorAll(".deleteBtn"); // Find all delete buttons
+    //
+    // for (var i = 0; i < deleteBtns.length; i++) {
+    //     deleteBtns[i].addEventListener("click", function() {
+    //         var div = this.closest(".task-block"); // Find the div that contains the clicked button
+    //         div.remove(); // Remove the div from the HTML document
+    //     });
+    // }
+
+    var container = document.getElementById("tasks"); // Find the container element
+
+    container.addEventListener("click", function(event) {
+        if (event.target.matches(".deleteBtn")) { // Check if the clicked element matches the delete button selector
+            var div = event.target.closest(".task-block"); // Find the div that contains the clicked button
             div.remove(); // Remove the div from the HTML document
-        });
-    }
+        }
+    });
 </script>
 
 </body>

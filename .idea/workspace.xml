@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="task delete is specific to the task block">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/css/pages/tasks.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/pages/tasks.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/html/tasks.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/html/tasks.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/javascript/addTask.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/javascript/addTask.js" afterDir="false" />
     </list>
@@ -39,7 +40,7 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="5636f9aa71e6a6d51aee66e5535303d718315668" />
+        <entry key="$PROJECT_DIR$" value="4e3d4a0262bca9ed65a5408dbb8a09e280c64bad" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -89,6 +90,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>

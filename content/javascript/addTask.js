@@ -6,7 +6,7 @@ function addTask() {
         "                            <div class=\"content-title text-highlight\">\n" +
         "                                New Task Title\n" +
         "\n" +
-        "                                <i onclick=\"deleteDiv()\" class=\"fa-solid fa-trash-can deleteBtn\"></i>\n" +
+        "                                <i class=\"fa-solid fa-trash-can deleteBtn\"></i>\n <i class=\"fa-solid fa-pen-to-square\"></i>" +
         "                                <span class=\"arrow\"></span>\n" +
         "                            </div>\n" +
         "                        </li>\n" +

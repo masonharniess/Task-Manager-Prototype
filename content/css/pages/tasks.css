@@ -18,6 +18,7 @@
     border: 1px solid lightgray;
     cursor: pointer;
     margin-left: 20px;
+    margin-top: 10px;
 }
 
 input.submit:hover, input.submit:focus {
@@ -27,7 +28,7 @@ input.submit:hover, input.submit:focus {
 
 .task-block i {
     float: right;
-
+    margin: 0 5px;
     border-radius: 5px;
 }
 
@@ -37,3 +38,10 @@ input.submit:hover, input.submit:focus {
 li .recent-tasks {
 }
 
+.fa-trash-can:hover {
+    color: red;
+}
+
+.fa-pen-to-square:hover {
+    color: blue;
+}
