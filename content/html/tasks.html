@@ -117,7 +117,6 @@
                                 </span>
 
                                 <i class="fa-solid fa-trash-can deleteBtn"></i>
-<!--                                <i class="fa-solid fa-pen-to-square"></i>-->
                                 <span class="arrow"></span>
                             </div>
                         </li>
@@ -139,7 +138,6 @@
                                 </span>
 
                                 <i class="fa-solid fa-trash-can deleteBtn"></i>
-<!--                                <i class="fa-solid fa-pen-to-square"></i>-->
                                 <span class="arrow"></span>
                             </div>
                         </li>
@@ -160,7 +158,7 @@
                                 </span>
 
                                 <i class="fa-solid fa-trash-can deleteBtn"></i>
-                                <i onclick="toggleContentEditable()" class="fa-solid fa-pen-to-square"></i>
+                                <i onclick="toggleContentEditable()"></i>
                                 <span class="arrow"></span>
                             </div>
                         </li>
@@ -187,21 +185,11 @@
     displayHamburger()
     autocomplete(document.getElementById("input-searchID"), pages);
     dropDownMenu()
-    const myButton = document.getElementById("editTasksButton");
-    myButton.addEventListener("click", function() {
-        if (myButton.classList.contains("edit-task")) {
-            myButton.classList.remove("edit-task");
-        } else {
-            myButton.classList.add("edit-task");
-        }
-    });
+
     addTask()
     deleteTask()
     toggleContentEditable()
-
-
-
-
+    // changeEditColour()
 </script>
 
 </body>

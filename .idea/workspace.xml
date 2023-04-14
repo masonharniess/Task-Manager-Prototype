@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="test">
+    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="removed unnecessary edit function">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/html/tasks.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/html/tasks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/javascript/taskManagement.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/javascript/taskManagement.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,6 +130,7 @@
       <workItem from="1681383739402" duration="80000" />
       <workItem from="1681383882582" duration="417000" />
       <workItem from="1681384356926" duration="1717000" />
+      <workItem from="1681466914870" duration="2819000" />
     </task>
     <task id="LOCAL-00001" summary="basic project set up">
       <created>1679920090841</created>
@@ -459,7 +461,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681395133335</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="goodnight">
+      <created>1681417919882</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1681417919882</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -514,8 +523,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="side bar has active status2" />
-    <MESSAGE value="Main content sections added. view is side-by-side. no js" />
     <MESSAGE value="homepage with closed dropdowns looks finished." />
     <MESSAGE value="no underline in main section last child" />
     <MESSAGE value="Homepage looks as if all dropdowns are open." />
@@ -539,6 +546,8 @@
     <MESSAGE value="delete task works" />
     <MESSAGE value="edit tasks kinda works" />
     <MESSAGE value="edit tasks kinda works 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit tasks kinda works 2" />
+    <MESSAGE value="goodnight" />
+    <MESSAGE value="removed unnecessary edit function" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed unnecessary edit function" />
   </component>
 </project>
