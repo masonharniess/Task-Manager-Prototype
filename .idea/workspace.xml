@@ -4,10 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="removed unnecessary edit function">
+    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="random">
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_03_2023__20_59__Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_03_2023__20_59__Changes_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_03_2023,_15_23_[Changes]/shelved.patch" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_03_2023,_15_23_[Changes]/shelved.patch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_03_2023,_15_23_[Changes]1/shelved.patch" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_03_2023,_15_23_[Changes]1/shelved.patch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_03_2023__15_23__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_03_2023__15_23__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace-MaseMacbook.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace-MaseMacbook.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/css/general/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/general/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/css/general/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/general/navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/css/general/search.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/general/search.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/css/general/sidebar.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/general/sidebar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/css/pages/homepage.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/pages/homepage.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/html/tasks.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/html/tasks.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/javascript/taskManagement.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/javascript/taskManagement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/javascript/dropdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/javascript/dropdown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskManager.iml" beforeDir="false" afterPath="$PROJECT_DIR$/taskManager.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +145,9 @@
       <workItem from="1681383739402" duration="80000" />
       <workItem from="1681383882582" duration="417000" />
       <workItem from="1681384356926" duration="1717000" />
-      <workItem from="1681466914870" duration="2819000" />
+      <workItem from="1681466914870" duration="4763000" />
+      <workItem from="1681661861642" duration="1293000" />
+      <workItem from="1681892530623" duration="589000" />
     </task>
     <task id="LOCAL-00001" summary="basic project set up">
       <created>1679920090841</created>
@@ -468,7 +485,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681417919882</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="random">
+      <created>1681479049318</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1681479049318</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -523,7 +547,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="homepage with closed dropdowns looks finished." />
     <MESSAGE value="no underline in main section last child" />
     <MESSAGE value="Homepage looks as if all dropdowns are open." />
     <MESSAGE value="Homepage drop-down working. animated arrow janky. not quite there" />
@@ -548,6 +571,7 @@
     <MESSAGE value="edit tasks kinda works 2" />
     <MESSAGE value="goodnight" />
     <MESSAGE value="removed unnecessary edit function" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed unnecessary edit function" />
+    <MESSAGE value="random" />
+    <option name="LAST_COMMIT_MESSAGE" value="random" />
   </component>
 </project>
