@@ -67,7 +67,7 @@ nav {
 
 }
 
-.navigation_menu div:hover:not(.search_wrapper) {
+.navigation_menu div:hover:not(.search_wrapper), .navigation_menu div:focus:not(.search_wrapper) {
   color: #666;
   background-color: #f2f2f2;
   cursor: pointer;
@@ -89,7 +89,9 @@ nav {
   color: grey;
 }
 
-.account_submenu_wrapper {
+
+
+.account_submenu_wrapper{
   position: absolute;
   top: 100%;
   right: 0.1%;
@@ -98,6 +100,7 @@ nav {
   max-height: 0;
   transition: max-height 0.5s;
 }
+
 
 .account_submenu_wrapper.open {
   max-height: 400px;
@@ -163,4 +166,89 @@ nav {
 
 .account_submenu_link:hover p {
   font-weight: 600;
+}
+
+
+
+
+.notifications_submenu_wrapper{
+  position: absolute;
+  top: 100%;
+  right: 0.1%;
+  width: 320px;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.5s;
+}
+
+
+.notifications_submenu_wrapper.open {
+  max-height: 400px;
+}
+
+.notifications_submenu {
+  background-color: #fff;
+  padding: 10px 20px;
+  margin: 8px ;
+  border-radius: 10%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.notifications_information {
+  display: flex;
+  align-items: center;
+  padding-left: 1vw;
+}
+
+.notifications_information h3 {
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.notifications_information img {
+  width: 60px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.notifications_submenu hr {
+  border: 0;
+  height: 1px;
+  width: 100%;
+  background: #ccc;
+  margin: 15px 0 10px;
+}
+
+.notifications_submenu_link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #525252;
+  padding: 0 5px;
+  margin: 5px 0;
+}
+
+.notifications_submenu_link a {
+  display: flex;
+  background: #9B59B6;
+  position: relative;
+}
+
+.notifications_submenu_link i:not(:last-child) {
+  margin: 0 10px;
+}
+
+
+
+.notifications_submenu_link:hover p:not(.notification_time) {
+  font-weight: 600;
+}
+
+.notification_text {
+  flex-grow: 1;
+}
+
+.notification_time {
+  font-size: 12px;
+  text-align: right;
 }

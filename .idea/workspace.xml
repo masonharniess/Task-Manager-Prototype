@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="account dropdown working 2">
-      <change afterPath="$PROJECT_DIR$/updatedContent/updatedCSS/updatedPages/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/updatedContent/updatedHTML/login.html" afterDir="false" />
+    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="sign up login pretty good">
+      <change afterPath="$PROJECT_DIR$/updatedContent/updatedJS/updatedGeneral/toggleNotificationMenu.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/css/pages/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/pages/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/html/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/html/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/updatedContent/updatedCSS/updatedGeneral/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/updatedContent/updatedCSS/updatedGeneral/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/updatedContent/updatedCSS/updatedGeneral/navigationBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/updatedContent/updatedCSS/updatedGeneral/navigationBar.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/updatedContent/updatedHTML/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/updatedContent/updatedHTML/homepage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/updatedContent/updatedJS/updatedGeneral/toggleAccountMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/updatedContent/updatedJS/updatedGeneral/toggleAccountMenu.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,9 +19,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -143,14 +141,7 @@
       <workItem from="1681384356926" duration="1717000" />
       <workItem from="1681466914870" duration="4763000" />
       <workItem from="1681661861642" duration="1293000" />
-      <workItem from="1681892530623" duration="25593000" />
-    </task>
-    <task id="LOCAL-00005" summary="test commit">
-      <created>1679920375452</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1679920375452</updated>
+      <workItem from="1681892530623" duration="30078000" />
     </task>
     <task id="LOCAL-00006" summary="test commit 2">
       <created>1679920459930</created>
@@ -488,7 +479,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681911539986</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="sign up login pretty good">
+      <created>1681918396730</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1681918396731</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -543,7 +541,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Homepage drop-down working for recent tasks" />
     <MESSAGE value="homepage in semi prototype state. moving on to other pages." />
     <MESSAGE value="task page set up" />
     <MESSAGE value="All main pages have a basic page set up." />
@@ -568,7 +565,8 @@
     <MESSAGE value="calendar set up" />
     <MESSAGE value="account dropdown working" />
     <MESSAGE value="account dropdown working 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="account dropdown working 2" />
+    <MESSAGE value="sign up login pretty good" />
+    <option name="LAST_COMMIT_MESSAGE" value="sign up login pretty good" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

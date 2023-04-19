@@ -17,6 +17,7 @@
   <script src="https://kit.fontawesome.com/d1709d070c.js" crossorigin="anonymous"></script>
 
   <script src="../updatedJS/updatedGeneral/toggleAccountMenu.js"></script>
+  <script src="../updatedJS/updatedGeneral/toggleNotificationMenu.js"></script>
 
   <title>RoutineExpress</title>
 </head>
@@ -39,17 +40,17 @@
           <input class="search_input" id="id_search_input" aria-label="Search"  type="text" name="tasks" placeholder="Search your stuff. . .">
         </form>
       </div>
-      <div>
+      <div class="navigation_notifications" tabindex="0" onclick="toggleNotificationMenu()">
         <i class="fa-solid fa-bell"></i>
-        <a href="#">Notifications</a>
+        <a tabindex="-1" href="#">Notifications</a>
       </div>
-      <div>
+      <div class="navigation_settings" tabindex="0">
         <i class="fa-solid fa-gear"></i>
-        <a href="#">Settings</a>
+        <a tabindex="-1" href="#">Settings</a>
       </div>
-      <div class="navigation_account" onclick="toggleAccountMenu()">
+      <div class="navigation_account" tabindex="0" onclick="toggleAccountMenu()">
         <i class="fa-solid fa-user"></i>
-        <a href="#">Account</a>
+        <a tabindex="-1" href="#">Account</a>
       </div>
 
 
@@ -57,6 +58,30 @@
 
       <div class="navigation_hamburger">
         <i tabindex=0 class="fas fa-bars"></i>
+      </div>
+    </div>
+    <div class="notifications_submenu_wrapper" id="id_notifications_submenu_wrapper">
+      <div class="notifications_submenu">
+        <div class="notifications_information">
+          <h3>Notifications</h3>
+        </div>
+        <hr> <!-- Visual line break        -->
+        <a class="notifications_submenu_link" href="#">
+          <i class="fa-regular fa-envelope"></i>
+          <p class="notification_text">Mail from Ahab C</p>
+          <p class="notification_time"
+             aria-label="The time of the event.">15:36</p>
+
+          <!--          <span><i class="fa-solid fa-chevron-right"></i></span>-->
+        </a>
+
+        <a class="notifications_submenu_link" href="login.html">
+          <i class="fa-solid fa-stethoscope"></i>
+          <p class="notification_text">Doctors appointment</p>
+          <p class="notification_time"
+             aria-label="The time of the event.">17:00</p>
+          <!--          <span><i class="fa-solid fa-chevron-right"></i></span>-->
+        </a>
       </div>
     </div>
     <div class="account_submenu_wrapper" id="id_account_submenu_wrapper">
