@@ -1,0 +1,116 @@
+<html lang="en-gb">
+<head>
+  <link rel="icon" href="../updatedImages/favicon.png">
+
+  <link rel="stylesheet" href="../updatedCSS/updatedPages/login.css">
+  <link rel="stylesheet" href="../updatedCSS/updatedGeneral/main.css">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- FontAwesome dependency -->
+  <script src="https://kit.fontawesome.com/d1709d070c.js" crossorigin="anonymous"></script>
+
+  <title>RoutineExpress</title>
+</head>
+<body>
+<main>
+  <div class="title_slogan_wrapper">
+    <div class="title_and_logo">
+      <h1 class="title">RoutineExpress</h1>
+      <div class="logo_wrapper">
+        <img
+          class="logo"
+          src="../updatedImages/logoNoBackground.png"
+          alt="The RoutineExpress logo, which features the outline of a notepad page in black on a transparent background.">
+      </div>
+    </div>
+    <div class="slogan">
+      <p>Your path to productivity.</p>
+    </div>
+  </div>
+  <div class="signup_login_wrapper">
+    <div class="signup_wrapper">
+        <h2>Sign up</h2>
+        <form class="signup_form" autocomplete="on" action="homepage.html" method="GET">
+          <input
+            class="signup_input"
+            id="id_signup_first_name_input"
+            aria-label="Enter your forename."
+            type="text"
+            name="signup_first_name"
+            placeholder="Enter your forename. . ."
+            required
+            pattern="(?=[A-Z])[^()/><\][\\\x22,;|]+"
+            title="Ensure proper capitalisation and that there are no special characters or numbers.">
+
+          <input
+            class="signup_input"
+            id="id_signup_last_name_input"
+            aria-label="Enter your surname."
+            type="text"
+            name="signup_last_name"
+            placeholder="Enter your surname. . ."
+            required
+            pattern="(?=[A-Z])[^()/><\][\\\x22,;|]+"
+            title="Ensure proper capitalisation and that there are no special characters or numbers.">
+
+          <input
+            class="signup_input"
+            id="id_signup_email_input"
+            aria-label="Enter your email."
+            type="text"
+            name="signup_email"
+            placeholder="Enter your email. . ."
+            required
+            pattern="^[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}"
+            title="example@mailserver.domain"
+          >
+
+          <input
+            class="signup_input"
+            id="id_signup_password_input"
+            aria-label="Enter your first name."
+            type="text"
+            name="signup_password"
+            placeholder="Enter your password. . ."
+            required
+            pattern=".{8,}" title="Password must have 8 or more characters"
+          >
+          <input class="signup_submit" tabindex=0 type="submit" value="Submit" >
+        </form>
+    </div>
+
+    <hr>
+
+    <div class="login_wrapper">
+      <h2>Log in</h2>
+      <form class="login_form" autocomplete="on" action="homepage.html" method="GET">
+        <input
+          class="login_input"
+          id="id_login_email_input"
+          aria-label="Enter your email."
+          type="text"
+          name="login_email"
+          placeholder="Enter your email. . ."
+          required
+          pattern="^[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}"
+          title="example@mailserver.domain">
+        <input
+          class="login_input"
+          id="id_login_password_input"
+          aria-label="Enter your password."
+          type="text"
+          name="login_password"
+          placeholder="Enter your password. . ."
+          required
+          pattern=".{8,}" title="Password must have 8 or more characters"
+        >
+        <input class="login_submit" tabindex=0 type="submit" value="Submit" >
+      </form>
+    </div>
+  </div>
+
+</main>
+</body>
+</html>
