@@ -1,0 +1,34 @@
+header {
+  background-color: #fff;
+  height: 60px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 0 0 0 10px;
+}
+
+.navigation_logo_and_title {
+  font-size: 24px;
+  font-weight: bold;
+  display: inline-block;
+
+}
+
+.navigation_logo_and_title img {
+  width: 28px;
+  vertical-align: text-bottom;
+}
+
+.navigation_logo_and_title p {
+  display: inline-block;
+}

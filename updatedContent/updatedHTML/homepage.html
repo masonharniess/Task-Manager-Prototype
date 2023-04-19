@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+  <link rel="icon" href="../updatedImages/favicon.png">
+
+  <link rel="stylesheet" href="../updatedCSS/updatedPages/homepage.css">
+
+  <link rel="stylesheet" href="../updatedCSS/updatedGeneral/navigationBar.css">
+  <link rel="stylesheet" href="../updatedCSS/updatedGeneral/searchBar.css">
+  <link rel="stylesheet" href="../updatedCSS/updatedGeneral/sidebar.css">
+  <link rel="stylesheet" href="../updatedCSS/updatedGeneral/main.css">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- FontAwesome dependency -->
+  <script src="https://kit.fontawesome.com/d1709d070c.js" crossorigin="anonymous"></script>
+
+  <title>RoutineExpress</title>
+</head>
+<body>
+<header>
+  <nav>
+    <div class="navigation_logo_and_title">
+      <img src="../updatedImages/logo.png" alt="The RoutineExpress logo.">
+      <p>RoutineExpress</p>
+    </div>
+
+
+    <ul class="menu">
+      <li class="list-search">
+        <form autocomplete="off" action="/serverScript.php">
+          <div>
+            <button tabindex="0" class="button-search">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </div>
+          <div class="autocomplete">
+            <label class="label-search">
+              <input id="input-searchID" type="text" name="tasks" class="input-search" placeholder="Search your stuff. . .">
+            </label>
+          </div>
+        </form>
+      </li>
+      <li>
+        <i class="fa-solid fa-bell"></i>
+        <a href="#">Notifications</a>
+      </li>
+      <li>
+        <i class="fa-solid fa-gear"></i>
+        <a href="#">Settings</a>
+      </li>
+      <li onclick="location.href = 'login.html'">
+        <i class="fa-solid fa-user"></i>
+        <a href="#">Account</a>
+      </li>
+    </ul>
+    <div class="toggle">
+      <i tabindex=0 class="fas fa-bars"></i>
+    </div>
+  </nav>
+</header>
+
+</body>
+</html>
