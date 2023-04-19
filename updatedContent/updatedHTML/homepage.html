@@ -16,6 +16,8 @@
   <!-- FontAwesome dependency -->
   <script src="https://kit.fontawesome.com/d1709d070c.js" crossorigin="anonymous"></script>
 
+  <script src="../updatedJS/updatedGeneral/toggleAccountMenu.js"></script>
+
   <title>RoutineExpress</title>
 </head>
 <body>
@@ -67,26 +69,17 @@
         <a class="account_submenu_link" href="#">
           <i class="fa-solid fa-user"></i>
           <p>Edit profile</p>
-          <span><i class="fa-solid fa-chevron-right"></i></span>
+<!--          <span><i class="fa-solid fa-chevron-right"></i></span>-->
         </a>
 
         <a class="account_submenu_link" href="#">
           <i class="fa-solid fa-arrow-right-from-bracket"></i>
           <p>Log out</p>
-          <span><i class="fa-solid fa-chevron-right"></i></span>
+<!--          <span><i class="fa-solid fa-chevron-right"></i></span>-->
         </a>
       </div>
     </div>
   </nav>
 </header>
-
-<script>
-  let submenu = document.getElementById("id_account_submenu_wrapper")
-
-  function toggleAccountMenu() {
-      submenu.classList.toggle("open");
-  }
-</script>
-
 </body>
 </html>

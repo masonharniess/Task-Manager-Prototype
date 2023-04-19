@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="calendar set up">
-      <change afterPath="$PROJECT_DIR$/updatedContent/updatedImages/profilePhoto.png" afterDir="false" />
+    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="account dropdown working">
+      <change afterPath="$PROJECT_DIR$/updatedContent/updatedJS/updatedGeneral/toggleAccountMenu.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/css/general/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/general/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/css/general/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/general/navbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/updatedContent/updatedCSS/updatedGeneral/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/updatedContent/updatedCSS/updatedGeneral/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/updatedContent/updatedCSS/updatedGeneral/navigationBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/updatedContent/updatedCSS/updatedGeneral/navigationBar.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/updatedContent/updatedHTML/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/updatedContent/updatedHTML/homepage.html" afterDir="false" />
     </list>
@@ -21,9 +18,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -142,14 +139,7 @@
       <workItem from="1681384356926" duration="1717000" />
       <workItem from="1681466914870" duration="4763000" />
       <workItem from="1681661861642" duration="1293000" />
-      <workItem from="1681892530623" duration="16892000" />
-    </task>
-    <task id="LOCAL-00003" summary="test commit">
-      <created>1679920210642</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1679920210642</updated>
+      <workItem from="1681892530623" duration="18735000" />
     </task>
     <task id="LOCAL-00004" summary="test commit">
       <created>1679920358459</created>
@@ -487,7 +477,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681898786925</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="account dropdown working">
+      <created>1681909645617</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1681909645617</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -542,7 +539,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Homepage looks as if all dropdowns are open." />
     <MESSAGE value="Homepage drop-down working. animated arrow janky. not quite there" />
     <MESSAGE value="Homepage drop-down working for recent tasks" />
     <MESSAGE value="homepage in semi prototype state. moving on to other pages." />
@@ -567,7 +563,8 @@
     <MESSAGE value="removed unnecessary edit function" />
     <MESSAGE value="random" />
     <MESSAGE value="calendar set up" />
-    <option name="LAST_COMMIT_MESSAGE" value="calendar set up" />
+    <MESSAGE value="account dropdown working" />
+    <option name="LAST_COMMIT_MESSAGE" value="account dropdown working" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

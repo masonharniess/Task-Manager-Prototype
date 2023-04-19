@@ -33,6 +33,10 @@ nav {
   width: 28px;
 }
 
+.navigation_logo_and_title span {
+  margin-left: 10px;
+}
+
 .navigation_menu {
   height: 100%;
   text-align: center;
@@ -58,7 +62,6 @@ nav {
 .navigation_menu a {
   color: #333;
   text-decoration: none;
-  width: 100px;
   text-align: center;
   justify-content: center;
 
@@ -67,6 +70,7 @@ nav {
 .navigation_menu div:hover:not(.search_wrapper) {
   color: #666;
   background-color: #f2f2f2;
+  cursor: pointer;
 }
 
 .navigation_hamburger {
@@ -101,8 +105,10 @@ nav {
 
 .account_submenu {
   background-color: #fff;
-  padding: 20px;
-  margin: 8px
+  padding: 10px 20px;
+  margin: 8px;
+  border-radius: 10%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .account_information {
@@ -133,11 +139,16 @@ nav {
   align-items: center;
   text-decoration: none;
   color: #525252;
-  margin: 12px 0;
+  padding: 0 5px;
+  margin: 5px 0;
+}
+
+.account_submenu_link a {
+  background: #9B59B6;
 }
 
 .account_submenu_link i:not(:last-child) {
-  margin-right: 10px;
+  margin: 0 10px;
   /*background: #e5e5e5;*/
   /*width: 40px;*/
   /*padding: 8px;*/
