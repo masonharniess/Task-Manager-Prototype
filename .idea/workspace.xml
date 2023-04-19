@@ -4,14 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="notifications pop up kinda working">
-      <change afterPath="$PROJECT_DIR$/updatedContent/updatedJS/updatedGeneral/navigationBar/settingsToggles/toggleData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/updatedContent/updatedJS/updatedGeneral/navigationBar/toggleSettingsMenu.js" afterDir="false" />
+    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="navigation sub menus working">
+      <change afterPath="$PROJECT_DIR$/content/images/profilePhoto.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/javascript/navigationSearch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/javascript/toggleAccountMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/javascript/toggleNotificationMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/javascript/toggleSettings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/javascript/toggleSettingsMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/updatedContent/updatedJS/updatedGeneral/navigationBar/navigationSearch.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/css/general/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/general/navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/css/general/search.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/general/search.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/html/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/updatedContent/updatedCSS/updatedGeneral/navigationBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/updatedContent/updatedCSS/updatedGeneral/navigationBar.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/updatedContent/updatedHTML/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/updatedContent/updatedHTML/homepage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/updatedContent/updatedJS/updatedGeneral/toggleAccountMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/updatedContent/updatedJS/updatedGeneral/navigationBar/toggleAccountMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/updatedContent/updatedJS/updatedGeneral/toggleNotificationMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/updatedContent/updatedJS/updatedGeneral/navigationBar/toggleNotificationMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/updatedContent/updatedJS/updatedGeneral/navigationBar/settingsToggles/toggleData.js" beforeDir="false" afterPath="$PROJECT_DIR$/updatedContent/updatedJS/updatedGeneral/navigationBar/settingsToggles/toggleSettings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/updatedContent/updatedJS/updatedGeneral/navigationBar/toggleAccountMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/updatedContent/updatedJS/updatedGeneral/navigationBar/toggleAccountMenu.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +30,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -69,7 +77,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/masonharniess/Library/CloudStorage/OneDrive-Personal/OneDriveFiles/University/Year 2/Semester 2/UI CO2104/CW2/taskManager/updatedContent/updatedHTML",
+    "last_opened_file_path": "/Users/masonharniess/Library/CloudStorage/OneDrive-Personal/OneDriveFiles/University/Year 2/Semester 2/UI CO2104/CW2/taskManager/content/javascript",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -82,9 +90,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/content/javascript" />
+      <recent name="$PROJECT_DIR$/content/images" />
+      <recent name="$PROJECT_DIR$/test" />
+      <recent name="$PROJECT_DIR$/updatedContent/updatedJS/updatedGeneral/navigationBar" />
       <recent name="$PROJECT_DIR$/updatedContent/updatedHTML" />
-      <recent name="$PROJECT_DIR$/updatedContent/updatedCSS/updatedPages" />
-      <recent name="$PROJECT_DIR$/updatedContent" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/updatedContent/updatedJS/updatedGeneral/navigationBar" />
@@ -143,14 +153,7 @@
       <workItem from="1681384356926" duration="1717000" />
       <workItem from="1681466914870" duration="4763000" />
       <workItem from="1681661861642" duration="1293000" />
-      <workItem from="1681892530623" duration="33314000" />
-    </task>
-    <task id="LOCAL-00007" summary="test commit 5">
-      <created>1679920556667</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1679920556667</updated>
+      <workItem from="1681892530623" duration="37526000" />
     </task>
     <task id="LOCAL-00008" summary="test commit 17">
       <created>1679920704593</created>
@@ -488,7 +491,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681922817667</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="navigation sub menus working">
+      <created>1681925979572</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1681925979572</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -543,7 +553,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="task page set up" />
     <MESSAGE value="All main pages have a basic page set up." />
     <MESSAGE value="search placeholder text. sidebar hover size. homepage hovor colour." />
     <MESSAGE value="Login page basic set up" />
@@ -568,7 +577,8 @@
     <MESSAGE value="account dropdown working 2" />
     <MESSAGE value="sign up login pretty good" />
     <MESSAGE value="notifications pop up kinda working" />
-    <option name="LAST_COMMIT_MESSAGE" value="notifications pop up kinda working" />
+    <MESSAGE value="navigation sub menus working" />
+    <option name="LAST_COMMIT_MESSAGE" value="navigation sub menus working" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

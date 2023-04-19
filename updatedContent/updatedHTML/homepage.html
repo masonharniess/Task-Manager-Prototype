@@ -19,7 +19,8 @@
   <script src="../updatedJS/updatedGeneral/navigationBar/toggleNotificationMenu.js"></script>
   <script src="../updatedJS/updatedGeneral/navigationBar/toggleSettingsMenu.js"></script>
   <script src="../updatedJS/updatedGeneral/navigationBar/toggleAccountMenu.js"></script>
-  <script src="../updatedJS/updatedGeneral/navigationBar/settingsToggles/toggleData.js"></script>
+  <script src="../updatedJS/updatedGeneral/navigationBar/settingsToggles/toggleSettings.js"></script>
+  <script src="../updatedJS/updatedGeneral/navigationBar/navigationSearch.js"></script>
 
 
   <title>RoutineExpress</title>
@@ -36,13 +37,19 @@
     </div>
     <div class="navigation_menu">
       <div class="search_wrapper">
+
         <form class="search_form" autocomplete="off" action="serverScript.php">
           <button class="search_button">
             <i class="fa-solid fa-magnifying-glass"></i>
           </button>
-          <input class="search_input" id="id_search_input" aria-label="Search"  type="text" name="tasks" placeholder="Search your stuff. . .">
+          <div class="autocomplete">
+            <input class="search_input" id="id_search_input" aria-label="Search" type="text" name="tasks"
+                    placeholder="Search your stuff. . .">
+          </div>
         </form>
       </div>
+
+
       <div class="navigation_notifications" tabindex="0" onclick="toggleNotificationMenu()">
         <i class="fa-solid fa-bell"></i>
         <a tabindex="-1" href="#">Notifications</a>
@@ -104,8 +111,7 @@
             </label>
           </div>
         </a>
-
-        <a class="settings_submenu_link" href="#" onclick="toggleData()">
+        <a class="settings_submenu_link" href="#" onclick="toggleSettings()">
           <i class="fa-solid fa-share-nodes"></i>
           <p>Data sharing</p>
           <div class="switch_wrapper">
@@ -115,7 +121,6 @@
             </label>
           </div>
         </a>
-
         <a class="settings_submenu_link" href="#" onclick="toggleFilter()">
           <i class="fa-solid fa-filter"></i>
           <p>Priority filtering</p>
@@ -162,5 +167,33 @@
     </div>
   </nav>
 </header>
+
+<script>
+    displayHamburger();
+    /*initiate the autocomplete function on the "input-searchID" element, and pass along the pages array as possible
+    autocomplete values:*/
+    autocomplete(document.getElementById("id_search_input"), pages);
+    dropDownMenu();
+    greetingTime();
+    // Get the query string from the URL
+    var queryString = window.location.search;
+
+    // Remove the "?" character from the beginning of the query string
+    var inputString = queryString.substring(1);
+
+    // Decode the input value for the "fname" input
+    var inputs = inputString.split("&");
+    for (var i = 0; i < inputs.length; i++) {
+        var pair = inputs[i].split("=");
+        if (pair[0] === "fname") {
+            var fnameValue = decodeURIComponent(pair[1]);
+            break;
+        }
+    }
+
+    // Update the contents of the output div with the value of the "fname" input
+    document.getElementById("name").innerHTML = "&nbsp;" + fnameValue;
+</script>
+
 </body>
 </html>

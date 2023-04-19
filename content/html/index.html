@@ -10,6 +10,12 @@
     <link rel="stylesheet" href="../css/general/search.css">
     <link rel="stylesheet" href="../css/general/sidebar.css">
 
+    <script src="../javascript/toggleNotificationMenu.js"></script>
+    <script src="../javascript/toggleSettingsMenu.js"></script>
+    <script src="../javascript/toggleAccountMenu.js"></script>
+    <script src="../javascript/toggleSettings.js"></script>
+    <script src="../javascript/navigationSearch.js"></script>
+
     <link rel="stylesheet" href="../css/general/main.css">
 
     <script src="https://kit.fontawesome.com/d1709d070c.js" crossorigin="anonymous"></script>
@@ -46,19 +52,119 @@
                     </div>
                 </form>
             </li>
-            <li>
+            <li onclick="toggleNotificationMenu()">
                 <i class="fa-solid fa-bell"></i>
                 <a href="#">Notifications</a>
             </li>
-            <li>
+            <li onclick="toggleSettingsMenu()">
                 <i class="fa-solid fa-gear"></i>
                 <a href="#">Settings</a>
             </li>
-            <li onclick="location.href = 'login.html'">
+            <li onclick="toggleAccountMenu()">
                 <i class="fa-solid fa-user"></i>
                 <a href="#">Account</a>
+
             </li>
         </ul>
+        <div class="notifications_submenu_wrapper" id="id_notifications_submenu_wrapper">
+            <div class="notifications_submenu">
+                <div class="notifications_information">
+                    <h3>Notifications</h3>
+                </div>
+                <hr> <!-- Visual line break        -->
+                <a class="notifications_submenu_link" href="#">
+                    <i class="fa-regular fa-envelope"></i>
+                    <p class="notification_text">Mail from Ahab C</p>
+                    <p class="notification_time"
+                       aria-label="The time of the event.">15:36</p>
+                </a>
+
+                <a class="notifications_submenu_link" href="login.html">
+                    <i class="fa-solid fa-stethoscope"></i>
+                    <p class="notification_text">Doctors appointment</p>
+                    <p class="notification_time"
+                       aria-label="The time of the event.">17:00</p>
+                </a>
+
+                <a class="notifications_submenu_link" href="login.html">
+                    <i class="fa-solid fa-cake-candles"></i>
+                    <p class="notification_text">Anna's birthday</p>
+                    <p class="notification_time"
+                       aria-label="The date of the event.">Tomorrow</p>
+                </a>
+            </div>
+        </div>
+        <div class="settings_submenu_wrapper" id="id_settings_submenu_wrapper">
+            <div class="settings_submenu">
+                <div class="settings_information">
+                    <h3>Settings</h3>
+                </div>
+                <hr> <!-- Visual line break        -->
+                <a class="settings_submenu_link" href="#" onclick="toggleDark()" >
+                    <i class="fa-solid fa-moon"></i>
+                    <p>Dark mode</p>
+                    <div class="switch_wrapper">
+                        <label class="switch_label">
+                            <input id="switch_checkbox_dark" type="checkbox" />
+                            <div></div>
+                        </label>
+                    </div>
+                </a>
+                <a class="settings_submenu_link" href="#" onclick="toggleSettings()">
+                    <i class="fa-solid fa-share-nodes"></i>
+                    <p>Data sharing</p>
+                    <div class="switch_wrapper">
+                        <label class="switch_label">
+                            <input id="switch_checkbox_share" type="checkbox" />
+                            <div></div>
+                        </label>
+                    </div>
+                </a>
+                <a class="settings_submenu_link" href="#" onclick="toggleFilter()">
+                    <i class="fa-solid fa-filter"></i>
+                    <p>Priority filtering</p>
+                    <div class="switch_wrapper">
+                        <label class="switch_label">
+                            <input id="switch_checkbox_filter" type="checkbox"/>
+                            <div></div>
+                        </label>
+                    </div>
+
+                </a>
+                <a class="settings_submenu_link" href="#" onclick="toggleDisturb()">
+                    <i class="fa-solid fa-bell-slash"></i>
+                    <p>Do not disturb</p>
+                    <div class="switch_wrapper">
+                        <label class="switch_label">
+                            <input id="switch_checkbox_disturb" type="checkbox"/>
+                            <div></div>
+                        </label>
+                    </div>
+
+                </a>
+            </div>
+        </div>
+        <div class="account_submenu_wrapper" id="id_account_submenu_wrapper">
+            <div class="account_submenu">
+                <div class="account_information">
+                    <img src="../images/profilePhoto.png" alt="The profile photo of the logged-in user.">
+                    <h3>Mason Harniess</h3>
+                </div>
+                <hr> <!-- Visual line break        -->
+                <a class="account_submenu_link" href="#">
+                    <i class="fa-solid fa-user"></i>
+                    <p>Edit profile</p>
+                    <!--          <span><i class="fa-solid fa-chevron-right"></i></span>-->
+                </a>
+
+                <a class="account_submenu_link" href="login.html">
+                    <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                    <p>Log out</p>
+                    <!--          <span><i class="fa-solid fa-chevron-right"></i></span>-->
+                </a>
+            </div>
+        </div>
+
         <div class="toggle">
             <i tabindex=0 class="fas fa-bars"></i>
         </div>

@@ -15,9 +15,6 @@ form {
     display: flex;
 }
 
-.list-search {
-    text-align: center;
-}
 
 button {
     font-size: 16px;
@@ -103,3 +100,8 @@ input[type=text] {
     background-color: DodgerBlue !important;
     color: #ffffff;
 }
+
+.list-search {
+     margin: auto;
+     width: 55%;
+ }
