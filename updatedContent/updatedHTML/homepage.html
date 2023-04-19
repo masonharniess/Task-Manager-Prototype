@@ -16,8 +16,11 @@
   <!-- FontAwesome dependency -->
   <script src="https://kit.fontawesome.com/d1709d070c.js" crossorigin="anonymous"></script>
 
-  <script src="../updatedJS/updatedGeneral/toggleAccountMenu.js"></script>
-  <script src="../updatedJS/updatedGeneral/toggleNotificationMenu.js"></script>
+  <script src="../updatedJS/updatedGeneral/navigationBar/toggleNotificationMenu.js"></script>
+  <script src="../updatedJS/updatedGeneral/navigationBar/toggleSettingsMenu.js"></script>
+  <script src="../updatedJS/updatedGeneral/navigationBar/toggleAccountMenu.js"></script>
+  <script src="../updatedJS/updatedGeneral/navigationBar/settingsToggles/toggleData.js"></script>
+
 
   <title>RoutineExpress</title>
 </head>
@@ -44,7 +47,7 @@
         <i class="fa-solid fa-bell"></i>
         <a tabindex="-1" href="#">Notifications</a>
       </div>
-      <div class="navigation_settings" tabindex="0">
+      <div class="navigation_settings" tabindex="0" onclick="toggleSettingsMenu()">
         <i class="fa-solid fa-gear"></i>
         <a tabindex="-1" href="#">Settings</a>
       </div>
@@ -52,14 +55,11 @@
         <i class="fa-solid fa-user"></i>
         <a tabindex="-1" href="#">Account</a>
       </div>
-
-
-
-
       <div class="navigation_hamburger">
         <i tabindex=0 class="fas fa-bars"></i>
       </div>
     </div>
+
     <div class="notifications_submenu_wrapper" id="id_notifications_submenu_wrapper">
       <div class="notifications_submenu">
         <div class="notifications_information">
@@ -71,8 +71,6 @@
           <p class="notification_text">Mail from Ahab C</p>
           <p class="notification_time"
              aria-label="The time of the event.">15:36</p>
-
-          <!--          <span><i class="fa-solid fa-chevron-right"></i></span>-->
         </a>
 
         <a class="notifications_submenu_link" href="login.html">
@@ -80,7 +78,65 @@
           <p class="notification_text">Doctors appointment</p>
           <p class="notification_time"
              aria-label="The time of the event.">17:00</p>
-          <!--          <span><i class="fa-solid fa-chevron-right"></i></span>-->
+        </a>
+
+        <a class="notifications_submenu_link" href="login.html">
+          <i class="fa-solid fa-cake-candles"></i>
+          <p class="notification_text">Anna's birthday</p>
+          <p class="notification_time"
+             aria-label="The date of the event.">Tomorrow</p>
+        </a>
+      </div>
+    </div>
+    <div class="settings_submenu_wrapper" id="id_settings_submenu_wrapper">
+      <div class="settings_submenu">
+        <div class="settings_information">
+          <h3>Settings</h3>
+        </div>
+        <hr> <!-- Visual line break        -->
+        <a class="settings_submenu_link" href="#" onclick="toggleDark()" >
+          <i class="fa-solid fa-moon"></i>
+          <p>Dark mode</p>
+          <div class="switch_wrapper">
+            <label class="switch_label">
+              <input id="switch_checkbox_dark" type="checkbox" />
+              <div></div>
+            </label>
+          </div>
+        </a>
+
+        <a class="settings_submenu_link" href="#" onclick="toggleData()">
+          <i class="fa-solid fa-share-nodes"></i>
+          <p>Data sharing</p>
+          <div class="switch_wrapper">
+            <label class="switch_label">
+              <input id="switch_checkbox_share" type="checkbox" />
+              <div></div>
+            </label>
+          </div>
+        </a>
+
+        <a class="settings_submenu_link" href="#" onclick="toggleFilter()">
+          <i class="fa-solid fa-filter"></i>
+          <p>Priority filtering</p>
+          <div class="switch_wrapper">
+            <label class="switch_label">
+              <input id="switch_checkbox_filter" type="checkbox"/>
+              <div></div>
+            </label>
+          </div>
+
+        </a>
+        <a class="settings_submenu_link" href="#" onclick="toggleDisturb()">
+          <i class="fa-solid fa-bell-slash"></i>
+          <p>Do not disturb</p>
+          <div class="switch_wrapper">
+            <label class="switch_label">
+              <input id="switch_checkbox_disturb" type="checkbox"/>
+              <div></div>
+            </label>
+          </div>
+
         </a>
       </div>
     </div>

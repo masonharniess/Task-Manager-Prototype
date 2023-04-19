@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="sign up login pretty good">
-      <change afterPath="$PROJECT_DIR$/updatedContent/updatedJS/updatedGeneral/toggleNotificationMenu.js" afterDir="false" />
+    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="notifications pop up kinda working">
+      <change afterPath="$PROJECT_DIR$/updatedContent/updatedJS/updatedGeneral/navigationBar/settingsToggles/toggleData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/updatedContent/updatedJS/updatedGeneral/navigationBar/toggleSettingsMenu.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/updatedContent/updatedCSS/updatedGeneral/navigationBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/updatedContent/updatedCSS/updatedGeneral/navigationBar.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/updatedContent/updatedHTML/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/updatedContent/updatedHTML/homepage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/updatedContent/updatedJS/updatedGeneral/toggleAccountMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/updatedContent/updatedJS/updatedGeneral/toggleAccountMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/updatedContent/updatedJS/updatedGeneral/toggleAccountMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/updatedContent/updatedJS/updatedGeneral/navigationBar/toggleAccountMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/updatedContent/updatedJS/updatedGeneral/toggleNotificationMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/updatedContent/updatedJS/updatedGeneral/navigationBar/toggleNotificationMenu.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,11 +87,11 @@
       <recent name="$PROJECT_DIR$/updatedContent" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/updatedContent/updatedJS/updatedGeneral/navigationBar" />
       <recent name="$PROJECT_DIR$/updatedContent/updatedCSS/updatedPages" />
       <recent name="$PROJECT_DIR$/updatedContent/updatedCSS/general" />
       <recent name="$PROJECT_DIR$/updatedContent/updatedHTML" />
       <recent name="$PROJECT_DIR$/content/css/pages" />
-      <recent name="$PROJECT_DIR$/content/css/general" />
     </key>
   </component>
   <component name="RunManager">
@@ -141,14 +143,7 @@
       <workItem from="1681384356926" duration="1717000" />
       <workItem from="1681466914870" duration="4763000" />
       <workItem from="1681661861642" duration="1293000" />
-      <workItem from="1681892530623" duration="30078000" />
-    </task>
-    <task id="LOCAL-00006" summary="test commit 2">
-      <created>1679920459930</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1679920459930</updated>
+      <workItem from="1681892530623" duration="33314000" />
     </task>
     <task id="LOCAL-00007" summary="test commit 5">
       <created>1679920556667</created>
@@ -486,7 +481,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681918396731</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="notifications pop up kinda working">
+      <created>1681922817667</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1681922817667</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -541,7 +543,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="homepage in semi prototype state. moving on to other pages." />
     <MESSAGE value="task page set up" />
     <MESSAGE value="All main pages have a basic page set up." />
     <MESSAGE value="search placeholder text. sidebar hover size. homepage hovor colour." />
@@ -566,7 +567,8 @@
     <MESSAGE value="account dropdown working" />
     <MESSAGE value="account dropdown working 2" />
     <MESSAGE value="sign up login pretty good" />
-    <option name="LAST_COMMIT_MESSAGE" value="sign up login pretty good" />
+    <MESSAGE value="notifications pop up kinda working" />
+    <option name="LAST_COMMIT_MESSAGE" value="notifications pop up kinda working" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
