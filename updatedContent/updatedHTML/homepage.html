@@ -19,47 +19,74 @@
   <title>RoutineExpress</title>
 </head>
 <body>
+
+<!-- Navigation bar -->
+
 <header>
   <nav>
     <div class="navigation_logo_and_title">
-      <img src="../updatedImages/logo.png" alt="The RoutineExpress logo.">
-      <p>RoutineExpress</p>
+      <img src="../updatedImages/logo.png" alt="The RoutineExpress logo, which features the outline of a notepad page in black on a white circular background.">
+      <span>RoutineExpress</span>
     </div>
-
-
-    <ul class="menu">
-      <li class="list-search">
-        <form autocomplete="off" action="/serverScript.php">
-          <div>
-            <button tabindex="0" class="button-search">
-              <i class="fa-solid fa-magnifying-glass"></i>
-            </button>
-          </div>
-          <div class="autocomplete">
-            <label class="label-search">
-              <input id="input-searchID" type="text" name="tasks" class="input-search" placeholder="Search your stuff. . .">
-            </label>
-          </div>
+    <div class="navigation_menu">
+      <div class="search_wrapper">
+        <form class="search_form" autocomplete="off" action="serverScript.php">
+          <button class="search_button">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+          <input class="search_input" id="id_search_input" aria-label="Search"  type="text" name="tasks" placeholder="Search your stuff. . .">
         </form>
-      </li>
-      <li>
+      </div>
+      <div>
         <i class="fa-solid fa-bell"></i>
         <a href="#">Notifications</a>
-      </li>
-      <li>
+      </div>
+      <div>
         <i class="fa-solid fa-gear"></i>
         <a href="#">Settings</a>
-      </li>
-      <li onclick="location.href = 'login.html'">
+      </div>
+      <div class="navigation_account" onclick="toggleAccountMenu()">
         <i class="fa-solid fa-user"></i>
         <a href="#">Account</a>
-      </li>
-    </ul>
-    <div class="toggle">
-      <i tabindex=0 class="fas fa-bars"></i>
+      </div>
+
+
+
+
+      <div class="navigation_hamburger">
+        <i tabindex=0 class="fas fa-bars"></i>
+      </div>
+    </div>
+    <div class="account_submenu_wrapper" id="id_account_submenu_wrapper">
+      <div class="account_submenu">
+        <div class="account_information">
+          <img src="../updatedImages/profilePhoto.png" alt="The profile photo of the logged-in user.">
+          <h3>Mason Harniess</h3>
+        </div>
+        <hr> <!-- Visual line break        -->
+        <a class="account_submenu_link" href="#">
+          <i class="fa-solid fa-user"></i>
+          <p>Edit profile</p>
+          <span><i class="fa-solid fa-chevron-right"></i></span>
+        </a>
+
+        <a class="account_submenu_link" href="#">
+          <i class="fa-solid fa-arrow-right-from-bracket"></i>
+          <p>Log out</p>
+          <span><i class="fa-solid fa-chevron-right"></i></span>
+        </a>
+      </div>
     </div>
   </nav>
 </header>
+
+<script>
+  let submenu = document.getElementById("id_account_submenu_wrapper")
+
+  function toggleAccountMenu() {
+      submenu.classList.toggle("open");
+  }
+</script>
 
 </body>
 </html>

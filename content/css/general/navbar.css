@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 header {
     background-color: #fff;
     height: 60px;
@@ -118,4 +120,17 @@ nav i {
 ul {
     margin: 0;
 
+}
+
+@media screen and (min-width: 1201px) {
+    .menu {
+        display: flex;
+        flex: 1;
+        justify-content: flex-end;
+    }
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #edf2f5;
 }

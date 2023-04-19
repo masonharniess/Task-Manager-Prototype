@@ -1,34 +1,155 @@
+
 header {
   background-color: #fff;
-  height: 60px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  left: 0;
   position: fixed;
   top: 0;
-  left: 0;
   width: 100%;
-  z-index: 999;
+  height: 68px;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 10px 0 10px;
   height: 100%;
-  padding: 0 0 0 10px;
+
 }
 
 .navigation_logo_and_title {
   font-size: 24px;
   font-weight: bold;
-  display: inline-block;
+  padding: 0 10px 0 0;
+}
 
+.navigation_logo_and_title, .navigation_menu div:not(.navigation_hamburger), .navigation_menu a {
+  display: flex; /* centre the navigation text icon */
+  align-items: center; /* centre the navigation text icon */
 }
 
 .navigation_logo_and_title img {
   width: 28px;
-  vertical-align: text-bottom;
 }
 
-.navigation_logo_and_title p {
-  display: inline-block;
+.navigation_menu {
+  height: 100%;
+  text-align: center;
+  horiz-align: center;
+}
+
+.navigation_menu div, .navigation_menu a {
+  padding: 0 5px 0 10px;
+  text-align: center;
+  horiz-align: center;
+}
+
+.navigation_menu {
+  display: flex;
+}
+
+
+.navigation_menu div {
+  display: flex;
+
+}
+
+.navigation_menu a {
+  color: #333;
+  text-decoration: none;
+  width: 100px;
+  text-align: center;
+  justify-content: center;
+
+}
+
+.navigation_menu div:hover:not(.search_wrapper) {
+  color: #666;
+  background-color: #f2f2f2;
+}
+
+.navigation_hamburger {
+  display: none !important; /* centre the hamburger icon when set to 'flex'; hides when set to 'none' */
+  align-items: center; /* centre the hamburger icon when it is visible */
+}
+
+.search_wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  min-width: 200px;
+  justify-content: center;
+}
+
+.search_input {
+  color: grey;
+}
+
+.account_submenu_wrapper {
+  position: absolute;
+  top: 100%;
+  right: 0.1%;
+  width: 320px;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.5s;
+}
+
+.account_submenu_wrapper.open {
+  max-height: 400px;
+}
+
+.account_submenu {
+  background-color: #fff;
+  padding: 20px;
+  margin: 8px
+}
+
+.account_information {
+  display: flex;
+  align-items: center;
+}
+
+.account_information h3 {
+  font-weight: 500;
+}
+
+.account_information img {
+  width: 60px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.account_submenu hr {
+  border: 0;
+  height: 1px;
+  width: 100%;
+  background: #ccc;
+  margin: 15px 0 10px;
+}
+
+.account_submenu_link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #525252;
+  margin: 12px 0;
+}
+
+.account_submenu_link i:not(:last-child) {
+  margin-right: 10px;
+  /*background: #e5e5e5;*/
+  /*width: 40px;*/
+  /*padding: 8px;*/
+  /*text-align: center;*/
+  /*horiz-align: center;*/
+
+}
+
+.account_submenu_link p {
+  width: 100%;
+}
+
+.account_submenu_link:hover p {
+  font-weight: 600;
 }
