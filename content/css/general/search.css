@@ -48,15 +48,6 @@ form {
     padding: 0;
 }
 
-.navigation_search_button:focus ~ .input-search {
-    width: 800px;
-    margin-left: 60px;
-    transition: all 500ms cubic-bezier(.58, 0, .19, 1);
-    -webkit-box-shadow: -36px 13px 26px -6px rgba(0, 0, 0, 0.26);
-    -moz-box-shadow: -36px 13px 26px -6px rgba(0, 0, 0, 0.26);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
 input[type=text] {
     background-color: #f1f1f1;
     width: 100%;
