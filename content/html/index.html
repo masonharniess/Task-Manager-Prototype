@@ -39,33 +39,31 @@
       <p>RoutineExpress</p>
     </div>
     <div class="navigation_menu">
-      <div class="navigation_search navigation_menu_item">
+      <div class="navigation_menu_item navigation_search">
         <form autocomplete="off" action="tasks.html">
           <button class="navigation_search_button" tabindex="0">
             <i class="fa-solid fa-magnifying-glass"></i>
           </button>
           <div class="navigation_search_suggestions">
-            <label
-              class="navigation_search_label"
-              aria-label="Search for other pages or specific tasks, events, etc.">
-              <input
-                class="input-search"
-                id="input-searchID"
-                type="text"
-                name="tasks"
-                placeholder="Search your stuff. . .">
+            <label class="navigation_search_label">
+              <input class="navigation_search_input"
+                     id="id_navigation_search_input"
+                     type="text"
+                     name="name_navigation_search_input"
+                     aria-label="Search for other pages or specific tasks, events, etc."
+                     placeholder="Search your stuff. . .">
             </label>
           </div>
         </form>
       </div>
-      <div class="navigation_menu_item" onclick="toggleNotificationMenu()">
+      <a class="navigation_menu_item" onclick="toggleNotificationMenu()">
         <i class="fa-solid fa-bell"></i>
-        <a href="#">Notifications</a>
-      </div>
-      <div class="navigation_menu_item" onclick="toggleSettingsMenu()">
+        <p>Notifications</p>
+      </a>
+      <a class="navigation_menu_item" onclick="toggleSettingsMenu()">
         <i class="fa-solid fa-gear"></i>
-        <a href="#">Settings</a>
-      </div>
+        <p href="#">Settings</p>
+      </a>
       <div class="navigation_menu_item" onclick="toggleAccountMenu()">
         <i class="fa-solid fa-user"></i>
         <a href="#">Account</a>
@@ -322,7 +320,7 @@
 
 <script>
   navigationHamburger();
-  autocomplete(document.getElementById("input-searchID"), pages);
+  autocomplete(document.getElementById("id_navigation_search_input"), pages);
   dropDownMenu();
   homepageGreetingTime()
   homepageGreetingName()

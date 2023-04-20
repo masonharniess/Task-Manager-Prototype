@@ -35,17 +35,21 @@ nav {
 
 .navigation_menu {
     display: flex;
-    list-style: none;
     margin: 0;
 }
 
 
-.navigation_menu_item, a {
+.navigation_menu_item, p {
     color: #333;
     text-decoration: none;
     transition: all 0.3s ease;
     display: inline;
     padding: 0.8em 0.5em;
+    cursor: pointer;
+}
+
+.navigation_menu_item p {
+    cursor: pointer;
 }
 
 .navigation_menu_item:hover {

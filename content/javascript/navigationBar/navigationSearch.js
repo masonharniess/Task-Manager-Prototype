@@ -13,7 +13,7 @@ function autocomplete(inp, arr) {
         this.parentNode.appendChild(a);
         for (i = 0; i < arr.length; i++) {
             if (arr[i].toUpperCase().startsWith(val.toUpperCase())) {
-                const inputSearchID = document.getElementById("input-searchID").style.cssText = "border-bottom-right-radius: 0; border-bottom-left-radius: 0; height: 100%;";
+                const inputSearchID = document.getElementById("id_navigation_search_input").style.cssText = "border-bottom-right-radius: 0; border-bottom-left-radius: 0; height: 100%;";
                 const b = document.createElement("div");
                 b.innerHTML = "<strong>" + arr[i].substr(0, val.length) + "</strong>" + arr[i].substr(val.length);
                 b.innerHTML += "<input type='hidden' value='" + arr[i] + "'>";
@@ -67,7 +67,7 @@ function autocomplete(inp, arr) {
         Array.from(x).forEach((item) => {
             if (elmnt !== item && elmnt !== inp) item.parentNode.removeChild(item);
         });
-        document.getElementById("input-searchID").style.cssText = "border-bottom-right-radius: 25px; border-bottom-left-radius: 25px; height: '';";
+        document.getElementById("id_navigation_search_input").style.cssText = "border-bottom-right-radius: 25px; border-bottom-left-radius: 25px; height: '';";
     }
 
     document.addEventListener("click", function (e) {
