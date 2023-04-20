@@ -39,7 +39,7 @@ nav {
 }
 
 
-.navigation_menu_item, p {
+.navigation_menu_item, .navigation_menu_item p {
     color: #333;
     text-decoration: none;
     transition: all 0.3s ease;
