@@ -59,7 +59,7 @@ input[type=text] {
     width: 100%;
 }
 
-.autocomplete-items {
+.navigation_search_suggestions_items {
     position: absolute;
     border-bottom: none;
     border-top: none;
@@ -70,7 +70,7 @@ input[type=text] {
     right: 0;
 }
 
-.autocomplete-items div {
+.navigation_search_suggestions_items div {
     padding: 10px;
     cursor: pointer;
     background-color: #fff;
@@ -80,16 +80,16 @@ input[type=text] {
     text-align: left;
 }
 
-.autocomplete-items div:last-child {
+.navigation_search_suggestions_items div:last-child {
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
 
-.autocomplete-items div:hover {
+.navigation_search_suggestions_items div:hover {
     background-color: #e9e9e9;
 }
 
-.autocomplete-active {
+.navigation_search_suggestions_active {
     background-color: DodgerBlue !important;
     color: #ffffff;
 }

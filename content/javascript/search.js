@@ -12,8 +12,8 @@ function autocomplete(inp, arr) {
         /*create a DIV element that will contain the items (values):*/
         a = document.createElement("DIV");
         // document.getElementById("input-searchID").style.color = "red";
-        a.setAttribute("id", this.id + "autocomplete-list");
-        a.setAttribute("class", "autocomplete-items");
+        a.setAttribute("id", this.id + "navigation_search_suggestions_list");
+        a.setAttribute("class", "navigation_search_suggestions_items");
         /*append the DIV element as a child of the autocomplete container:*/
         this.parentNode.appendChild(a);
         /*for each item in the array...*/
@@ -45,7 +45,7 @@ function autocomplete(inp, arr) {
     });
     /*execute a function presses a key on the keyboard:*/
     inp.addEventListener("keydown", function(e) {
-        var x = document.getElementById(this.id + "autocomplete-list");
+        var x = document.getElementById(this.id + "navigation_search_suggestions_list");
         if (x) {
             x = x.getElementsByTagName("div");
         }
@@ -81,19 +81,19 @@ function autocomplete(inp, arr) {
         if (currentFocus >= x.length) currentFocus = 0;
         if (currentFocus < 0) currentFocus = (x.length - 1);
         /*add class "autocomplete-active":*/
-        x[currentFocus].classList.add("autocomplete-active");
+        x[currentFocus].classList.add("navigation_search_suggestions_active");
     }
     function removeActive(x) {
         /*a function to remove the "active" class from all autocomplete items:*/
         for (var i = 0; i < x.length; i++) {
 
-            x[i].classList.remove("autocomplete-active");
+            x[i].classList.remove("navigation_search_suggestions_active");
         }
     }
     function closeAllLists(elmnt) {
         /*close all autocomplete lists in the document,
         except the one passed as an argument:*/
-        var x = document.getElementsByClassName("autocomplete-items");
+        var x = document.getElementsByClassName("navigation_search_suggestions_items");
         for (var i = 0; i < x.length; i++) {
 
             document.getElementById("input-searchID").style.borderBottomRightRadius = "25px";
