@@ -4,7 +4,14 @@
     cursor: default; /* Override navigation_menu_item cursor settings */
 }
 
-/* Prevent search from highlighting due to hover effects from navigationBar.css*/
+/* Prevent the search bar from appearing central in the hamburger menu */
+@media screen and (max-width: 1200px) {
+    .navigation_search {
+        margin: 0;
+    }
+}
+
+/* Prevent search from highlighting due to hover effects from navigationBar.css */
 .navigation_search:hover {
     color: inherit;
     background-color: inherit;

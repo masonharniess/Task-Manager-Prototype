@@ -20,6 +20,7 @@ nav {
 nav i {
     padding: 10px;
 }
+
 .navigation_logo_and_title {
     font-size: 24px;
     font-weight: bold;
@@ -41,7 +42,7 @@ nav i {
     margin: 0;
 }
 
-.navigation_menu_item, .navigation_menu_item p {
+.navigation_menu_item, .navigation_menu_item_text {
     display: inline;
     padding: 0.8em 0.5em;
     cursor: pointer;
@@ -52,25 +53,26 @@ nav i {
     background-color: #f2f2f2;
 }
 
-
-
-
-.toggle {
+.navigation_hamburger {
     font-size: 24px;
     color: #333;
     cursor: pointer;
     display: none;
 }
 
+/* Activate when screen width is at least 1201px */
+@media screen and (min-width: 1201px) {
+    .navigation_menu {
+        display: flex;
+        flex: 1;
+        justify-content: flex-end;
+    }
+}
+
+/* Activate when screen width is at most 1200px */
 @media screen and (max-width: 1200px) {
     .navigation_menu {
         display: none;
-    }
-    .toggle {
-        display: block;
-    }
-    .toggle.active {
-        color: #666;
     }
     .navigation_menu.active {
         display: flex;
@@ -82,22 +84,18 @@ nav i {
         width: 100%;
         background-color: #fff;
         box-shadow: inset 0 -10px 10px -10px rgba(0, 0, 0, 0.1);
-
+    }
+    .navigation_hamburger {
+        display: block;
+    }
+    .navigation_hamburger.active {
+        color: #666;
     }
     .navigation_menu_item {
         margin-left: 0;
         margin-bottom: 15px;
     }
 }
-
-@media screen and (min-width: 1201px) {
-    .navigation_menu {
-        display: flex;
-        flex: 1;
-        justify-content: flex-end;
-    }
-}
-
 
 .account_submenu_wrapper{
     position: absolute;

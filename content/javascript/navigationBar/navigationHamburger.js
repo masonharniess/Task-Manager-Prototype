@@ -1,7 +1,7 @@
 // Navigation hamburger functionality
 
 function navigationHamburger() {
-    const toggle = document.querySelector('.toggle');
+    const toggle = document.querySelector('.navigation_hamburger');
     const menu = document.querySelector('.navigation_menu');
 
     toggle.addEventListener('click', () => {
