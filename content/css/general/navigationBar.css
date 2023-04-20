@@ -38,27 +38,15 @@ nav {
     margin: 0;
 }
 
-
 .navigation_menu_item, .navigation_menu_item p {
-    color: #333;
-    text-decoration: none;
-    transition: all 0.3s ease;
     display: inline;
     padding: 0.8em 0.5em;
-    cursor: pointer;
-}
-
-.navigation_menu_item p {
     cursor: pointer;
 }
 
 .navigation_menu_item:hover {
     color: #666;
     background-color: #f2f2f2;
-}
-
-.navigation_menu a {
-    padding-left: 0;
 }
 
 nav i {
