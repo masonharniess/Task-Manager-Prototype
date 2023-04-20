@@ -4,9 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="removed comments from search function">
+    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="general clean up">
+      <change afterPath="$PROJECT_DIR$/content/javascript/homepageDropdowns.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/javascript/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/javascript/search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/html/calendar.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/html/calendar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/html/notes.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/html/notes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/html/tasks.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/html/tasks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/html/timers.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/html/timers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/javascript/dropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/javascript/greetingName.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/javascript/greetingName.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/javascript/greetingTime.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/javascript/homepageGreeting.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/javascript/navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/javascript/navigationHamburger.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/javascript/navigationSearch.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/javascript/navigationSearch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/javascript/search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/test/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/updatedContent/updatedHTML/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/updatedContent/updatedHTML/homepage.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,24 +67,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/masonharniess/Library/CloudStorage/OneDrive-Personal/OneDriveFiles/University/Year 2/Semester 2/UI CO2104/CW2/taskManager/content/javascript&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.HTML&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/masonharniess/Library/CloudStorage/OneDrive-Personal/OneDriveFiles/University/Year 2/Semester 2/UI CO2104/CW2/taskManager/content/javascript",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.sourceCode.JavaScript",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/content/javascript" />
@@ -139,14 +152,7 @@
       <workItem from="1681661861642" duration="1293000" />
       <workItem from="1681892530623" duration="37849000" />
       <workItem from="1681983614336" duration="4210000" />
-      <workItem from="1681987843760" duration="5164000" />
-    </task>
-    <task id="LOCAL-00019" summary="some minor additions to layout of main section.&#10;nav and side bar basically complete now. search not complete, still needs some formatting.">
-      <created>1680200225391</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1680200225391</updated>
+      <workItem from="1681987843760" duration="6698000" />
     </task>
     <task id="LOCAL-00020" summary="some minor additions to layout of main section.&#10;nav and side bar basically complete now. search not complete, still needs some formatting.">
       <created>1680201913351</created>
@@ -484,7 +490,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681991227875</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="further search clean up">
+      <created>1681993257542</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1681993257542</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -539,8 +552,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="edit tasks kinda works 2" />
-    <MESSAGE value="goodnight" />
     <MESSAGE value="removed unnecessary edit function" />
     <MESSAGE value="random" />
     <MESSAGE value="calendar set up" />
@@ -564,7 +575,9 @@
     <MESSAGE value="changed autocomplete list to navigation_search_suggestions_list" />
     <MESSAGE value="search function clean up" />
     <MESSAGE value="removed comments from search function" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed comments from search function" />
+    <MESSAGE value="further search clean up" />
+    <MESSAGE value="general clean up" />
+    <option name="LAST_COMMIT_MESSAGE" value="general clean up" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

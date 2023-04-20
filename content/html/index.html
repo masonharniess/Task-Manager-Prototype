@@ -14,16 +14,15 @@
   <script src="../javascript/toggleSettingsMenu.js"></script>
   <script src="../javascript/toggleAccountMenu.js"></script>
   <script src="../javascript/toggleSettings.js"></script>
-  <script src="../javascript/navigationSearch.js"></script>
 
   <link rel="stylesheet" href="../css/general/main.css">
 
   <script src="https://kit.fontawesome.com/d1709d070c.js" crossorigin="anonymous"></script>
 
-  <script src="../javascript/navbar.js"></script>
-  <script src="../javascript/search.js"></script>
-  <script src="../javascript/dropdown.js"></script>
-  <script src="../javascript/greetingTime.js"></script>
+  <script src="../javascript/navigationHamburger.js"></script>
+  <script src="../javascript/navigationSearch.js"></script>
+  <script src="../javascript/homepageDropdowns.js"></script>
+  <script src="../javascript/homepageGreeting.js"></script>
   <script src="../javascript/greetingName.js"></script>
 
   <title>RoutineExpress</title>
@@ -323,11 +322,11 @@
 <!-- SCRIPTS -->
 
 <script>
-    displayHamburger();
-    autocomplete(document.getElementById("input-searchID"), pages);
-    dropDownMenu();
-    greetingTime();
-    greetingName()
+  navigationHamburger();
+  autocomplete(document.getElementById("input-searchID"), pages);
+  dropDownMenu();
+  homepageGreetingTime()
+  homepageGreetingName()
 </script>
 
 </body>
