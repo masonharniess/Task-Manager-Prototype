@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="../images/favicon.png">
 
-    <link rel="stylesheet" href="../css/pages/homepage.css">
+    <link rel="stylesheet" href="../css/pages/index.css">
     <link rel="stylesheet" href="../css/general/navbar.css">
     <link rel="stylesheet" href="../css/general/search.css">
     <link rel="stylesheet" href="../css/general/sidebar.css">
@@ -24,6 +24,7 @@
     <script src="../javascript/search.js"></script>
     <script src="../javascript/dropdown.js"></script>
     <script src="../javascript/greetingTime.js"></script>
+    <script src="../javascript/greetingName.js"></script>
 
     <title>RoutineExpress</title>
 </head>
@@ -316,29 +317,10 @@
 
 <script>
     displayHamburger();
-    /*initiate the autocomplete function on the "input-searchID" element, and pass along the pages array as possible
-    autocomplete values:*/
     autocomplete(document.getElementById("input-searchID"), pages);
     dropDownMenu();
     greetingTime();
-    // Get the query string from the URL
-    var queryString = window.location.search;
-
-    // Remove the "?" character from the beginning of the query string
-    var inputString = queryString.substring(1);
-
-    // Decode the input value for the "fname" input
-    var inputs = inputString.split("&");
-    for (var i = 0; i < inputs.length; i++) {
-        var pair = inputs[i].split("=");
-        if (pair[0] === "fname") {
-            var fnameValue = decodeURIComponent(pair[1]);
-            break;
-        }
-    }
-
-    // Update the contents of the output div with the value of the "fname" input
-    document.getElementById("name").innerHTML = "&nbsp;" + fnameValue;
+    greetingName()
 </script>
 
 </body>
