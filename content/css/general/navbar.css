@@ -98,22 +98,12 @@ nav i {
     }
 }
 
-ul {
-    margin: 0;
-
-}
-
 @media screen and (min-width: 1201px) {
     .navigation_menu {
         display: flex;
         flex: 1;
         justify-content: flex-end;
     }
-}
-
-body {
-    font-family: 'Montserrat', sans-serif;
-    background-color: #edf2f5;
 }
 
 
