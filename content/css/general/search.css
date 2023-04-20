@@ -23,7 +23,7 @@ form {
     align-items: center;
     display: flex;
 }
-.autocomplete {
+.navigation_search_suggestions {
     text-align: center;
     display: flex;
     width: 90%;

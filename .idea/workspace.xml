@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="nav search hover code fix" />
+    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="nav search hover code fix 2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/css/general/search.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/general/search.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/html/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -136,14 +140,7 @@
       <workItem from="1681661861642" duration="1293000" />
       <workItem from="1681892530623" duration="37849000" />
       <workItem from="1681983614336" duration="4210000" />
-      <workItem from="1681987843760" duration="1378000" />
-    </task>
-    <task id="LOCAL-00016" summary="test commit 21">
-      <created>1680055875873</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1680055875873</updated>
+      <workItem from="1681987843760" duration="2258000" />
     </task>
     <task id="LOCAL-00017" summary="search bar: border radius now changes if there are suggestions visible">
       <created>1680058047781</created>
@@ -481,7 +478,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681988932004</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="nav search hover code fix 2">
+      <created>1681989517781</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1681989517781</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -536,7 +540,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="random updates" />
     <MESSAGE value="dropdown for new divs works" />
     <MESSAGE value="random changes" />
     <MESSAGE value="basic delete working" />
@@ -561,7 +564,8 @@
     <MESSAGE value="search code clean" />
     <MESSAGE value="removed redundant nav search code" />
     <MESSAGE value="nav search hover code fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="nav search hover code fix" />
+    <MESSAGE value="nav search hover code fix 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="nav search hover code fix 2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
