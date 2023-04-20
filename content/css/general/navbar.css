@@ -1,5 +1,3 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 header {
     background-color: #fff;
     height: 60px;
@@ -19,47 +17,42 @@ nav {
     padding: 0 0 0 10px;
 }
 
-
-.input-search {
-    color: grey;
-}
-
-.logo {
+.navigation_logo_and_title {
     font-size: 24px;
     font-weight: bold;
 }
 
-.logo img {
+.navigation_logo_and_title img {
     vertical-align: text-bottom;
     height: auto;
     margin: 0;
     max-width: 28px;
 }
 
-.logo p {
+.navigation_logo_and_title p {
     display: inline-block;
 }
 
-.menu {
+.navigation_menu {
     display: flex;
     list-style: none;
 }
 
 
-.menu li, a {
+.navigation_menu li, a {
     color: #333;
     text-decoration: none;
     transition: all 0.3s ease;
     display: inline;
     padding: 0.8em 0.5em;
 }
-.menu li:hover:not(.list-search) {
+.navigation_menu li:hover:not(.list-search) {
     color: #666;
     background-color: #f2f2f2;
 
 }
 
-.menu a {
+.navigation_menu a {
     padding-left: 0;
 }
 
@@ -78,7 +71,7 @@ nav i {
 }
 
 @media screen and (max-width: 1200px) {
-    .menu {
+    .navigation_menu {
         display: none;
     }
     .toggle {
@@ -87,7 +80,7 @@ nav i {
     .toggle.active {
         color: #666;
     }
-    .menu.active {
+    .navigation_menu.active {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -99,7 +92,7 @@ nav i {
         box-shadow: inset 0 -10px 10px -10px rgba(0, 0, 0, 0.1);
 
     }
-    .menu li {
+    .navigation_menu li {
         margin-left: 0;
         margin-bottom: 15px;
     }
@@ -111,7 +104,7 @@ ul {
 }
 
 @media screen and (min-width: 1201px) {
-    .menu {
+    .navigation_menu {
         display: flex;
         flex: 1;
         justify-content: flex-end;
