@@ -2,7 +2,7 @@ form {
     display: flex;
 }
 
-/* Prevent search from highlighting due to hover effects from navbar.css*/
+/* Prevent search from highlighting due to hover effects from navigationBar.css*/
 .navigation_search:hover {
     color: inherit;
     background-color: inherit;

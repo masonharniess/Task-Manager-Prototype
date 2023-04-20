@@ -4,22 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="general clean up">
-      <change afterPath="$PROJECT_DIR$/content/javascript/homepageDropdowns.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="made greeting javascript more concise">
+      <change beforePath="$PROJECT_DIR$/content/css/general/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/general/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/css/general/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/general/navigationBar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/css/general/search.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/general/navigationSearch.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/css/pages/calendarPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/pages/calendar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/css/pages/timerPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/pages/timers.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/html/calendar.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/html/calendar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/html/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/html/notes.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/html/notes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/html/tasks.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/html/tasks.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/html/timers.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/html/timers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/javascript/dropdown.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/javascript/greetingName.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/javascript/greetingName.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/javascript/greetingTime.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/javascript/homepageGreeting.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/javascript/navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/javascript/navigationHamburger.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/javascript/navigationSearch.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/javascript/navigationSearch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/javascript/search.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/test/test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/updatedContent/updatedHTML/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/updatedContent/updatedHTML/homepage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/javascript/homepageDropdowns.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/javascript/homepage/homepageDropdowns.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/javascript/homepageGreeting.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/javascript/homepage/homepageGreeting.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/javascript/navigationHamburger.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/javascript/navigationBar/navigationHamburger.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/javascript/navigationSearch.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/javascript/navigationBar/navigationSearch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/javascript/toggleAccountMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/javascript/navigationBar/toggleAccountMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/javascript/toggleNotificationMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/javascript/navigationBar/toggleNotificationMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/javascript/toggleSettings.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/javascript/navigationBar/toggleSettings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/javascript/toggleSettingsMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/javascript/navigationBar/toggleSettingsMenu.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,14 +155,7 @@
       <workItem from="1681661861642" duration="1293000" />
       <workItem from="1681892530623" duration="37849000" />
       <workItem from="1681983614336" duration="4210000" />
-      <workItem from="1681987843760" duration="6698000" />
-    </task>
-    <task id="LOCAL-00020" summary="some minor additions to layout of main section.&#10;nav and side bar basically complete now. search not complete, still needs some formatting.">
-      <created>1680201913351</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1680201913351</updated>
+      <workItem from="1681987843760" duration="7067000" />
     </task>
     <task id="LOCAL-00021" summary="side bar has active status">
       <created>1680206580242</created>
@@ -497,7 +493,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681993257542</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="made greeting javascript more concise">
+      <created>1681994653906</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1681994653906</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -552,7 +555,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="removed unnecessary edit function" />
     <MESSAGE value="random" />
     <MESSAGE value="calendar set up" />
     <MESSAGE value="account dropdown working" />
@@ -577,7 +579,8 @@
     <MESSAGE value="removed comments from search function" />
     <MESSAGE value="further search clean up" />
     <MESSAGE value="general clean up" />
-    <option name="LAST_COMMIT_MESSAGE" value="general clean up" />
+    <MESSAGE value="made greeting javascript more concise" />
+    <option name="LAST_COMMIT_MESSAGE" value="made greeting javascript more concise" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
