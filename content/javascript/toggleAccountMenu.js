@@ -3,9 +3,9 @@ function toggleAccountMenu() {
     submenu.classList.toggle("open");
 }
 
-document.addEventListener("keydown", function(event) {
-    if (event.key === 'Enter') {
-        toggleAccountMenu();
-    }
-});
+// document.addEventListener("keydown", function(event) {
+//     if (event.key === 'Enter') {
+//         toggleAccountMenu();
+//     }
+// });
 

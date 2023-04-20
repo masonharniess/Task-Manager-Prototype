@@ -4,8 +4,8 @@ function toggleSettingsMenu() {
 
 }
 
-document.addEventListener("keydown", function(event) {
-    if (event.key === 'Enter') {
-        toggleSettingsMenu();
-    }
-});
+// document.addEventListener("keydown", function(event) {
+//     if (event.key === 'Enter') {
+//         toggleSettingsMenu();
+//     }
+// });

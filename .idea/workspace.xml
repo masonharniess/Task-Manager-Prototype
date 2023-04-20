@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="greetingName function modularised">
+    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="changed nav bar from list to divs">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/css/general/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/general/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/css/general/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/general/navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/css/general/search.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/general/search.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/javascript/toggleAccountMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/javascript/toggleAccountMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/javascript/toggleNotificationMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/javascript/toggleNotificationMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/javascript/toggleSettingsMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/javascript/toggleSettingsMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskManager.iml" beforeDir="false" afterPath="$PROJECT_DIR$/taskManager.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +25,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -40,13 +46,10 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="69a570ef32bbcbf658c81e393aeb48e6cc0c2572" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/content/html/index.html" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -59,24 +62,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/masonharniess/Library/CloudStorage/OneDrive-Personal/OneDriveFiles/University/Year 2/Semester 2/UI CO2104/CW2/taskManager/content/javascript",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.sourceCode.HTML",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/masonharniess/Library/CloudStorage/OneDrive-Personal/OneDriveFiles/University/Year 2/Semester 2/UI CO2104/CW2/taskManager/content/javascript&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.HTML&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/content/javascript" />
@@ -143,28 +146,8 @@
       <workItem from="1681466914870" duration="4763000" />
       <workItem from="1681661861642" duration="1293000" />
       <workItem from="1681892530623" duration="37849000" />
-      <workItem from="1681983614336" duration="2126000" />
-    </task>
-    <task id="LOCAL-00010" summary="test commit 17">
-      <created>1679932023431</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1679932023431</updated>
-    </task>
-    <task id="LOCAL-00011" summary="test commit 17">
-      <created>1679933006416</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1679933006416</updated>
-    </task>
-    <task id="LOCAL-00012" summary="test commit 18">
-      <created>1679933025359</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1679933025359</updated>
+      <workItem from="1681983614336" duration="4210000" />
+      <workItem from="1681987843760" duration="114000" />
     </task>
     <task id="LOCAL-00013" summary="test commit 21">
       <created>1679933331095</created>
@@ -488,7 +471,28 @@
       <option name="project" value="LOCAL" />
       <updated>1681984587526</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="changed menu to navigation menu">
+      <created>1681985780332</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1681985780332</updated>
+    </task>
+    <task id="LOCAL-00060" summary="removed redundant body from navbar.css">
+      <created>1681985952860</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1681985952860</updated>
+    </task>
+    <task id="LOCAL-00061" summary="changed nav bar from list to divs">
+      <created>1681986054504</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1681986054504</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -543,9 +547,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Login page basic set up" />
-    <MESSAGE value="greeting now time specific" />
-    <MESSAGE value="signup &amp; login aesthetic sorted" />
     <MESSAGE value="login realligned" />
     <MESSAGE value="Feat + Style: Sign-up &amp; Login&#10;&#10;Stylise the sign-up &amp; login.&#10;Make the greeting name-specific." />
     <MESSAGE value="Style: Task Borders&#10;&#10;Add a bordered box for each task." />
@@ -568,7 +569,10 @@
     <MESSAGE value="navigation sub menus working" />
     <MESSAGE value="navigation sub menus added to main version" />
     <MESSAGE value="greetingName function modularised" />
-    <option name="LAST_COMMIT_MESSAGE" value="greetingName function modularised" />
+    <MESSAGE value="changed menu to navigation menu" />
+    <MESSAGE value="removed redundant body from navbar.css" />
+    <MESSAGE value="changed nav bar from list to divs" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed nav bar from list to divs" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

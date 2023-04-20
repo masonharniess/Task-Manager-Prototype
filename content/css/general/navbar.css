@@ -36,20 +36,20 @@ nav {
 .navigation_menu {
     display: flex;
     list-style: none;
+    margin: 0;
 }
 
 
-.navigation_menu li, a {
+.navigation_menu_item, a {
     color: #333;
     text-decoration: none;
     transition: all 0.3s ease;
     display: inline;
     padding: 0.8em 0.5em;
 }
-.navigation_menu li:hover:not(.list-search) {
+.navigation_menu_item:hover:not(.navigation_search) {
     color: #666;
     background-color: #f2f2f2;
-
 }
 
 .navigation_menu a {
@@ -92,7 +92,7 @@ nav i {
         box-shadow: inset 0 -10px 10px -10px rgba(0, 0, 0, 0.1);
 
     }
-    .navigation_menu li {
+    .navigation_menu_item {
         margin-left: 0;
         margin-bottom: 15px;
     }
