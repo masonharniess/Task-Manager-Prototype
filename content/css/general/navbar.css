@@ -47,7 +47,8 @@ nav {
     display: inline;
     padding: 0.8em 0.5em;
 }
-.navigation_menu_item:hover:not(.navigation_search) {
+
+.navigation_menu_item:hover {
     color: #666;
     background-color: #f2f2f2;
 }
