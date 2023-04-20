@@ -110,5 +110,4 @@ function autocomplete(inp, arr) {
     });
 }
 
-/*An array containing all the country names in the world:*/
 var pages = ["Home", "Tasks", "Calendar", "Timer", "Notes", "Services"]
