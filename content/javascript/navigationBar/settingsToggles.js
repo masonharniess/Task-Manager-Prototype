@@ -3,7 +3,7 @@ function toggleDark() {
     checkbox.checked = !checkbox.checked;
 }
 
-function toggleSettings() {
+function settingsToggles() {
     var checkbox = document.getElementById("switch_checkbox_share");
     checkbox.checked = !checkbox.checked;
 }

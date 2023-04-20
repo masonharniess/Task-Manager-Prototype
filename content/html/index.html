@@ -10,17 +10,17 @@
   <link rel="stylesheet" href="../css/general/navigationSearch.css">
   <link rel="stylesheet" href="../css/general/sidebar.css">
 
-  <script src="../javascript/navigationBar/toggleNotificationMenu.js"></script>
-  <script src="../javascript/navigationBar/toggleSettingsMenu.js"></script>
-  <script src="../javascript/navigationBar/toggleAccountMenu.js"></script>
-  <script src="../javascript/navigationBar/toggleSettings.js"></script>
+
 
   <link rel="stylesheet" href="../css/general/global.css">
 
+  <!-- FontAwesome dependency -->
   <script src="https://kit.fontawesome.com/d1709d070c.js" crossorigin="anonymous"></script>
 
   <script src="../javascript/navigationBar/navigationHamburger.js"></script>
   <script src="../javascript/navigationBar/navigationSearch.js"></script>
+  <script src="../javascript/navigationBar/navigationPopUps.js"></script>
+  <script src="../javascript/navigationBar/settingsToggles.js"></script>
   <script src="../javascript/homepage/homepageDropdowns.js"></script>
   <script src="../javascript/homepage/homepageGreeting.js"></script>
 
@@ -56,15 +56,15 @@
           </div>
         </form>
       </div>
-      <div class="navigation_menu_item" onclick="toggleNotificationMenu()">
+      <div class="navigation_menu_item" onclick="toggleNotificationsPopUp()">
         <i class="fa-solid fa-bell"></i>
         <p>Notifications</p>
       </div>
-      <div class="navigation_menu_item" onclick="toggleSettingsMenu()">
+      <div class="navigation_menu_item" onclick="toggleSettingsPopUp()">
         <i class="fa-solid fa-gear"></i>
         <p>Settings</p>
       </div>
-      <div class="navigation_menu_item" onclick="toggleAccountMenu()">
+      <div class="navigation_menu_item" onclick="toggleAccountPopUp()">
         <i class="fa-solid fa-user"></i>
         <p>Account</p>
       </div>
@@ -113,7 +113,7 @@
             </label>
           </div>
         </a>
-        <a class="settings_submenu_link" href="#" onclick="toggleSettings()">
+        <a class="settings_submenu_link" href="#" onclick="settingsToggles()">
           <i class="fa-solid fa-share-nodes"></i>
           <p>Data sharing</p>
           <div class="switch_wrapper">
