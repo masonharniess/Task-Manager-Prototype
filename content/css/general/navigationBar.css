@@ -17,6 +17,9 @@ nav {
     padding: 0 0 0 10px;
 }
 
+nav i {
+    padding: 10px;
+}
 .navigation_logo_and_title {
     font-size: 24px;
     font-weight: bold;
@@ -49,11 +52,7 @@ nav {
     background-color: #f2f2f2;
 }
 
-nav i {
-    padding: 10px;
-    text-decoration: none;
-    color: #000;
-}
+
 
 
 .toggle {

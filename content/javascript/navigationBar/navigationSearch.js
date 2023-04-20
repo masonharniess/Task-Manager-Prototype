@@ -1,6 +1,8 @@
 // Navigation search functionality
 
-function autocomplete(inp, arr) {
+function autocomplete() {
+    let inp = document.getElementById("id_navigation_search_input")
+    let arr = ["Home", "Tasks", "Calendar", "Timer", "Notes", "Services"]
     let currentFocus;
     inp.addEventListener("input", function(e) {
         let a, b, i, val = this.value;
@@ -75,4 +77,4 @@ function autocomplete(inp, arr) {
     });
 }
 
-let pages = ["Home", "Tasks", "Calendar", "Timer", "Notes", "Services"]
+
