@@ -1,0 +1,164 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -6,9 +6,10 @@
+   <component name="ChangeListManager">
+     <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="changed greeting placeholder name to 'Mason' if no name defined">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/content/css/general/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/general/global.css" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/content/css/pages/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/pages/index.css" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/content/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/html/index.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/content/javascript/homepage/homepageDropdowns.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/javascript/homepage/homepageDropdowns.js" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/content/javascript/navigationBar/navigationSearch.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/javascript/navigationBar/navigationSearch.js" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -40,7 +41,7 @@
+     </favorite-branches>
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+-        <entry key="$PROJECT_DIR$" value="1111aa37b5c2bfea9366448cb4fdf924a314d78d" />
++        <entry key="$PROJECT_DIR$" value="main" />
+       </map>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+Index: content/javascript/navigationBar/navigationSearch.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/content/javascript/navigationBar/navigationSearch.js b/content/javascript/navigationBar/navigationSearch.js
+--- a/content/javascript/navigationBar/navigationSearch.js	
++++ b/content/javascript/navigationBar/navigationSearch.js	
+@@ -1,6 +1,6 @@
+ // Navigation search functionality
+ 
+-function autocomplete() {
++function navigationSearchAutocomplete() {
+     let inp = document.getElementById("id_navigation_search_input")
+     let arr = ["Home", "Tasks", "Calendar", "Timer", "Notes", "Services"]
+     let currentFocus;
+Index: content/html/index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/content/html/index.html b/content/html/index.html
+--- a/content/html/index.html	
++++ b/content/html/index.html	
+@@ -20,7 +20,6 @@
+   <link rel="stylesheet" href="../css/pages/index.css">
+   <script src="../javascript/homepage/homepageGreeting.js"></script>
+   <script src="../javascript/homepage/homepageDropdowns.js"></script>
+-
+ </head>
+ <body>
+ 
+@@ -222,16 +221,14 @@
+ 
+   <div class="main_content_wrapper">
+     <div class="main_content_half">
+-      <div class="content_box">
+-        <div class="wrapper">
+-          <div tabindex=0 class="recent-tasks">
+-            <div class="content-title text-highlight">
+-              Recent tasks
++      <div class="content_box_wrapper">
++        <div class="content_box">
++            <div class="content_title_wrapper text-highlight">
++              <p class="content_title_text">Recent tasks</p>
+               <span class="arrow"></span>
+             </div>
+           </div>
+-        </div>
+-        <div class="sub-content">
++        <div class="content_box_sub_content">
+           My task 1
+         </div>
+       </div>
+@@ -323,8 +320,8 @@
+ 
+ <script>
+   navigationHamburger();
+-  autocomplete();
+-  dropDownMenu();
++  navigationSearchAutocomplete();
++  homepageDropDownMenu();
+   homepageGreetingTime()
+   homepageGreetingName()
+ </script>
+Index: content/css/pages/index.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/content/css/pages/index.css b/content/css/pages/index.css
+--- a/content/css/pages/index.css	
++++ b/content/css/pages/index.css	
+@@ -8,7 +8,15 @@
+     width: 100%;
+ }
+ 
+-.content-title{
++.content_box_wrapper {
++    border: 1px solid white;
++    background-color: white;
++    padding: 20px;
++    margin: 20px;
++    border-radius: 20px;
++}
++
++.content_title_wrapper{
+     cursor: pointer;
+     /*border-bottom: 1px solid rgba(255, 255, 255, 0.2);*/
+     transition: 0.15s ease;
+@@ -20,30 +28,16 @@
+     color: grey;
+ }
+ 
+-.sub-content {
+-    /*height: 40px;*/
+-    list-style: none;
+-    /*padding-top: 10px;*/
++.content_box_sub_content {
+     padding-left: 30px;
+-    /*padding-bottom: 10px;*/
+-    /*border-bottom: 1px solid #b5b5b5;*/
+     display: flex;
+     align-items: center;
+-
+-}
+-
+-.wrapper {
+-    outline: none;
+-    font-size: 16px;
+-    transition: 0.4s;
+-}
+-
+-.sub-content {
+     max-height: 0;
+     overflow: hidden;
+     transition: max-height 0.2s ease-out;
+ }
+ 
++
+ .wrapper.active .arrow {
+     transform: rotate(45deg) translate(-5px, -5px);
+ }
+@@ -127,10 +121,3 @@
+     margin: 0;
+ }
+ 
+-.content_box {
+-    border: 1px solid white;
+-    background-color: white;
+-    padding: 20px;
+-    margin: 20px;
+-    border-radius: 20px;
+-}
+\ No newline at end of file
