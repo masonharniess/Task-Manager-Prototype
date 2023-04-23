@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="made search not take any arguments">
+    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="rearranged where pop up submenus are222">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_13_04_2023,_21_31_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_13_04_2023__21_31__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/css/general/navigationBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/general/navigationBar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/css/general/navigationSearch.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/general/navigationSearch.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/css/general/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/general/global.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/javascript/navigationBar/navigationHamburger.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/javascript/navigationBar/navigationHamburger.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/javascript/homepage/homepageGreeting.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/javascript/homepage/homepageGreeting.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,10 +42,11 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="57fafd724c4492ac69b04862b535efb97192c29c" />
+        <entry key="$PROJECT_DIR$" value="1111aa37b5c2bfea9366448cb4fdf924a314d78d" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -143,13 +145,7 @@
       <workItem from="1681892530623" duration="37849000" />
       <workItem from="1681983614336" duration="4210000" />
       <workItem from="1681987843760" duration="11661000" />
-    </task>
-    <task id="LOCAL-00027" summary="Homepage drop-down working. animated arrow janky. not quite there">
-      <created>1680367889772</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1680367889772</updated>
+      <workItem from="1682252665891" duration="1522000" />
     </task>
     <task id="LOCAL-00028" summary="Homepage drop-down working for recent tasks">
       <created>1680369601692</created>
@@ -487,7 +483,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682004480914</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="rearranged where pop up submenus are222">
+      <created>1682011435479</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1682011435479</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -542,7 +545,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="changed menu to navigation menu" />
     <MESSAGE value="removed redundant body from navbar.css" />
     <MESSAGE value="changed nav bar from list to divs" />
     <MESSAGE value="search code clean" />
@@ -567,7 +569,8 @@
     <MESSAGE value="navigation search css fully cleaned???" />
     <MESSAGE value="nav bar css clean up" />
     <MESSAGE value="made search not take any arguments" />
-    <option name="LAST_COMMIT_MESSAGE" value="made search not take any arguments" />
+    <MESSAGE value="rearranged where pop up submenus are222" />
+    <option name="LAST_COMMIT_MESSAGE" value="rearranged where pop up submenus are222" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

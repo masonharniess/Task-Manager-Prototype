@@ -1,32 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-gb">
 <head>
+  <!-- Relevant to all pages  -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="../images/favicon.png">
-
-  <link rel="stylesheet" href="../css/pages/index.css">
+  <link rel="stylesheet" href="../css/general/global.css">
   <link rel="stylesheet" href="../css/general/navigationBar.css">
   <link rel="stylesheet" href="../css/general/navigationSearch.css">
   <link rel="stylesheet" href="../css/general/sidebar.css">
-
-
-
-  <link rel="stylesheet" href="../css/general/global.css">
-
-  <!-- FontAwesome dependency -->
-  <script src="https://kit.fontawesome.com/d1709d070c.js" crossorigin="anonymous"></script>
-
   <script src="../javascript/navigationBar/navigationHamburger.js"></script>
   <script src="../javascript/navigationBar/navigationSearch.js"></script>
   <script src="../javascript/navigationBar/navigationPopUps.js"></script>
   <script src="../javascript/navigationBar/settingsToggles.js"></script>
-  <script src="../javascript/homepage/homepageDropdowns.js"></script>
-  <script src="../javascript/homepage/homepageGreeting.js"></script>
-
+  <script src="https://kit.fontawesome.com/d1709d070c.js" crossorigin="anonymous"></script> <!-- FontAwesome dependency -->
   <title>RoutineExpress</title>
+
+  <!-- Index specific  -->
+  <link rel="stylesheet" href="../css/pages/index.css">
+  <script src="../javascript/homepage/homepageGreeting.js"></script>
+  <script src="../javascript/homepage/homepageDropdowns.js"></script>
+
 </head>
 <body>
+
+
 
 <!-- NAVIGATION BAR CONTENT -->
 
@@ -217,14 +215,13 @@
 <!--MAIN PAGE CONTENT -->
 
 <main>
-  <div class="heading-container">
-    <h1 class="heading" id="greeting"> </h1>
-    <h1 class="name" id="name"> </h1>
+  <div class="main_title_container">
+    <h1 class="main_title" id="greeting"></h1>
+    <h1 class="name" id="name"></h1>
   </div>
 
   <div class="content-section">
     <ul class="content left">
-
       <div class="context-box">
         <div class="wrapper">
           <li tabindex=0 class="recent-tasks">
@@ -281,7 +278,6 @@
         <div class="wrapper">
           <li tabindex=0 class="recent-tasks">
             <div class="content-title text-highlight">
-              <!--                        <i class="fa-solid fa-chevron-right"></i>-->
               Calendar view
               <span class="arrow"></span>
             </div>
@@ -296,7 +292,6 @@
         <div class="wrapper">
           <li tabindex=0 class="recent-tasks">
             <div class="content-title text-highlight">
-              <!--                        <i class="fa-solid fa-chevron-right"></i>-->
               Recent notes
               <span class="arrow"></span>
             </div>
@@ -311,7 +306,6 @@
         <div class="wrapper">
           <li tabindex=0 class="recent-tasks">
             <div class="content-title text-highlight">
-              <!--                        <i class="fa-solid fa-chevron-right"></i>-->
               Timers
               <span class="arrow"></span>
             </div>

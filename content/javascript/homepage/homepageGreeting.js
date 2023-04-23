@@ -27,5 +27,10 @@ function homepageGreetingName(){
         }
     }
 
-    document.getElementById("name").innerHTML = "&nbsp;" + fnameValue;
+    if (fnameValue) {
+        document.getElementById("name").innerHTML = "&nbsp;" + fnameValue;
+    } else {
+        document.getElementById("name").innerHTML = "Mason";
+    }
+
 }

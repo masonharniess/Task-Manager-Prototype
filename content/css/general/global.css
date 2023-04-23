@@ -1,7 +1,4 @@
-/* Google Fonts dependency */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-
-
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -17,7 +14,7 @@ main {
     max-width: 100%;
 }
 
-.heading {
+.main_title {
     font-size: 34px;
     font-weight: bold;
     display: inline;
