@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="some clean up of index">
+    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="somehomepage clean upo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/css/pages/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/pages/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/html/index.html" afterDir="false" />
@@ -144,20 +144,6 @@
       <workItem from="1681983614336" duration="4210000" />
       <workItem from="1681987843760" duration="11661000" />
       <workItem from="1682252665891" duration="6360000" />
-    </task>
-    <task id="LOCAL-00030" summary="task page set up">
-      <created>1680469373459</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1680469373459</updated>
-    </task>
-    <task id="LOCAL-00031" summary="All main pages have a basic page set up.">
-      <created>1680530856172</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1680530856172</updated>
     </task>
     <task id="LOCAL-00032" summary="search placeholder text. sidebar hover size. homepage hovor colour.">
       <created>1680532203104</created>
@@ -488,7 +474,21 @@
       <option name="project" value="LOCAL" />
       <updated>1682256956194</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="squash! some clean up of index">
+      <created>1682262047299</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1682262047299</updated>
+    </task>
+    <task id="LOCAL-00080" summary="somehomepage clean upo">
+      <created>1682262062814</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1682262062814</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -543,8 +543,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="search code clean" />
-    <MESSAGE value="removed redundant nav search code" />
     <MESSAGE value="nav search hover code fix" />
     <MESSAGE value="nav search hover code fix 2" />
     <MESSAGE value="changed class name of autocomplete" />
@@ -568,7 +566,9 @@
     <MESSAGE value="rearranged where pop up submenus are222" />
     <MESSAGE value="changed greeting placeholder name to 'Mason' if no name defined" />
     <MESSAGE value="some clean up of index" />
-    <option name="LAST_COMMIT_MESSAGE" value="some clean up of index" />
+    <MESSAGE value="squash! some clean up of index" />
+    <MESSAGE value="somehomepage clean upo" />
+    <option name="LAST_COMMIT_MESSAGE" value="somehomepage clean upo" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
