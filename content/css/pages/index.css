@@ -29,76 +29,76 @@
     /*border-bottom: 1px solid #b5b5b5;*/
     display: flex;
     align-items: center;
-
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: red;
 }
 
-.wrapper {
+.content_box {
     outline: none;
     font-size: 16px;
     transition: 0.4s;
 }
 
-.sub-content {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-}
-
-.wrapper.active .arrow {
+.content_box.active .arrow {
     transform: rotate(45deg) translate(-5px, -5px);
 }
-.wrapper.active .arrow:before {
+.content_box.active .arrow:before {
     transform: translate(10px, 0);
 
 }
-.wrapper.active .arrow:after {
+.content_box.active .arrow:after {
     transform: rotate(90deg) translate(10px, 0);
     border-color: green;
     color: yellow;
 }
-.wrapper.active ul {
-    opacity: 0.3;
+.content_box.active {
     height: 108px;
+}
+
+.sub-content.active {
+    height: 109px;
 }
 
 span {
     display: inline-block;
 }
 
-.arrow {
-    width: 13px;
-    height: 13px;
-    display: inline-block;
-    position: relative;
-    /*bottom: -15px;*/
-    /*left: -915px;    */
-    bottom: -5px;
-    left: -20px;
-    transition: 0.4s ease;
-    margin-top: 2px;
-    text-align: left;
-    transform: rotate(45deg);
-    float: right;
-}
+/*.arrow {*/
+/*    width: 13px;*/
+/*    height: 13px;*/
+/*    display: inline-block;*/
+/*    position: relative;*/
+/*    !*bottom: -15px;*!*/
+/*    !*left: -915px;    *!*/
+/*    bottom: -5px;*/
+/*    left: -20px;*/
+/*    transition: 0.4s ease;*/
+/*    margin-top: 2px;*/
+/*    text-align: left;*/
+/*    transform: rotate(45deg);*/
+/*    float: right;*/
+/*}*/
 
-.arrow:before, .arrow:after {
-    position: absolute;
-    content: "";
-    display: inline-block;
-    width: 12px;
-    height: 2px;
-    transition: 0.4s ease;
+/*.arrow:before, .arrow:after {*/
+/*    position: absolute;*/
+/*    content: "";*/
+/*    display: inline-block;*/
+/*    width: 12px;*/
+/*    height: 2px;*/
+/*    transition: 0.4s ease;*/
 
-    background-color: black;
-}
+/*    background-color: black;*/
+/*}*/
 
-.arrow:after {
-    position: absolute;
-    transform: rotate(90deg);
-    top: -5px;
-    left: 5px;
-    background-color: black;
-}
+/*.arrow:after {*/
+/*    position: absolute;*/
+/*    transform: rotate(90deg);*/
+/*    top: -5px;*/
+/*    left: 5px;*/
+/*    background-color: black;*/
+/*}*/
 
 
 

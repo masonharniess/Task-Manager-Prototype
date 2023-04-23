@@ -2,8 +2,9 @@
 
 function dropDownMenu() {
     document.addEventListener('click', function(event) {
-        var wrapper = event.target.closest('.wrapper');
+        var wrapper = event.target.closest('.content_box');
         if (wrapper) {
+            var subcon = document.getElementById('a')
             wrapper.classList.toggle('active');
             var panel = wrapper.nextElementSibling;
             if (panel.style.maxHeight) {
@@ -16,10 +17,10 @@ function dropDownMenu() {
         }
     });
 
-    document.addEventListener('keydown', function(event) {
-        if (event.key === 'Enter' && event.target.classList.contains('wrapper')) {
-            event.preventDefault();
-            event.target.click();
-        }
-    });
+    // document.addEventListener('keydown', function(event) {
+    //     if (event.key === 'Enter' && event.target.classList.contains('wrapper')) {
+    //         event.preventDefault();
+    //         event.target.click();
+    //     }
+    // });
 }

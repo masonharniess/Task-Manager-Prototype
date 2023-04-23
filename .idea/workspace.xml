@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="changed greeting placeholder name to 'Mason' if no name defined">
+    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="some clean up of index">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/css/general/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/general/global.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/css/pages/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/pages/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/javascript/homepage/homepageDropdowns.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/javascript/homepage/homepageDropdowns.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,14 +143,7 @@
       <workItem from="1681892530623" duration="37849000" />
       <workItem from="1681983614336" duration="4210000" />
       <workItem from="1681987843760" duration="11661000" />
-      <workItem from="1682252665891" duration="4126000" />
-    </task>
-    <task id="LOCAL-00029" summary="homepage in semi prototype state. moving on to other pages.">
-      <created>1680466797700</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1680466797700</updated>
+      <workItem from="1682252665891" duration="6360000" />
     </task>
     <task id="LOCAL-00030" summary="task page set up">
       <created>1680469373459</created>
@@ -488,7 +481,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682254359620</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="some clean up of index">
+      <created>1682256956194</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1682256956194</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -543,7 +543,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="changed nav bar from list to divs" />
     <MESSAGE value="search code clean" />
     <MESSAGE value="removed redundant nav search code" />
     <MESSAGE value="nav search hover code fix" />
@@ -568,7 +567,8 @@
     <MESSAGE value="made search not take any arguments" />
     <MESSAGE value="rearranged where pop up submenus are222" />
     <MESSAGE value="changed greeting placeholder name to 'Mason' if no name defined" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed greeting placeholder name to 'Mason' if no name defined" />
+    <MESSAGE value="some clean up of index" />
+    <option name="LAST_COMMIT_MESSAGE" value="some clean up of index" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
