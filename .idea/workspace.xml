@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="rearranged where pop up submenus are222">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_13_04_2023,_21_31_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_13_04_2023__21_31__Changes_.xml" beforeDir="false" />
+    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="changed greeting placeholder name to 'Mason' if no name defined">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/css/general/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/general/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/css/pages/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/pages/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/javascript/homepage/homepageGreeting.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/javascript/homepage/homepageGreeting.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,14 +143,7 @@
       <workItem from="1681892530623" duration="37849000" />
       <workItem from="1681983614336" duration="4210000" />
       <workItem from="1681987843760" duration="11661000" />
-      <workItem from="1682252665891" duration="1522000" />
-    </task>
-    <task id="LOCAL-00028" summary="Homepage drop-down working for recent tasks">
-      <created>1680369601692</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1680369601692</updated>
+      <workItem from="1682252665891" duration="4126000" />
     </task>
     <task id="LOCAL-00029" summary="homepage in semi prototype state. moving on to other pages.">
       <created>1680466797700</created>
@@ -490,7 +481,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682011435479</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="changed greeting placeholder name to 'Mason' if no name defined">
+      <created>1682254359619</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1682254359620</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -545,7 +543,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="removed redundant body from navbar.css" />
     <MESSAGE value="changed nav bar from list to divs" />
     <MESSAGE value="search code clean" />
     <MESSAGE value="removed redundant nav search code" />
@@ -570,7 +567,8 @@
     <MESSAGE value="nav bar css clean up" />
     <MESSAGE value="made search not take any arguments" />
     <MESSAGE value="rearranged where pop up submenus are222" />
-    <option name="LAST_COMMIT_MESSAGE" value="rearranged where pop up submenus are222" />
+    <MESSAGE value="changed greeting placeholder name to 'Mason' if no name defined" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed greeting placeholder name to 'Mason' if no name defined" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
