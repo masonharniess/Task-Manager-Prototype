@@ -10,8 +10,8 @@ function dropDownMenu() {
                 panel.style.maxHeight = null;
             } else {
                 var panelHeight = panel.scrollHeight;
-                var maxHeight = panelHeight + 35;
-                panel.style.maxHeight = maxHeight + 'px';
+                var maxHeight = panelHeight;
+                panel.style.maxHeight = 300 + 'px';
             }
         }
     });
