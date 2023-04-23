@@ -12,7 +12,7 @@ function dropDownMenu() {
             } else {
                 var panelHeight = panel.scrollHeight;
                 var maxHeight = panelHeight;
-                panel.style.maxHeight = 200 + 'px';
+                panel.style.maxHeight = 600 + 'px';
             }
         }
     });
