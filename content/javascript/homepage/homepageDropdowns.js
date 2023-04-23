@@ -4,6 +4,7 @@ function dropDownMenu() {
     document.addEventListener('click', function(event) {
         var wrapper = event.target.closest('.content_box');
         if (wrapper) {
+            var subcon = document.getElementById('a')
             wrapper.classList.toggle('active');
             var panel = wrapper.nextElementSibling;
             if (panel.style.maxHeight) {
