@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="major index clean up">
-      <change afterPath="$PROJECT_DIR$/content/images/homepageCalendar.png" afterDir="false" />
+    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="home page looking fresh">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/css/general/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/general/global.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/css/pages/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/pages/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/javascript/homepage/homepageDropdowns.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/javascript/homepage/homepageDropdowns.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/html/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/html/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/javascript/navigationBar/navigationSearch.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/javascript/navigationBar/navigationSearch.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,13 +144,7 @@
       <workItem from="1681983614336" duration="4210000" />
       <workItem from="1681987843760" duration="11661000" />
       <workItem from="1682252665891" duration="6360000" />
-    </task>
-    <task id="LOCAL-00033" summary="Login page basic set up">
-      <created>1680538763411</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1680538763411</updated>
+      <workItem from="1682337936649" duration="6713000" />
     </task>
     <task id="LOCAL-00034" summary="greeting now time specific">
       <created>1680539624179</created>
@@ -490,7 +482,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682275537047</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="home page looking fresh">
+      <created>1682277268608</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1682277268608</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -557,7 +556,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="nav search hover code fix 2" />
     <MESSAGE value="changed class name of autocomplete" />
     <MESSAGE value="changed autocomplete-items to navigation_search_suggestions_items" />
     <MESSAGE value="changed active to navigation_search_suggestions_active" />
@@ -582,7 +580,8 @@
     <MESSAGE value="squash! some clean up of index" />
     <MESSAGE value="somehomepage clean upo" />
     <MESSAGE value="major index clean up" />
-    <option name="LAST_COMMIT_MESSAGE" value="major index clean up" />
+    <MESSAGE value="home page looking fresh" />
+    <option name="LAST_COMMIT_MESSAGE" value="home page looking fresh" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

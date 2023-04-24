@@ -1,6 +1,6 @@
 // Navigation search functionality
 
-function autocomplete() {
+function navigationSearch() {
     let inp = document.getElementById("id_navigation_search_input")
     let arr = ["Home", "Tasks", "Calendar", "Timer", "Notes", "Services"]
     let currentFocus;
