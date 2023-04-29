@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="home page looking fresh">
+    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="changed name of homepage dropdown funciton">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/html/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/html/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/javascript/navigationBar/navigationSearch.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/javascript/navigationBar/navigationSearch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/html/tasks.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/html/tasks.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,21 +142,14 @@
       <workItem from="1681983614336" duration="4210000" />
       <workItem from="1681987843760" duration="11661000" />
       <workItem from="1682252665891" duration="6360000" />
-      <workItem from="1682337936649" duration="6713000" />
-    </task>
-    <task id="LOCAL-00034" summary="greeting now time specific">
-      <created>1680539624179</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1680539624179</updated>
-    </task>
-    <task id="LOCAL-00035" summary="signup &amp; login aesthetic sorted">
-      <created>1680543375277</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1680543375277</updated>
+      <workItem from="1682337936649" duration="6935000" />
+      <workItem from="1682366948584" duration="600000" />
+      <workItem from="1682418918061" duration="639000" />
+      <workItem from="1682630526094" duration="550000" />
+      <workItem from="1682631223567" duration="225000" />
+      <workItem from="1682631674558" duration="591000" />
+      <workItem from="1682759770291" duration="620000" />
+      <workItem from="1682763092445" duration="2481000" />
     </task>
     <task id="LOCAL-00036" summary="login realligned">
       <created>1680552254806</created>
@@ -489,7 +480,21 @@
       <option name="project" value="LOCAL" />
       <updated>1682277268608</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="changed name of search funciton">
+      <created>1682366797933</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1682366797933</updated>
+    </task>
+    <task id="LOCAL-00084" summary="changed name of homepage dropdown funciton">
+      <created>1682366938609</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1682366938609</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -556,8 +561,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="changed class name of autocomplete" />
-    <MESSAGE value="changed autocomplete-items to navigation_search_suggestions_items" />
     <MESSAGE value="changed active to navigation_search_suggestions_active" />
     <MESSAGE value="changed autocomplete list to navigation_search_suggestions_list" />
     <MESSAGE value="search function clean up" />
@@ -581,7 +584,9 @@
     <MESSAGE value="somehomepage clean upo" />
     <MESSAGE value="major index clean up" />
     <MESSAGE value="home page looking fresh" />
-    <option name="LAST_COMMIT_MESSAGE" value="home page looking fresh" />
+    <MESSAGE value="changed name of search funciton" />
+    <MESSAGE value="changed name of homepage dropdown funciton" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed name of homepage dropdown funciton" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
