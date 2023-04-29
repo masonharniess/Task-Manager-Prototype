@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="changed name of homepage dropdown funciton">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/html/tasks.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/html/tasks.html" afterDir="false" />
+    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="cleaned head section of tasks page">
+      <change beforePath="$PROJECT_DIR$/content/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/html/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,14 +148,7 @@
       <workItem from="1682631223567" duration="225000" />
       <workItem from="1682631674558" duration="591000" />
       <workItem from="1682759770291" duration="620000" />
-      <workItem from="1682763092445" duration="2481000" />
-    </task>
-    <task id="LOCAL-00036" summary="login realligned">
-      <created>1680552254806</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1680552254806</updated>
+      <workItem from="1682763092445" duration="2982000" />
     </task>
     <task id="LOCAL-00037" summary="Feat + Style: Sign-up &amp; Login&#10;&#10;Stylise the sign-up &amp; login.&#10;Make the greeting name-specific.">
       <created>1680620857123</created>
@@ -494,7 +486,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682366938609</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="cleaned head section of tasks page">
+      <created>1682766296259</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1682766296260</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -561,7 +560,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="changed active to navigation_search_suggestions_active" />
     <MESSAGE value="changed autocomplete list to navigation_search_suggestions_list" />
     <MESSAGE value="search function clean up" />
     <MESSAGE value="removed comments from search function" />
@@ -586,7 +584,8 @@
     <MESSAGE value="home page looking fresh" />
     <MESSAGE value="changed name of search funciton" />
     <MESSAGE value="changed name of homepage dropdown funciton" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed name of homepage dropdown funciton" />
+    <MESSAGE value="cleaned head section of tasks page" />
+    <option name="LAST_COMMIT_MESSAGE" value="cleaned head section of tasks page" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

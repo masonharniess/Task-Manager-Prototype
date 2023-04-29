@@ -55,92 +55,89 @@
         <i class="fa-solid fa-bell"></i>
         <p class="navigation_menu_item_text">Notifications</p>
         <div class="notifications_submenu_wrapper" id="id_notifications_submenu_wrapper">
-        <div class="notifications_submenu">
-          <div class="notifications_information">
-            <h3>Notifications</h3>
+          <div class="notifications_submenu">
+            <div class="notifications_information">
+              <h3>Notifications</h3>
+            </div>
+            <hr>
+            <a class="notifications_submenu_link" href="#">
+              <i class="fa-regular fa-envelope"></i>
+              <p class="notification_text">Mail from Ahab C</p>
+              <p class="notification_time"
+                 aria-label="The time or date of the event.">15:36</p>
+            </a>
+            <a class="notifications_submenu_link" href="#">
+              <i class="fa-solid fa-stethoscope"></i>
+              <p class="notification_text">Doctors appointment</p>
+              <p class="notification_time"
+                 aria-label="The time or date of the event.">17:00</p>
+            </a>
+            <a class="notifications_submenu_link" href="#">
+              <i class="fa-solid fa-cake-candles"></i>
+              <p class="notification_text">Anna's birthday</p>
+              <p class="notification_time"
+                 aria-label="The time or date of the event.">Tomorrow</p>
+            </a>
           </div>
-          <hr>
-          <a class="notifications_submenu_link" href="#">
-            <i class="fa-regular fa-envelope"></i>
-            <p class="notification_text">Mail from Ahab C</p>
-            <p class="notification_time"
-               aria-label="The time or date of the event.">15:36</p>
-          </a>
-          <a class="notifications_submenu_link" href="#">
-            <i class="fa-solid fa-stethoscope"></i>
-            <p class="notification_text">Doctors appointment</p>
-            <p class="notification_time"
-               aria-label="The time or date of the event.">17:00</p>
-          </a>
-          <a class="notifications_submenu_link" href="#">
-            <i class="fa-solid fa-cake-candles"></i>
-            <p class="notification_text">Anna's birthday</p>
-            <p class="notification_time"
-               aria-label="The time or date of the event.">Tomorrow</p>
-          </a>
         </div>
-      </div>
       </div>
       <div class="navigation_menu_item" onclick="toggleSettingsPopUp()">
         <i class="fa-solid fa-gear"></i>
         <p class="navigation_menu_item_text">Settings</p>
 
         <div class="settings_submenu_wrapper" id="id_settings_submenu_wrapper">
-        <div class="settings_submenu">
-          <div class="settings_information">
-            <h3>Settings</h3>
+          <div class="settings_submenu">
+            <div class="settings_information">
+              <h3>Settings</h3>
+            </div>
+            <hr>
+            <a class="settings_submenu_link" href="#" onclick="toggleDark()" >
+              <i class="fa-solid fa-moon"></i>
+              <p>Dark mode</p>
+              <div class="switch_wrapper">
+                <label class="switch_label">
+                  <input id="switch_checkbox_dark" type="checkbox" />
+                  <div></div>
+                </label>
+              </div>
+            </a>
+            <a class="settings_submenu_link" href="#" onclick="settingsToggles()">
+              <i class="fa-solid fa-share-nodes"></i>
+              <p>Data sharing</p>
+              <div class="switch_wrapper">
+                <label class="switch_label">
+                  <input id="switch_checkbox_share" type="checkbox" />
+                  <div></div>
+                </label>
+              </div>
+            </a>
+            <a class="settings_submenu_link" href="#" onclick="toggleFilter()">
+              <i class="fa-solid fa-filter"></i>
+              <p>Priority filtering</p>
+              <div class="switch_wrapper">
+                <label class="switch_label">
+                  <input id="switch_checkbox_filter" type="checkbox"/>
+                  <div></div>
+                </label>
+              </div>
+            </a>
+            <a class="settings_submenu_link" href="#" onclick="toggleDisturb()">
+              <i class="fa-solid fa-bell-slash"></i>
+              <p>Do not disturb</p>
+              <div class="switch_wrapper">
+                <label class="switch_label">
+                  <input id="switch_checkbox_disturb" type="checkbox"/>
+                  <div></div>
+                </label>
+              </div>
+
+            </a>
           </div>
-          <hr>
-          <a class="settings_submenu_link" href="#" onclick="toggleDark()" >
-            <i class="fa-solid fa-moon"></i>
-            <p>Dark mode</p>
-            <div class="switch_wrapper">
-              <label class="switch_label">
-                <input id="switch_checkbox_dark" type="checkbox" />
-                <div></div>
-              </label>
-            </div>
-          </a>
-          <a class="settings_submenu_link" href="#" onclick="settingsToggles()">
-            <i class="fa-solid fa-share-nodes"></i>
-            <p>Data sharing</p>
-            <div class="switch_wrapper">
-              <label class="switch_label">
-                <input id="switch_checkbox_share" type="checkbox" />
-                <div></div>
-              </label>
-            </div>
-          </a>
-          <a class="settings_submenu_link" href="#" onclick="toggleFilter()">
-            <i class="fa-solid fa-filter"></i>
-            <p>Priority filtering</p>
-            <div class="switch_wrapper">
-              <label class="switch_label">
-                <input id="switch_checkbox_filter" type="checkbox"/>
-                <div></div>
-              </label>
-            </div>
-
-          </a>
-          <a class="settings_submenu_link" href="#" onclick="toggleDisturb()">
-            <i class="fa-solid fa-bell-slash"></i>
-            <p>Do not disturb</p>
-            <div class="switch_wrapper">
-              <label class="switch_label">
-                <input id="switch_checkbox_disturb" type="checkbox"/>
-                <div></div>
-              </label>
-            </div>
-
-          </a>
         </div>
-      </div>
-
       </div>
       <div class="navigation_menu_item" onclick="toggleAccountPopUp()">
         <i class="fa-solid fa-user"></i>
         <p class="navigation_menu_item_text">Account</p>
-
         <div class="account_submenu_wrapper" id="id_account_submenu_wrapper">
           <div class="account_submenu">
             <div class="account_information">
@@ -159,7 +156,6 @@
             </a>
           </div>
         </div>
-
       </div>
     </div>
     <div class="navigation_hamburger">
@@ -171,31 +167,29 @@
 <!-- SIDE BAR CONTENT -->
 
 <div class="sidebar">
-  <ul>
-    <li class="active" onclick="location.href = 'index.html'">
+    <div class="active" onclick="location.href = 'index.html'">
       <i class="fa-solid fa-house"></i>
       <a  href="#">Home</a>
-    </li>
-    <li onclick="location.href = 'tasks.html'">
+    </div>
+    <div onclick="location.href = 'tasks.html'">
       <i class="fa-solid fa-list-check"></i>
       <a href="tasks.html">Tasks</a>
-    </li>
-    <li onclick="location.href = 'calendar.html'">
+    </div>
+    <div onclick="location.href = 'calendar.html'">
       <i class="fa-solid fa-calendar"></i>
       <a href="#">Calendar</a>
-    </li>
-    <li onclick="location.href = 'timers.html'">
+    </div>
+    <div onclick="location.href = 'timers.html'">
       <i class="fa-solid fa-hourglass"></i>
       <a href="#">Timer</a>
-    </li>
-    <li onclick="location.href = 'notes.html'">
+    </div>
+    <div onclick="location.href = 'notes.html'">
       <i class="fa-solid fa-note-sticky"></i>
-      <a href="#">Notes</a></li>
-    <li onclick="location.href = 'services.html'">
+      <a href="#">Notes</a></div>
+    <div onclick="location.href = 'services.html'">
       <i class="fa-solid fa-circle-question"></i>
       <a href="#">Services</a>
-    </li>
-  </ul>
+    </div>
 </div>
 
 <!--MAIN PAGE CONTENT -->

@@ -10,19 +10,13 @@
     background-color: white;
 }
 
-.sidebar ul {
-    list-style-type: none;
-    margin: 0;
-    padding-left: 0;
-}
-
-.sidebar li {
+.sidebar div {
     margin: 0 0 0 0;
     cursor: pointer;
     padding: 5px 0;
 }
 
-.sidebar li:hover {
+.sidebar div:hover {
     background-color: #f2f2f2;
 }
 
