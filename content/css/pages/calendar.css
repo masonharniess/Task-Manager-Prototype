@@ -11,6 +11,7 @@
   padding: 20px;
   margin: 20px;
   border-radius: 20px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.12);
 }
 
 .calendar_header_box {
@@ -35,7 +36,8 @@
   margin-left: 5px;
 }
 
-.calendar_days {
+.calendar_weeks {
+  margin: 0 5px;
   display: flex;
   justify-content: space-between;
 
@@ -45,18 +47,14 @@
 /* OLD */
 
 .wrapper{
-
-
-  width: 450px;
   background: #fff;
   border-radius: 10px;
-  box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+
 }
 .wrapper header{
   display: flex;
   align-items: center;
   padding: 25px 30px 10px;
-  justify-content: space-between;
 }
 .calendar_header .icons{
   display: flex;
