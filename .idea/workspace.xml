@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="tasks page complete clean up i think">
+    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="about to start on calendar ting">
+      <change afterPath="$PROJECT_DIR$/content/javascript/pages/calendarSystem.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/css/pages/calendar.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/pages/calendar.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/html/calendar.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/html/calendar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/html/notes.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/html/notes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/html/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/html/services.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/html/tasks.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/html/tasks.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/html/timers.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/html/timers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/javascript/pages/taskManagement.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/javascript/pages/taskManagement.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -158,14 +154,7 @@
       <workItem from="1682763092445" duration="6330000" />
       <workItem from="1682843390924" duration="7170000" />
       <workItem from="1682855663602" duration="231000" />
-      <workItem from="1682855953837" duration="6257000" />
-    </task>
-    <task id="LOCAL-00042" summary="random changes">
-      <created>1681241803148</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1681241803149</updated>
+      <workItem from="1682855953837" duration="12395000" />
     </task>
     <task id="LOCAL-00043" summary="basic delete working">
       <created>1681384003381</created>
@@ -503,7 +492,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682857940823</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="about to start on calendar ting">
+      <created>1682864723084</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1682864723084</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -570,7 +566,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="search cleansing" />
     <MESSAGE value="nav clean up" />
     <MESSAGE value="fixed settinge elongation" />
     <MESSAGE value="nav buttons changed tags" />
@@ -595,7 +590,8 @@
     <MESSAGE value="some general fixes" />
     <MESSAGE value="some task clean buttons" />
     <MESSAGE value="tasks page complete clean up i think" />
-    <option name="LAST_COMMIT_MESSAGE" value="tasks page complete clean up i think" />
+    <MESSAGE value="about to start on calendar ting" />
+    <option name="LAST_COMMIT_MESSAGE" value="about to start on calendar ting" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

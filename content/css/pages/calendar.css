@@ -1,11 +1,52 @@
-body{
+.main_content_wrapper{
+  /*display: flex;*/
+  /*align-items: center;*/
+  /*justify-content: center;*/
+  /*min-height: 100vh;*/
+}
+
+.calendar_box_wrapper {
+  border: 1px solid white;
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+.calendar_header_box {
   display: flex;
   align-items: center;
-  padding: 0 10px;
-  justify-content: center;
-  min-height: 100vh;
+  justify-content: space-between;
+  margin-bottom: 20px;
 }
+
+.calendar_header_box_current_date {
+  font-weight: 500;
+  margin: 0;
+}
+
+.calendar_header_box_chevrons {}
+
+.fa-chevron-left {
+  margin-right: 5px;
+}
+
+.fa-chevron-right {
+  margin-left: 5px;
+}
+
+.calendar_days {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+/* OLD */
+
 .wrapper{
+
+
   width: 450px;
   background: #fff;
   border-radius: 10px;
