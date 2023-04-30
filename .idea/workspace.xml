@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="semi progress init">
+    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="good shape not finished">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/html/calendar.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/html/calendar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/javascript/pages/calendarSystem.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/javascript/pages/calendarSystem.js" afterDir="false" />
@@ -153,14 +153,7 @@
       <workItem from="1682763092445" duration="6330000" />
       <workItem from="1682843390924" duration="7170000" />
       <workItem from="1682855663602" duration="231000" />
-      <workItem from="1682855953837" duration="15541000" />
-    </task>
-    <task id="LOCAL-00045" summary="delete task works">
-      <created>1681389661623</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1681389661623</updated>
+      <workItem from="1682855953837" duration="16180000" />
     </task>
     <task id="LOCAL-00046" summary="edit tasks kinda works">
       <created>1681393460409</created>
@@ -498,7 +491,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682874632241</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="good shape not finished">
+      <created>1682876137632</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1682876137632</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -565,7 +565,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="nav buttons changed tags" />
     <MESSAGE value="navigation search css fully cleaned???" />
     <MESSAGE value="nav bar css clean up" />
     <MESSAGE value="made search not take any arguments" />
@@ -590,7 +589,8 @@
     <MESSAGE value="about to start on calendar ting" />
     <MESSAGE value="some good progress on calendar" />
     <MESSAGE value="semi progress init" />
-    <option name="LAST_COMMIT_MESSAGE" value="semi progress init" />
+    <MESSAGE value="good shape not finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="good shape not finished" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
