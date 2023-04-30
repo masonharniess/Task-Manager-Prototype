@@ -18,9 +18,8 @@
 
   <!-- Index specific  -->
   <link rel="stylesheet" href="../css/pages/index.css">
-  <script src="../javascript/homepage/homepageGreeting.js"></script>
-  <script src="../javascript/homepage/homepageDropdowns.js"></script>
-
+  <script src="../javascript/pages/homepageGreeting.js"></script>
+  <script src="../javascript/general/mainDropdowns.js"></script>
 </head>
 <body>
 
@@ -167,29 +166,29 @@
 <!-- SIDE BAR CONTENT -->
 
 <div class="sidebar">
-    <div class="active" onclick="location.href = 'index.html'">
+    <a class="active" href="index.html">
       <i class="fa-solid fa-house"></i>
-      <a  href="#">Home</a>
-    </div>
-    <div onclick="location.href = 'tasks.html'">
+      <p>Home</p>
+    </a>
+    <a href="tasks.html">
       <i class="fa-solid fa-list-check"></i>
-      <a href="tasks.html">Tasks</a>
-    </div>
-    <div onclick="location.href = 'calendar.html'">
+      <p>Tasks</p>
+    </a>
+    <a href="calendar.html">
       <i class="fa-solid fa-calendar"></i>
-      <a href="#">Calendar</a>
-    </div>
-    <div onclick="location.href = 'timers.html'">
+      <p>Calendar</p>
+    </a>
+    <a href="timers.html">
       <i class="fa-solid fa-hourglass"></i>
-      <a href="#">Timer</a>
-    </div>
-    <div onclick="location.href = 'notes.html'">
+      <p>Timer</p>
+    </a>
+    <a href="notes.html">
       <i class="fa-solid fa-note-sticky"></i>
-      <a href="#">Notes</a></div>
-    <div onclick="location.href = 'services.html'">
+      <p>Notes</p></a>
+    <a href="services.html">
       <i class="fa-solid fa-circle-question"></i>
-      <a href="#">Services</a>
-    </div>
+      <p>Services</p>
+    </a>
 </div>
 
 <!--MAIN PAGE CONTENT -->
@@ -202,15 +201,13 @@
 
   <div class="main_content_wrapper">
     <div class="main_content_half">
-
-      <!-- Recent & impending tasks -->
       <div class="content_box_wrapper">
         <div class="content_box">
-            <div class="content_title_wrapper">
-              <h3 class="content_title">Recent & impending tasks</h3>
-              <span class="content_box_dropdown_arrow"></span>
-            </div>
+          <div class="content_title_wrapper">
+            <h3 class="content_title">Recent & impending tasks</h3>
+            <span class="content_box_dropdown_arrow"></span>
           </div>
+        </div>
         <div class="content_box_sub_content">
           <div class="content_box_sub_content_row">
             <p class="row_text">Walk the dog</p>

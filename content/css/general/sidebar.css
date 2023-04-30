@@ -8,22 +8,27 @@
     padding-top: 80px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     background-color: white;
+
 }
 
-.sidebar div {
+.sidebar a {
     margin: 0 0 0 0;
     cursor: pointer;
     padding: 5px 0;
+    text-decoration: none;
+    color: #000;
+    display: flex;
 }
 
-.sidebar div:hover {
+.sidebar a:hover {
     background-color: #f2f2f2;
 }
 
-.sidebar a, .sidebar i {
+.sidebar p, .sidebar i {
     padding: 10px;
-    text-decoration: none;
-    color: #000;
+    margin: 0;
+
+
 }
 
 .sidebar i {

@@ -16,7 +16,7 @@
 
   <script src="../javascript/navigationBar/navigationHamburger.js"></script>
   <script src="../javascript/navigationBar/navigationSearch.js"></script>
-  <script src="../javascript/homepage/homepageDropdowns.js"></script>
+  <script src="../javascript/general/mainDropdowns.js"></script>
   <title>RoutineExpress</title>
 </head>
 <body>
@@ -66,31 +66,29 @@
 <!-- SIDE BAR CONTENT -->
 
 <div class="sidebar">
-  <ul>
-    <li onclick="location.href = 'index.html'">
-      <i class="fa-solid fa-house"></i>
-      <a  href="#">Home</a>
-    </li>
-    <li onclick="location.href = 'tasks.html'">
-      <i class="fa-solid fa-list-check"></i>
-      <a href="tasks.html">Tasks</a>
-    </li>
-    <li onclick="location.href = 'calendar.html'">
-      <i class="fa-solid fa-calendar"></i>
-      <a href="#">Calendar</a>
-    </li>
-    <li onclick="location.href = 'timers.html'">
-      <i class="fa-solid fa-hourglass"></i>
-      <a href="#">Timer</a>
-    </li>
-    <li class="active" onclick="location.href = 'notes.html'">
-      <i class="fa-solid fa-note-sticky"></i>
-      <a href="#">Notes</a></li>
-    <li onclick="location.href = 'services.html'">
-      <i class="fa-solid fa-circle-question"></i>
-      <a href="#">Services</a>
-    </li>
-  </ul>
+  <a href="index.html">
+    <i class="fa-solid fa-house"></i>
+    <p>Home</p>
+  </a>
+  <a href="tasks.html">
+    <i class="fa-solid fa-list-check"></i>
+    <p>Tasks</p>
+  </a>
+  <a href="calendar.html">
+    <i class="fa-solid fa-calendar"></i>
+    <p>Calendar</p>
+  </a>
+  <a href="timers.html">
+    <i class="fa-solid fa-hourglass"></i>
+    <p>Timer</p>
+  </a>
+  <a class="active" href="notes.html">
+    <i class="fa-solid fa-note-sticky"></i>
+    <p>Notes</p></a>
+  <a href="services.html">
+    <i class="fa-solid fa-circle-question"></i>
+    <p>Services</p>
+  </a>
 </div>
 
 <!--MAIN PAGE CONTENT -->

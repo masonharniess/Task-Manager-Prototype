@@ -1,3 +1,117 @@
+.content_box_wrapper {
+    border: 1px solid white;
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.content_box {
+    outline: none;
+    font-size: 16px;
+    transition: 0.4s;
+}
+
+.content_box.active {
+    background-color: white;
+}
+
+.content_title_wrapper {
+    display: flex;
+    border-bottom: 1px solid grey;
+    cursor: pointer;
+    /*padding: 18px 0 18px 30px;*/
+}
+
+.content_title_wrapper:hover {
+    color: grey;
+}
+
+.content_title {
+    font-weight: 500;
+    margin: 0 auto 0 0;
+}
+
+.content_box.active .content_box_dropdown_arrow {
+    transform: rotate(45deg) translate(-5px, -5px);
+}
+.content_box.active .content_box_dropdown_arrow:before {
+    transform: translate(10px, 0);
+
+}
+.content_box.active .content_box_dropdown_arrow:after {
+    transform: rotate(90deg) translate(10px, 0);
+}
+
+.content_box_dropdown_arrow {
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    position: relative;
+    /*bottom: -15px;*/
+    /*left: -915px;    */
+    bottom: -5px;
+    left: -20px;
+    transition: 0.4s ease;
+    margin-top: 2px;
+    text-align: left;
+    transform: rotate(45deg);
+    float: right;
+}
+
+.content_box_dropdown_arrow:before, .content_box_dropdown_arrow:after {
+    position: absolute;
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 2px;
+    transition: 0.4s ease;
+
+    background-color: black;
+}
+
+.content_box_dropdown_arrow:after {
+    position: absolute;
+    transform: rotate(90deg);
+    top: -5px;
+    left: 5px;
+    background-color: black;
+}
+
+.content_box_sub_content {
+    margin: 10px 0 0 0;
+    align-items: center;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease;
+    /*box-sizing: border-box;*/
+}
+
+.content_box_sub_content_row {
+    margin: 5px 0;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #CACACA;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.row_text {
+    margin: 0;
+}
+
+.row_period {
+    font-size: 12px;
+    text-align: right;
+    margin: 0;
+}
+
+
+/* BEFORE */
+
+
+
 .task-block {
     border: 1px solid white;
     background-color: white;
