@@ -1,6 +1,6 @@
 // Homepage main section dropdown functionality
 
-function homepageDropDownMenu() {
+function mainDropDownMenus() {
     document.addEventListener('click', function(event) {
         var wrapper = event.target.closest('.content_box');
         if (wrapper) {

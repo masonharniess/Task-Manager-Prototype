@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="add new task to correct area fix">
+    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="some general fixes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/css/pages/tasks.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/pages/tasks.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/html/tasks.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/html/tasks.html" afterDir="false" />
@@ -152,14 +152,7 @@
       <workItem from="1682631674558" duration="591000" />
       <workItem from="1682759770291" duration="620000" />
       <workItem from="1682763092445" duration="6330000" />
-      <workItem from="1682843390924" duration="4083000" />
-    </task>
-    <task id="LOCAL-00039" summary="Style: Task Borders&#10;&#10;Add a bordered box for each task.">
-      <created>1680802398845</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1680802398845</updated>
+      <workItem from="1682843390924" duration="4795000" />
     </task>
     <task id="LOCAL-00040" summary="random updates">
       <created>1681157486442</created>
@@ -497,7 +490,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682847915278</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="some general fixes">
+      <created>1682849305041</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1682849305041</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -564,7 +564,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="made greeting javascript more concise" />
     <MESSAGE value="general clean" />
     <MESSAGE value="removed redundnant search css" />
     <MESSAGE value="search cleansing" />
@@ -589,7 +588,8 @@
     <MESSAGE value="tasks title fix" />
     <MESSAGE value="some tasks clean up" />
     <MESSAGE value="add new task to correct area fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new task to correct area fix" />
+    <MESSAGE value="some general fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="some general fixes" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

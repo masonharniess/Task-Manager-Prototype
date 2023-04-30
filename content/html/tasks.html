@@ -229,8 +229,8 @@
       </div>
     </div>
   </div>
-  <input onclick="addTask()" id="addTaskButton" tabindex=0 type="submit" value="Create new task" class="submit">
-  <input onclick="toggleContentEditable()" id="editTasksButton" tabindex=0 type="submit" value="Edit tasks" class="submit ">
+  <button onclick="addTask()" id="addTaskButton" tabindex=0 type="submit" value="Create new task" class="submit">Create new task</button>
+  <button onclick="toggleContentEditable()" id="editTasksButton" tabindex=0 type="submit" value="Edit tasks" class="submit ">Edit tasks</button>
 
 <!--  <div class="content-section">-->
 <!--    <ul class="content left" id="content-left">-->
@@ -309,12 +309,12 @@
 <script>
   navigationHamburger();
   navigationSearch();
-  homepageDropDownMenu();
 
+  mainDropDownMenus();
   addTask()
   deleteTask()
   toggleContentEditable()
-  // changeEditColour()
+  changeEditColour()
 </script>
 
 </body>

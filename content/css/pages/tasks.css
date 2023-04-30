@@ -112,20 +112,6 @@
     outline: none;
 }
 
-
-/* BEFORE */
-
-
-
-.task-block {
-    border: 1px solid white;
-    background-color: white;
-    padding: 20px;
-    margin: 20px;
-    border-radius: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
 .submit {
     outline: none;
     transition: all .5s ease-in-out;
@@ -141,7 +127,22 @@
     margin-top: 10px;
 }
 
-input.submit:hover, input.submit:focus-visible {
+/* BEFORE */
+
+
+
+.task-block {
+    border: 1px solid white;
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+button.submit:hover, button.submit:focus-visible {
     color: #666;
     background-color: lightgray;
 }
@@ -164,10 +165,6 @@ li .recent-tasks {
 
 .fa-pen-to-square:hover {
     color: blue;
-}
-
-.content-title p {
-    margin: 0;
 }
 
 .edit-task {
