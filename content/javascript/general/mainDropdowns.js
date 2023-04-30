@@ -1,4 +1,4 @@
-// Homepage main section dropdown functionality
+// Functionality for main page dropdowns
 
 function mainDropDownMenus() {
     document.addEventListener('click', function(event) {

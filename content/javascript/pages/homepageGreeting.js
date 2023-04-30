@@ -1,10 +1,10 @@
-// Homepage greeting time and greeting name functionality
+// Functionality for homepage greeting time and name
 
 // change message based on time of day
 function homepageGreetingTime(){
     const now = new Date();
     const currentHour = now.getHours();
-    const greetingDiv = document.getElementById("greeting");
+    const greetingDiv = document.getElementById("id_main_title_greeting");
     if (currentHour < 12) {
         greetingDiv.textContent = "Good morning, ";
     } else if (currentHour < 18) {
@@ -28,9 +28,8 @@ function homepageGreetingName(){
     }
 
     if (fnameValue) {
-        document.getElementById("name").innerHTML = "&nbsp;" + fnameValue;
+        document.getElementById("id_main_title_name").innerHTML = "&nbsp;" + fnameValue;
     } else {
-        document.getElementById("name").innerHTML = "Mason";
+        document.getElementById("id_main_title_name").innerHTML = "Mason";
     }
-
 }

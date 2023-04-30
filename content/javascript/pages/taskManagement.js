@@ -1,26 +1,28 @@
+// Functionality for task management
+
 function addTask() {
     var newDiv = document.createElement("div");
     newDiv.className ="content_box_wrapper";
     newDiv.innerHTML =
       "<div class=\"content_box\">\n" +
       "        <div class=\"content_title_wrapper\">\n" +
-      "          <h3 class=\"content_title\">Clean my room</h3>\n" +
+      "          <h3 class=\"content_title\">Task Title Example</h3>\n" +
       "          <span class=\"content_box_dropdown_arrow\"></span>\n" +
       "          <i class=\"fa-solid fa-trash-can deleteBtn\"></i>\n" +
       "        </div>\n" +
       "      </div>\n" +
       "      <div class=\"content_box_sub_content\">\n" +
       "        <div class=\"content_box_sub_content_row\">\n" +
-      "          <p class=\"row_text\">Remove excess items from the floor</p>\n" +
-      "          <p class=\"row_period\">9:00</p>\n" +
+      "          <p class=\"row_text\">Subtask example</p>\n" +
+      "          <p class=\"row_period\">Time</p>\n" +
       "        </div>\n" +
       "        <div class=\"content_box_sub_content_row\">\n" +
-      "          <p class=\"row_text\">Vacuum the floor</p>\n" +
-      "          <p class=\"row_period\">9:30</p>\n" +
+      "          <p class=\"row_text\">Subtask example</p>\n" +
+      "          <p class=\"row_period\">Time</p>\n" +
       "        </div>\n" +
       "        <div class=\"content_box_sub_content_row\">\n" +
-      "          <p class=\"row_text\">Wipe the desk</p>\n" +
-      "          <p class=\"row_period\">10:30</p>\n" +
+      "          <p class=\"row_text\">Subtask example</p>\n" +
+      "          <p class=\"row_period\">Time</p>\n" +
       "        </div>\n" +
       "      </div>"
     var container = document.getElementById("main_content_wrapper");
@@ -70,12 +72,12 @@ function toggleContentEditable() {
 
 
 function changeEditColour() {
-    const myButton = document.getElementById("editTasksButton");
+    const myButton = document.getElementById("id_edit_tasks_button");
     myButton.addEventListener("click", function () {
-        if (myButton.classList.contains("edit-task")) {
-            myButton.classList.remove("edit-task");
+        if (myButton.classList.contains("edit_tasks_button_active")) {
+            myButton.classList.remove("edit_tasks_button_active");
         } else {
-            myButton.classList.add("edit-task");
+            myButton.classList.add("edit_tasks_button_active");
         }
     });
 }

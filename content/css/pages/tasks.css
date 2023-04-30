@@ -78,6 +78,10 @@
     background-color: black;
 }
 
+.fa-trash-can:hover {
+    color: red;
+}
+
 .content_box_sub_content {
     margin: 10px 0 0 0;
     align-items: center;
@@ -107,14 +111,8 @@
     margin: 0;
 }
 
-/* Prevent blue outline when in edit mode */
-[contenteditable="true"]:focus {
+.task_management_button {
     outline: none;
-}
-
-.submit {
-    outline: none;
-    transition: all .5s ease-in-out;
     font-family: inherit;
     font-size: 14px;
     border-radius: 25px;
@@ -125,49 +123,33 @@
     cursor: pointer;
     margin-left: 20px;
     margin-top: 10px;
+    width: 150px;
 }
 
-/* BEFORE */
-
-
-
-.task-block {
-    border: 1px solid white;
-    background-color: white;
-    padding: 20px;
-    margin: 20px;
-    border-radius: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.task_management_button:hover, .task_management_button:focus-visible {
+    font-weight: bold;
 }
 
+.edit_tasks_button {
+    width: 100px;
+}
 
-
-button.submit:hover, button.submit:focus-visible {
-    color: #666;
+.edit_tasks_button_active {
     background-color: lightgray;
 }
 
-.task-block i {
-    float: right;
-    margin: 0 5px;
-    border-radius: 5px;
+/* Prevent blue outline when in edit mode */
+[contenteditable="true"]:focus {
+    outline: none;
 }
 
-.content-title i {
 
-}
-li .recent-tasks {
-}
 
-.fa-trash-can:hover {
-    color: red;
-}
 
-.fa-pen-to-square:hover {
-    color: blue;
-}
 
-.edit-task {
-    background-color: deepskyblue;
-}
+
+
+
+
+
 
