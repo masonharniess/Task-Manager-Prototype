@@ -30,8 +30,7 @@ function addTask() {
 }
 
 function deleteTask() {
-    var container = document.getElementById("main_content_wrapper"); // Find the container element
-
+    var container = document.getElementById("main_content_wrapper");
     container.addEventListener("click", function (event) {
         if (event.target.matches(".deleteBtn")) {
             var div = event.target.closest(".content_box_wrapper");
@@ -40,18 +39,7 @@ function deleteTask() {
     });
 }
 
-// function toggleContentEditable() {
-//     var divs = document.querySelectorAll(".editableDiv");
-//     for (var i = 0; i < divs.length; i++) {
-//         var div = divs[i];
-//         if (div.getAttribute("contenteditable") === "true") {
-//             div.setAttribute("contenteditable", "false");
-//         } else {
-//             div.setAttribute("contenteditable", "true");
-//         }
-//     }
-// }
-
+// make task content editable
 function toggleContentEditable() {
     var divs = document.querySelectorAll(".editableDiv");
     for (var i = 0; i < divs.length; i++) {
@@ -68,9 +56,7 @@ function toggleContentEditable() {
     });
 }
 
-
-
-
+// change the colour of the edit button when in edit mode
 function changeEditColour() {
     const myButton = document.getElementById("id_edit_tasks_button");
     myButton.addEventListener("click", function () {

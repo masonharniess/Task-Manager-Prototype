@@ -1,23 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-gb">
 <head>
+  <!-- Relevant to all pages  -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/x-icon" href="../images/favicon.png">
-
-  <link rel="stylesheet" href="../css/pages/calendar.css">
+  <link rel="icon" href="../images/favicon.png">
+  <link rel="stylesheet" href="../css/general/global.css">
   <link rel="stylesheet" href="../css/general/navigationBar.css">
   <link rel="stylesheet" href="../css/general/navigationSearch.css">
   <link rel="stylesheet" href="../css/general/sidebar.css">
-
-  <link rel="stylesheet" href="../css/general/global.css">
-
-  <script src="https://kit.fontawesome.com/d1709d070c.js" crossorigin="anonymous"></script>
-
   <script src="../javascript/navigationBar/navigationHamburger.js"></script>
   <script src="../javascript/navigationBar/navigationSearch.js"></script>
-  <script src="../javascript/general/mainDropdowns.js"></script>
+  <script src="../javascript/navigationBar/navigationPopUps.js"></script>
+  <script src="../javascript/navigationBar/settingsToggles.js"></script>
+  <script src="https://kit.fontawesome.com/d1709d070c.js" crossorigin="anonymous"></script> <!-- FontAwesome dependency -->
   <title>RoutineExpress</title>
+
+  <!-- Calendar page specific  -->
+  <link rel="stylesheet" href="../css/pages/calendar.css">
 </head>
 <body>
 
@@ -25,39 +25,137 @@
 
 <header>
   <nav>
-    <div class="logo">
-      <img src="../images/logo.png" alt="Website logo">
+    <div class="navigation_logo_and_title">
+      <img src="../images/logo.png"
+           alt="The RoutineExpress logo, which features the outline of a notepad page in black on a white circular background.">
       <p>RoutineExpress</p>
     </div>
-    <ul class="menu">
-      <li class="list-search">
-        <form autocomplete="off" action="/action_page.php">
-          <div>
-            <button class="button-search">
-              <i class="fa-solid fa-magnifying-glass"></i>
-            </button>
-          </div>
-          <div class="autocomplete">
-            <label class="label-search">
-              <input id="input-searchID" type="text" name="tasks" class="input-search" placeholder="Search your stuff. . .">
+    <div class="navigation_menu">
+      <div class="navigation_menu_item navigation_search">
+        <form autocomplete="off" action="tasks.html">
+          <button class="navigation_search_button" tabindex="0">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+          <div class="navigation_search_suggestions">
+            <label class="navigation_search_label">
+              <input class="navigation_search_input"
+                     id="id_navigation_search_input"
+                     type="text"
+                     name="name_navigation_search_input"
+                     aria-label="Search for other pages or specific tasks, events, etc."
+                     placeholder="Search your stuff. . .">
             </label>
           </div>
         </form>
-      </li>
-      <li>
+      </div>
+      <div class="navigation_menu_item" onclick="toggleNotificationsPopUp()">
         <i class="fa-solid fa-bell"></i>
-        <a href="#">Notifications</a>
-      </li>
-      <li>
+        <p class="navigation_menu_item_text">Notifications</p>
+        <div class="notifications_submenu_wrapper" id="id_notifications_submenu_wrapper">
+          <div class="notifications_submenu">
+            <div class="notifications_information">
+              <h3>Notifications</h3>
+            </div>
+            <hr>
+            <a class="notifications_submenu_link" href="#">
+              <i class="fa-regular fa-envelope"></i>
+              <p class="notification_text">Mail from Ahab C</p>
+              <p class="notification_time"
+                 aria-label="The time or date of the event.">15:36</p>
+            </a>
+            <a class="notifications_submenu_link" href="#">
+              <i class="fa-solid fa-stethoscope"></i>
+              <p class="notification_text">Doctors appointment</p>
+              <p class="notification_time"
+                 aria-label="The time or date of the event.">17:00</p>
+            </a>
+            <a class="notifications_submenu_link" href="#">
+              <i class="fa-solid fa-cake-candles"></i>
+              <p class="notification_text">Anna's birthday</p>
+              <p class="notification_time"
+                 aria-label="The time or date of the event.">Tomorrow</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="navigation_menu_item" onclick="toggleSettingsPopUp()">
         <i class="fa-solid fa-gear"></i>
-        <a href="#">Settings</a>
-      </li>
-      <li>
+        <p class="navigation_menu_item_text">Settings</p>
+
+        <div class="settings_submenu_wrapper" id="id_settings_submenu_wrapper">
+          <div class="settings_submenu">
+            <div class="settings_information">
+              <h3>Settings</h3>
+            </div>
+            <hr>
+            <a class="settings_submenu_link" href="#" onclick="toggleDark()" >
+              <i class="fa-solid fa-moon"></i>
+              <p>Dark mode</p>
+              <div class="switch_wrapper">
+                <label class="switch_label">
+                  <input id="switch_checkbox_dark" type="checkbox" />
+                  <div></div>
+                </label>
+              </div>
+            </a>
+            <a class="settings_submenu_link" href="#" onclick="settingsToggles()">
+              <i class="fa-solid fa-share-nodes"></i>
+              <p>Data sharing</p>
+              <div class="switch_wrapper">
+                <label class="switch_label">
+                  <input id="switch_checkbox_share" type="checkbox" />
+                  <div></div>
+                </label>
+              </div>
+            </a>
+            <a class="settings_submenu_link" href="#" onclick="toggleFilter()">
+              <i class="fa-solid fa-filter"></i>
+              <p>Priority filtering</p>
+              <div class="switch_wrapper">
+                <label class="switch_label">
+                  <input id="switch_checkbox_filter" type="checkbox"/>
+                  <div></div>
+                </label>
+              </div>
+            </a>
+            <a class="settings_submenu_link" href="#" onclick="toggleDisturb()">
+              <i class="fa-solid fa-bell-slash"></i>
+              <p>Do not disturb</p>
+              <div class="switch_wrapper">
+                <label class="switch_label">
+                  <input id="switch_checkbox_disturb" type="checkbox"/>
+                  <div></div>
+                </label>
+              </div>
+
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="navigation_menu_item" onclick="toggleAccountPopUp()">
         <i class="fa-solid fa-user"></i>
-        <a href="#">Account</a>
-      </li>
-    </ul>
-    <div class="toggle">
+        <p class="navigation_menu_item_text">Account</p>
+        <div class="account_submenu_wrapper" id="id_account_submenu_wrapper">
+          <div class="account_submenu">
+            <div class="account_information">
+              <img src="../images/profilePhoto.png" alt="The profile photo of the logged-in user.">
+              <h3>Mason Harniess</h3>
+            </div>
+            <hr>
+            <a class="account_submenu_link" href="#">
+              <i class="fa-solid fa-user"></i>
+              <p>Edit profile</p>
+            </a>
+
+            <a class="account_submenu_link" href="login.html">
+              <i class="fa-solid fa-arrow-right-from-bracket"></i>
+              <p>Log out</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navigation_hamburger">
       <i class="fas fa-bars"></i>
     </div>
   </nav>
@@ -78,7 +176,7 @@
     <i class="fa-solid fa-calendar"></i>
     <p>Calendar</p>
   </a>
-  <a href="timers.html.html">
+  <a href="timers.html">
     <i class="fa-solid fa-hourglass"></i>
     <p>Timer</p>
   </a>
@@ -94,14 +192,15 @@
 <!--MAIN PAGE CONTENT -->
 
 <main>
-  <div>
-    <h1 class="heading">My events</h1>
+  <div class="main_title_wrapper">
+    <h1 class="main_title">My events</h1>
   </div>
 
   <div class="content-section">
-    <div class="wrapper1">
+    <div class="wrapper">
 
-      <div class="calendar_header"><p class="current-date"></p>
+      <div class="calendar_header">
+        <p class="current-date"></p>
         <div class="icons">
           <span id="prev" class="material-symbols-rounded"><i class="fa-solid fa-chevron-left"></i></span>
           <span id="next" class="material-symbols-rounded"><i class="fa-solid fa-chevron-right"></i></span>
@@ -120,18 +219,18 @@
         </ul>
         <ul class="days"></ul>
       </div>
+
+
     </div>
+
   </div>
 </main>
 
 <!-- SCRIPTS -->
 
 <script>
-  displayHamburger()
-  /*initiate the autocomplete function on the "input-searchID" element, and pass along the pages array as possible
-  autocomplete values:*/
-  autocomplete(document.getElementById("input-searchID"), pages);
-  dropDownMenu()
+  navigationHamburger()
+  navigationSearch()
 
   const daysTag = document.querySelector(".days"),
       currentDate = document.querySelector(".current-date"),
