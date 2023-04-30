@@ -4,20 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="tasks title fix">
+    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="add new task to correct area fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/css/general/sidebar.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/general/sidebar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/css/pages/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/pages/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/css/pages/tasks.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/pages/tasks.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/html/calendar.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/html/calendar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/html/notes.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/html/notes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/html/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/html/services.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/html/tasks.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/html/tasks.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/html/timers.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/html/timers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/javascript/homepage/homepageDropdowns.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/javascript/general/mainDropdowns.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/javascript/homepage/homepageGreeting.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/javascript/pages/homepageGreeting.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/javascript/taskManagement.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/javascript/pages/taskManagement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/javascript/pages/taskManagement.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/javascript/pages/taskManagement.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,14 +152,7 @@
       <workItem from="1682631674558" duration="591000" />
       <workItem from="1682759770291" duration="620000" />
       <workItem from="1682763092445" duration="6330000" />
-      <workItem from="1682843390924" duration="2735000" />
-    </task>
-    <task id="LOCAL-00038" summary="Feat + Style: Sign-up &amp; Login&#10;&#10;Stylise the sign-up &amp; login.&#10;Make the greeting name-specific.">
-      <created>1680621327476</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1680621327476</updated>
+      <workItem from="1682843390924" duration="4083000" />
     </task>
     <task id="LOCAL-00039" summary="Style: Task Borders&#10;&#10;Add a bordered box for each task.">
       <created>1680802398845</created>
@@ -506,7 +490,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682767019041</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="some tasks clean up">
+      <created>1682847915277</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1682847915278</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -573,8 +564,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="further search clean up" />
-    <MESSAGE value="general clean up" />
     <MESSAGE value="made greeting javascript more concise" />
     <MESSAGE value="general clean" />
     <MESSAGE value="removed redundnant search css" />
@@ -598,7 +587,9 @@
     <MESSAGE value="commencing sidebar clean up" />
     <MESSAGE value="sidebar homepage fix" />
     <MESSAGE value="tasks title fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="tasks title fix" />
+    <MESSAGE value="some tasks clean up" />
+    <MESSAGE value="add new task to correct area fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new task to correct area fix" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

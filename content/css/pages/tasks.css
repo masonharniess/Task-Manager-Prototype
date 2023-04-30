@@ -107,6 +107,11 @@
     margin: 0;
 }
 
+/* Prevent blue outline when in edit mode */
+[contenteditable="true"]:focus {
+    outline: none;
+}
+
 
 /* BEFORE */
 

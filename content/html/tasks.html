@@ -204,7 +204,7 @@
     <h1 class="main_title">My Tasks</h1>
   </div>
 
-  <div class="main_content_wrapper">
+  <div class="main_content_wrapper editableDiv" id="main_content_wrapper">
     <div class="content_box_wrapper">
       <div class="content_box">
         <div class="content_title_wrapper">
@@ -229,80 +229,79 @@
       </div>
     </div>
   </div>
+  <input onclick="addTask()" id="addTaskButton" tabindex=0 type="submit" value="Create new task" class="submit">
+  <input onclick="toggleContentEditable()" id="editTasksButton" tabindex=0 type="submit" value="Edit tasks" class="submit ">
 
-  <div class="content-section">
-    <ul class="content left" id="content-left">
-      <div class="tasks" id="tasks">
+<!--  <div class="content-section">-->
+<!--    <ul class="content left" id="content-left">-->
+<!--      <div class="tasks">-->
 
-        <div class="task-block">
-          <div class="wrapper">
-            <li tabindex=0 class="recent-tasks">
-              <div class="content-title text-highlight">
-                                <span class="editableDiv">
-                                    Task Title 3
-                                </span>
+<!--        <div class="task-block">-->
+<!--          <div class="wrapper">-->
+<!--            <li tabindex=0 class="recent-tasks">-->
+<!--              <div class="content-title text-highlight">-->
+<!--                                <span class="editableDiv">-->
+<!--                                    Task Title 3-->
+<!--                                </span>-->
 
-                <i class="fa-solid fa-trash-can deleteBtn"></i>
-                <span class="arrow"></span>
-              </div>
-            </li>
-          </div>
-          <div class="sub-content editableDiv">
-            <p>
-              Task description 1
-            </p>
+<!--                <i class="fa-solid fa-trash-can deleteBtn"></i>-->
+<!--                <span class="arrow"></span>-->
+<!--              </div>-->
+<!--            </li>-->
+<!--          </div>-->
+<!--          <div class="sub-content editableDiv">-->
+<!--            <p>-->
+<!--              Task description 1-->
+<!--            </p>-->
 
-          </div>
-        </div>
+<!--          </div>-->
+<!--        </div>-->
 
-        <div class="task-block" >
-          <div class="wrapper">
-            <li tabindex=0 class="recent-tasks">
-              <div class="content-title text-highlight">
-                                <span class="editableDiv">
-                                    Task Title 2
-                                </span>
+<!--        <div class="task-block" >-->
+<!--          <div class="wrapper">-->
+<!--            <li tabindex=0 class="recent-tasks">-->
+<!--              <div class="content-title text-highlight">-->
+<!--                                <span class="editableDiv">-->
+<!--                                    Task Title 2-->
+<!--                                </span>-->
 
-                <i class="fa-solid fa-trash-can deleteBtn"></i>
-                <span class="arrow"></span>
-              </div>
-            </li>
-          </div>
-          <div class="sub-content editableDiv">
-            <p>
-              Task description 2
-            </p>
-          </div>
-        </div>
+<!--                <i class="fa-solid fa-trash-can deleteBtn"></i>-->
+<!--                <span class="arrow"></span>-->
+<!--              </div>-->
+<!--            </li>-->
+<!--          </div>-->
+<!--          <div class="sub-content editableDiv">-->
+<!--            <p>-->
+<!--              Task description 2-->
+<!--            </p>-->
+<!--          </div>-->
+<!--        </div>-->
 
-        <div class="task-block" >
-          <div class="wrapper">
-            <li tabindex=0 class="recent-tasks">
-              <div contenteditable="false" class="content-title text-highlight">
-                                <span class="editableDiv">
-                                    Task Title 3
-                                </span>
+<!--        <div class="task-block" >-->
+<!--          <div class="wrapper">-->
+<!--            <li tabindex=0 class="recent-tasks">-->
+<!--              <div contenteditable="false" class="content-title text-highlight">-->
+<!--                                <span class="editableDiv">-->
+<!--                                    Task Title 3-->
+<!--                                </span>-->
 
-                <i class="fa-solid fa-trash-can deleteBtn"></i>
-                <i onclick="toggleContentEditable()"></i>
-                <span class="arrow"></span>
-              </div>
-            </li>
-          </div>
-          <div class="sub-content editableDiv">
-            <p>
-              Task description 3
-            </p>
-          </div>
-        </div>
-      </div>
-      <input onclick="addTask()" id="addTaskButton" tabindex=0 type="submit" value="Create new task" class="submit">
-      <input onclick="toggleContentEditable()" id="editTasksButton" tabindex=0 type="submit" value="Edit tasks" class="submit ">
+<!--                <i class="fa-solid fa-trash-can deleteBtn"></i>-->
+<!--                <i onclick="toggleContentEditable()"></i>-->
+<!--                <span class="arrow"></span>-->
+<!--              </div>-->
+<!--            </li>-->
+<!--          </div>-->
+<!--          <div class="sub-content editableDiv">-->
+<!--            <p>-->
+<!--              Task description 3-->
+<!--            </p>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
 
 
-
-    </ul>
-  </div>
+<!--    </ul>-->
+<!--  </div>-->
 </main>
 
 <!-- SCRIPTS -->

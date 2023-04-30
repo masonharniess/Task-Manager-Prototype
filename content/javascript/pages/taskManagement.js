@@ -1,33 +1,38 @@
 function addTask() {
     var newDiv = document.createElement("div");
-    newDiv.className ="task-block";
-    newDiv.innerHTML = "<div class=\"wrapper\">\n" +
-        "                        <li tabindex=0 class=\"recent-tasks\">\n" +
-        "                            <div class=\"content-title text-highlight\">\n" +
-        "                                                                <span class=\"editableDiv\">\n" +
-        "                                    New Task Title\n" +
-        "                                </span>" +
-        "\n" +
-        "                                <i class=\"fa-solid fa-trash-can deleteBtn\"></i>\n" +
-        "                                <span class=\"arrow\"></span>\n" +
-        "                            </div>\n" +
-        "                        </li>\n" +
-        "                    </div>\n" +
-        "                    <div class=\"sub-content editableDiv\" >\n" +
-        "                                                <p>\n" +
-        "                            New task description\n" +
-        "                        </p>" +
-        "                    </div>"
-    var container = document.getElementById("tasks");
+    newDiv.className ="content_box_wrapper";
+    newDiv.innerHTML =
+      "<div class=\"content_box\">\n" +
+      "        <div class=\"content_title_wrapper\">\n" +
+      "          <h3 class=\"content_title\">Clean my room</h3>\n" +
+      "          <span class=\"content_box_dropdown_arrow\"></span>\n" +
+      "          <i class=\"fa-solid fa-trash-can deleteBtn\"></i>\n" +
+      "        </div>\n" +
+      "      </div>\n" +
+      "      <div class=\"content_box_sub_content\">\n" +
+      "        <div class=\"content_box_sub_content_row\">\n" +
+      "          <p class=\"row_text\">Remove excess items from the floor</p>\n" +
+      "          <p class=\"row_period\">9:00</p>\n" +
+      "        </div>\n" +
+      "        <div class=\"content_box_sub_content_row\">\n" +
+      "          <p class=\"row_text\">Vacuum the floor</p>\n" +
+      "          <p class=\"row_period\">9:30</p>\n" +
+      "        </div>\n" +
+      "        <div class=\"content_box_sub_content_row\">\n" +
+      "          <p class=\"row_text\">Wipe the desk</p>\n" +
+      "          <p class=\"row_period\">10:30</p>\n" +
+      "        </div>\n" +
+      "      </div>"
+    var container = document.getElementById("main_content_wrapper");
     container.appendChild(newDiv);
 }
 
 function deleteTask() {
-    var container = document.getElementById("tasks"); // Find the container element
+    var container = document.getElementById("main_content_wrapper"); // Find the container element
 
     container.addEventListener("click", function (event) {
         if (event.target.matches(".deleteBtn")) {
-            var div = event.target.closest(".task-block");
+            var div = event.target.closest(".content_box_wrapper");
             div.remove();
         }
     });
