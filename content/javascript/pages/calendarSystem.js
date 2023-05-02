@@ -1,6 +1,6 @@
 function calendarSystem() {
   const daysTag = document.querySelector(".days");
-  const currentDate = document.querySelector(".current-date");
+  const currentDate = document.querySelector(".calendar_header_box_current_date");
   const prevNextIcon = document.querySelectorAll(".calendar_header_box_chevrons .chevron");
 
   // obtain new date, current year, and month

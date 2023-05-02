@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="fixed capitalisation, old calendar works">
+    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="changed chevrons to work">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/html/calendar.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/html/calendar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/javascript/pages/calendarSystem.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/javascript/pages/calendarSystem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/css/pages/calendar.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/pages/calendar.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,14 +154,7 @@
       <workItem from="1682855663602" duration="231000" />
       <workItem from="1682855953837" duration="16204000" />
       <workItem from="1683016346458" duration="1137000" />
-      <workItem from="1683026835627" duration="1746000" />
-    </task>
-    <task id="LOCAL-00048" summary="goodnight">
-      <created>1681417919882</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1681417919882</updated>
+      <workItem from="1683026835627" duration="2629000" />
     </task>
     <task id="LOCAL-00049" summary="random">
       <created>1681479049318</created>
@@ -500,7 +492,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683016696599</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="changed chevrons to work">
+      <created>1683028594674</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1683028594675</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -567,7 +566,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="made search not take any arguments" />
     <MESSAGE value="rearranged where pop up submenus are222" />
     <MESSAGE value="changed greeting placeholder name to 'Mason' if no name defined" />
     <MESSAGE value="some clean up of index" />
@@ -592,7 +590,8 @@
     <MESSAGE value="good shape not finished" />
     <MESSAGE value="in middle of javascript clean, stopping for today" />
     <MESSAGE value="fixed capitalisation, old calendar works" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed capitalisation, old calendar works" />
+    <MESSAGE value="changed chevrons to work" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed chevrons to work" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

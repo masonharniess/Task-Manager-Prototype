@@ -26,10 +26,21 @@
   margin: 0;
 }
 
-.calendar_header_box_chevrons {}
+.calendar_header_box_chevrons {
+  display: flex;
+}
 
-.fa-chevron-left {
-  margin-right: 5px;
+.chevron {
+  border-radius: 15px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+}
+
+.chevron:hover {
+  background-color: #f2f2f2;
 }
 
 .fa-chevron-right {
@@ -45,42 +56,6 @@
 
 
 /* OLD */
-
-.wrapper{
-  background: #fff;
-  border-radius: 10px;
-
-}
-.wrapper header{
-  display: flex;
-  align-items: center;
-  padding: 25px 30px 10px;
-}
-.calendar_header .icons{
-  display: flex;
-}
-.calendar_header .icons span{
-  height: 38px;
-  width: 38px;
-  margin: 0 1px;
-  cursor: pointer;
-  color: #878787;
-  text-align: center;
-  line-height: 38px;
-  font-size: 1.9rem;
-  user-select: none;
-  border-radius: 50%;
-}
-.icons span:last-child{
-  margin-right: -10px;
-}
-.calendar_header .icons span:hover{
-  background: #f2f2f2;
-}
-.calendar_header .current-date{
-  font-size: 1.45rem;
-  font-weight: 500;
-}
 .calendar{
   padding: 20px;
 }
