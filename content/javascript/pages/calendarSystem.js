@@ -1,35 +1,13 @@
 function calendarSystem() {
-  // const days2 = document.querySelector(".calendar_days")
-  // const currentDate2 = document.querySelector(".current_date")
-  // const previousSubsequentIcon = document.querySelector(".chevron")
-  //
-  // let date2 = new Date();
-  // let currentYear = date2.getFullYear();
-  // let currentMonth = date2.getMonth();
+  const daysTag = document.querySelector(".days");
+  const currentDate = document.querySelector(".current-date");
+  const prevNextIcon = document.querySelectorAll(".calendar_header_box_chevrons .chevron");
 
-  const months2 = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-
-  const renderCalendar2 = () => {
-    let firstDayOfMonth = new Date(currentYear, currentMonth, 1).getDay();
-    let lastDateOfMonth = new Date(currentYear, currentMonth + 1, 0).getDate();
-    let lastDayOfMonth = new Date(currentYear, currentMonth, lastDateOfMonth).getDay();
-    let lastDateOfLastMonth = new Date(currentYear, currentMonth, 0).getDate();
-  }
-
-
-
-  // -----OLD---------
-
-  const daysTag = document.querySelector(".days"),
-    currentDate = document.querySelector(".current-date"),
-    prevNextIcon = document.querySelectorAll(".icons span");
-
-// getting new date, current year and month
+  // obtain new date, current year, and month
   let date = new Date();
   let currentYear = date.getFullYear();
   let currentMonth = date.getMonth();
 
-// storing full name of all months in array
   const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
   const renderCalendar = () => {
