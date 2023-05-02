@@ -1,8 +1,8 @@
 .main_content_wrapper{
-  /*display: flex;*/
-  /*align-items: center;*/
-  /*justify-content: center;*/
-  /*min-height: 100vh;*/
+  display: flex;
+  min-height: 25vh;
+  justify-content: center;
+
 }
 
 .calendar_box_wrapper {
@@ -12,6 +12,7 @@
   margin: 20px;
   border-radius: 20px;
   box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+  width: 500px;
 }
 
 .calendar_header_box {
@@ -48,34 +49,27 @@
 }
 
 .calendar_weeks {
-  margin: 0 5px;
-  display: flex;
-  justify-content: space-between;
 
 }
 
-
-/* OLD */
-
-
-.calendar ul{
+.calendar_weeks ul{
   display: flex;
   flex-wrap: wrap;
   list-style: none;
   text-align: center;
 }
 
-.calendar li{
+.calendar_weeks li, .calendar_weeks p{
   color: #333;
   width: calc(100% / 7);
   font-size: 1.07rem;
 }
 
-.calendar .weeks p{
-  font-weight: 500;
+.calendar_weeks .weeks p{
   cursor: default;
 }
-.calendar .days li{
+
+.calendar_weeks .days li{
   z-index: 1;
   cursor: pointer;
   position: relative;
