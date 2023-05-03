@@ -1,5 +1,5 @@
 function calendarSystem() {
-  const daysTag = document.querySelector(".days");
+  const daysTag = document.querySelector(".calendar_dates");
   const currentDate = document.querySelector(".calendar_header_box_current_date");
   const prevNextIcon = document.querySelectorAll(".calendar_header_box_chevrons .chevron");
   const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];

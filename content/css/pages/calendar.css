@@ -48,15 +48,14 @@
   margin-left: 5px;
 }
 
-.calendar_weeks {
+.calendar_weeks {}
 
-}
-
-.calendar_weeks ul{
+.calendar_weeks ul, .calendar_weeks div {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
   text-align: center;
+  padding-left: 40px;
 }
 
 .calendar_weeks li, .calendar_weeks p{
@@ -69,20 +68,20 @@
   cursor: default;
 }
 
-.calendar_weeks .days li{
+.calendar_weeks .calendar_dates li{
   z-index: 1;
   cursor: pointer;
   position: relative;
   margin-top: 30px;
 }
-.days li.inactive{
+.calendar_dates li.inactive{
   color: #aaa;
 }
-.days li.active{
+.calendar_dates li.active{
   color: #fff;
   background-color: white;
 }
-.days li::before{
+.calendar_dates li::before{
   position: absolute;
   content: "";
   left: 50%;
@@ -93,9 +92,9 @@
   border-radius: 50%;
   transform: translate(-50%, -50%);
 }
-.days li.active::before{
+.calendar_dates li.active::before{
   background: #9B59B6;
 }
-.days li:not(.active):hover::before{
+.calendar_dates li:not(.active):hover::before{
   background: #f2f2f2;
 }
