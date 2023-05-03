@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="about to change li">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/css/pages/calendar.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/pages/calendar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/html/calendar.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/html/calendar.html" afterDir="false" />
+    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="fixed soem tings">
       <change beforePath="$PROJECT_DIR$/content/javascript/pages/calendarSystem.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/javascript/pages/calendarSystem.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -156,14 +153,7 @@
       <workItem from="1682855663602" duration="231000" />
       <workItem from="1682855953837" duration="16204000" />
       <workItem from="1683016346458" duration="1137000" />
-      <workItem from="1683026835627" duration="9770000" />
-    </task>
-    <task id="LOCAL-00051" summary="calendar set up">
-      <created>1681898786925</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1681898786925</updated>
+      <workItem from="1683026835627" duration="9797000" />
     </task>
     <task id="LOCAL-00052" summary="account dropdown working">
       <created>1681909645617</created>
@@ -501,7 +491,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683036561859</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="fixed soem tings">
+      <created>1683054251825</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1683054251825</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -568,7 +565,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="some clean up of index" />
     <MESSAGE value="squash! some clean up of index" />
     <MESSAGE value="somehomepage clean upo" />
     <MESSAGE value="major index clean up" />
@@ -593,7 +589,8 @@
     <MESSAGE value="changed chevrons to work" />
     <MESSAGE value="basically completely sorted calendar header" />
     <MESSAGE value="about to change li" />
-    <option name="LAST_COMMIT_MESSAGE" value="about to change li" />
+    <MESSAGE value="fixed soem tings" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed soem tings" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
