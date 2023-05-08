@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="fixed soem tings">
+    <list default="true" id="9afae794-89b0-4f7e-9b1c-4d1abe5449dc" name="Changes" comment="more clean up, maybe done with calendar?">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/css/pages/calendar.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/css/pages/calendar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/html/calendar.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/html/calendar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/html/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/html/services.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,24 +55,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/masonharniess/Library/CloudStorage/OneDrive-Personal/OneDriveFiles/University/Year 2/Semester 2/UI CO2104/CW2/taskManager/content/javascript&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.JavaScript&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/masonharniess/Library/CloudStorage/OneDrive-Personal/OneDriveFiles/University/Year 2/Semester 2/UI CO2104/CW2/taskManager",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.sourceCode.JavaScript",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/content/javascript" />
@@ -156,14 +155,10 @@
       <workItem from="1682855953837" duration="16204000" />
       <workItem from="1683016346458" duration="1137000" />
       <workItem from="1683026835627" duration="9797000" />
-      <workItem from="1683107389337" duration="639000" />
-    </task>
-    <task id="LOCAL-00053" summary="account dropdown working 2">
-      <created>1681911539986</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1681911539986</updated>
+      <workItem from="1683107389337" duration="3480000" />
+      <workItem from="1683117385883" duration="603000" />
+      <workItem from="1683195896161" duration="598000" />
+      <workItem from="1683215139221" duration="1229000" />
     </task>
     <task id="LOCAL-00054" summary="sign up login pretty good">
       <created>1681918396730</created>
@@ -501,7 +496,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683107634273</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="more clean up, maybe done with calendar?">
+      <created>1683108083660</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1683108083660</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -568,7 +570,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="squash! some clean up of index" />
     <MESSAGE value="somehomepage clean upo" />
     <MESSAGE value="major index clean up" />
     <MESSAGE value="home page looking fresh" />
@@ -593,7 +594,8 @@
     <MESSAGE value="basically completely sorted calendar header" />
     <MESSAGE value="about to change li" />
     <MESSAGE value="fixed soem tings" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed soem tings" />
+    <MESSAGE value="more clean up, maybe done with calendar?" />
+    <option name="LAST_COMMIT_MESSAGE" value="more clean up, maybe done with calendar?" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
